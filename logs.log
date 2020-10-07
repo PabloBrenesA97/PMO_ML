@@ -1,0 +1,1353 @@
+2020-10-07 09:51:38,014:INFO:PyCaret NLP Module
+2020-10-07 09:51:38,015:INFO:version 2.1.2
+2020-10-07 09:51:38,015:INFO:Initializing setup()
+2020-10-07 09:51:38,015:INFO:USI: f1c0
+2020-10-07 09:51:38,016:INFO:setup(data=(1, 3), target=name, custom_stopwords=['project', 'proyecto'], html=True, session_id=7, log_experiment=False,
+                    experiment_name=None, log_plots=False, log_data=False, verbose=True)
+2020-10-07 09:51:38,017:INFO:Checking environment
+2020-10-07 09:51:38,017:INFO:python_version: 3.8.3
+2020-10-07 09:51:38,018:INFO:python_build: ('default', 'Jul  2 2020 17:30:36')
+2020-10-07 09:51:38,019:INFO:machine: AMD64
+2020-10-07 09:51:38,021:INFO:platform: Windows-10-10.0.19041-SP0
+2020-10-07 09:51:38,023:INFO:Memory: svmem(total=12717510656, available=4520751104, percent=64.5, used=8196759552, free=4520751104)
+2020-10-07 09:51:38,024:INFO:Physical Core: 6
+2020-10-07 09:51:38,024:INFO:Logical Core: 12
+2020-10-07 09:51:38,025:INFO:Checking libraries
+2020-10-07 09:51:38,026:INFO:pd==1.0.5
+2020-10-07 09:51:38,027:INFO:numpy==1.18.5
+2020-10-07 09:51:38,555:INFO:gensim==3.8.3
+2020-10-07 09:51:39,130:INFO:spacy==2.3.2
+2020-10-07 09:51:39,735:INFO:nltk==3.5
+2020-10-07 09:51:39,776:INFO:textblob==0.15.3
+2020-10-07 09:51:39,811:INFO:pyLDAvis==2.1.2
+2020-10-07 09:51:39,833:INFO:wordcloud==1.8.0
+2020-10-07 09:51:40,565:INFO:mlflow==1.11.0
+2020-10-07 09:51:40,565:INFO:Checking Exceptions
+2020-10-07 09:53:25,672:INFO:PyCaret NLP Module
+2020-10-07 09:53:25,673:INFO:version 2.1.2
+2020-10-07 09:53:25,673:INFO:Initializing setup()
+2020-10-07 09:53:25,674:INFO:USI: d412
+2020-10-07 09:53:25,674:INFO:setup(data=(1, 3), target=name, custom_stopwords=['project', 'proyecto'], html=True, session_id=7, log_experiment=False,
+                    experiment_name=None, log_plots=False, log_data=False, verbose=True)
+2020-10-07 09:53:25,675:INFO:Checking environment
+2020-10-07 09:53:25,675:INFO:python_version: 3.8.3
+2020-10-07 09:53:25,676:INFO:python_build: ('default', 'Jul  2 2020 17:30:36')
+2020-10-07 09:53:25,676:INFO:machine: AMD64
+2020-10-07 09:53:25,677:INFO:platform: Windows-10-10.0.19041-SP0
+2020-10-07 09:53:25,679:INFO:Memory: svmem(total=12717510656, available=4395560960, percent=65.4, used=8321949696, free=4395560960)
+2020-10-07 09:53:25,679:INFO:Physical Core: 6
+2020-10-07 09:53:25,680:INFO:Logical Core: 12
+2020-10-07 09:53:25,680:INFO:Checking libraries
+2020-10-07 09:53:25,681:INFO:pd==1.0.5
+2020-10-07 09:53:25,681:INFO:numpy==1.18.5
+2020-10-07 09:53:25,682:INFO:gensim==3.8.3
+2020-10-07 09:53:25,683:INFO:spacy==2.3.2
+2020-10-07 09:53:25,683:INFO:nltk==3.5
+2020-10-07 09:53:25,684:INFO:textblob==0.15.3
+2020-10-07 09:53:25,684:INFO:pyLDAvis==2.1.2
+2020-10-07 09:53:25,685:INFO:wordcloud==1.8.0
+2020-10-07 09:53:25,685:INFO:mlflow==1.11.0
+2020-10-07 09:53:25,685:INFO:Checking Exceptions
+2020-10-07 09:54:38,824:INFO:PyCaret NLP Module
+2020-10-07 09:54:38,825:INFO:version 2.1.2
+2020-10-07 09:54:38,826:INFO:Initializing setup()
+2020-10-07 09:54:38,826:INFO:USI: f5df
+2020-10-07 09:54:38,827:INFO:setup(data=(1, 3), target=name, custom_stopwords=['project', 'proyecto'], html=True, session_id=7, log_experiment=False,
+                    experiment_name=None, log_plots=False, log_data=False, verbose=True)
+2020-10-07 09:54:38,827:INFO:Checking environment
+2020-10-07 09:54:38,828:INFO:python_version: 3.8.3
+2020-10-07 09:54:38,828:INFO:python_build: ('default', 'Jul  2 2020 17:30:36')
+2020-10-07 09:54:38,828:INFO:machine: AMD64
+2020-10-07 09:54:38,829:INFO:platform: Windows-10-10.0.19041-SP0
+2020-10-07 09:54:38,829:INFO:Memory: svmem(total=12717510656, available=4429144064, percent=65.2, used=8288366592, free=4429144064)
+2020-10-07 09:54:38,830:INFO:Physical Core: 6
+2020-10-07 09:54:38,830:INFO:Logical Core: 12
+2020-10-07 09:54:38,831:INFO:Checking libraries
+2020-10-07 09:54:38,831:INFO:pd==1.0.5
+2020-10-07 09:54:38,832:INFO:numpy==1.18.5
+2020-10-07 09:54:38,832:INFO:gensim==3.8.3
+2020-10-07 09:54:38,832:INFO:spacy==2.3.2
+2020-10-07 09:54:38,833:INFO:nltk==3.5
+2020-10-07 09:54:38,834:INFO:textblob==0.15.3
+2020-10-07 09:54:38,835:INFO:pyLDAvis==2.1.2
+2020-10-07 09:54:38,835:INFO:wordcloud==1.8.0
+2020-10-07 09:54:38,836:INFO:mlflow==1.11.0
+2020-10-07 09:54:38,836:INFO:Checking Exceptions
+2020-10-07 09:54:42,340:INFO:PyCaret NLP Module
+2020-10-07 09:54:42,341:INFO:version 2.1.2
+2020-10-07 09:54:42,342:INFO:Initializing setup()
+2020-10-07 09:54:42,342:INFO:USI: 6b65
+2020-10-07 09:54:42,343:INFO:setup(data=(1, 3), target=name, custom_stopwords=['project', 'proyecto'], html=True, session_id=7, log_experiment=False,
+                    experiment_name=None, log_plots=False, log_data=False, verbose=True)
+2020-10-07 09:54:42,344:INFO:Checking environment
+2020-10-07 09:54:42,345:INFO:python_version: 3.8.3
+2020-10-07 09:54:42,345:INFO:python_build: ('default', 'Jul  2 2020 17:30:36')
+2020-10-07 09:54:42,345:INFO:machine: AMD64
+2020-10-07 09:54:42,346:INFO:platform: Windows-10-10.0.19041-SP0
+2020-10-07 09:54:42,346:INFO:Memory: svmem(total=12717510656, available=4425924608, percent=65.2, used=8291586048, free=4425924608)
+2020-10-07 09:54:42,346:INFO:Physical Core: 6
+2020-10-07 09:54:42,346:INFO:Logical Core: 12
+2020-10-07 09:54:42,347:INFO:Checking libraries
+2020-10-07 09:54:42,347:INFO:pd==1.0.5
+2020-10-07 09:54:42,347:INFO:numpy==1.18.5
+2020-10-07 09:54:42,348:INFO:gensim==3.8.3
+2020-10-07 09:54:42,348:INFO:spacy==2.3.2
+2020-10-07 09:54:42,348:INFO:nltk==3.5
+2020-10-07 09:54:42,349:INFO:textblob==0.15.3
+2020-10-07 09:54:42,349:INFO:pyLDAvis==2.1.2
+2020-10-07 09:54:42,349:INFO:wordcloud==1.8.0
+2020-10-07 09:54:42,350:INFO:mlflow==1.11.0
+2020-10-07 09:54:42,350:INFO:Checking Exceptions
+2020-10-07 10:03:09,170:INFO:PyCaret NLP Module
+2020-10-07 10:03:09,170:INFO:version 2.1.2
+2020-10-07 10:03:09,172:INFO:Initializing setup()
+2020-10-07 10:03:09,172:INFO:USI: 75d8
+2020-10-07 10:03:09,173:INFO:setup(data=(1, 3), target=name, custom_stopwords=['project', 'proyecto'], html=True, session_id=7, log_experiment=False,
+                    experiment_name=None, log_plots=False, log_data=False, verbose=True)
+2020-10-07 10:03:09,175:INFO:Checking environment
+2020-10-07 10:03:09,176:INFO:python_version: 3.8.3
+2020-10-07 10:03:09,176:INFO:python_build: ('default', 'Jul  2 2020 17:30:36')
+2020-10-07 10:03:09,177:INFO:machine: AMD64
+2020-10-07 10:03:09,177:INFO:platform: Windows-10-10.0.19041-SP0
+2020-10-07 10:03:09,178:INFO:Memory: svmem(total=12717510656, available=4496797696, percent=64.6, used=8220712960, free=4496797696)
+2020-10-07 10:03:09,178:INFO:Physical Core: 6
+2020-10-07 10:03:09,179:INFO:Logical Core: 12
+2020-10-07 10:03:09,179:INFO:Checking libraries
+2020-10-07 10:03:09,179:INFO:pd==1.0.5
+2020-10-07 10:03:09,179:INFO:numpy==1.18.5
+2020-10-07 10:03:09,180:INFO:gensim==3.8.3
+2020-10-07 10:03:09,180:INFO:spacy==2.3.2
+2020-10-07 10:03:09,180:INFO:nltk==3.5
+2020-10-07 10:03:09,180:INFO:textblob==0.15.3
+2020-10-07 10:03:09,180:INFO:pyLDAvis==2.1.2
+2020-10-07 10:03:09,181:INFO:wordcloud==1.8.0
+2020-10-07 10:03:09,181:INFO:mlflow==1.11.0
+2020-10-07 10:03:09,181:INFO:Checking Exceptions
+2020-10-07 10:06:02,541:INFO:PyCaret NLP Module
+2020-10-07 10:06:02,542:INFO:version 2.1.2
+2020-10-07 10:06:02,543:INFO:Initializing setup()
+2020-10-07 10:06:02,544:INFO:USI: 77dc
+2020-10-07 10:06:02,545:INFO:setup(data=(1, 3), target=name, custom_stopwords=['project', 'proyecto'], html=True, session_id=7, log_experiment=False,
+                    experiment_name=None, log_plots=False, log_data=False, verbose=True)
+2020-10-07 10:06:02,546:INFO:Checking environment
+2020-10-07 10:06:02,546:INFO:python_version: 3.8.3
+2020-10-07 10:06:02,547:INFO:python_build: ('default', 'Jul  2 2020 17:30:36')
+2020-10-07 10:06:02,547:INFO:machine: AMD64
+2020-10-07 10:06:02,550:INFO:platform: Windows-10-10.0.19041-SP0
+2020-10-07 10:06:02,567:INFO:Memory: svmem(total=12717510656, available=3908341760, percent=69.3, used=8809168896, free=3908341760)
+2020-10-07 10:06:02,567:INFO:Physical Core: 6
+2020-10-07 10:06:02,568:INFO:Logical Core: 12
+2020-10-07 10:06:02,568:INFO:Checking libraries
+2020-10-07 10:06:02,570:INFO:pd==1.0.5
+2020-10-07 10:06:02,570:INFO:numpy==1.18.5
+2020-10-07 10:06:03,222:INFO:gensim==3.8.3
+2020-10-07 10:06:03,542:INFO:spacy==2.3.2
+2020-10-07 10:06:03,965:INFO:nltk==3.5
+2020-10-07 10:06:03,992:INFO:textblob==0.15.3
+2020-10-07 10:06:04,058:INFO:pyLDAvis==2.1.2
+2020-10-07 10:06:04,070:INFO:wordcloud==1.8.0
+2020-10-07 10:06:04,637:INFO:mlflow==1.11.0
+2020-10-07 10:06:04,637:INFO:Checking Exceptions
+2020-10-07 10:13:34,551:INFO:PyCaret NLP Module
+2020-10-07 10:13:34,552:INFO:version 2.1.2
+2020-10-07 10:13:34,555:INFO:Initializing setup()
+2020-10-07 10:13:34,565:INFO:USI: ea61
+2020-10-07 10:13:34,565:INFO:setup(data=(1, 3), target=name, custom_stopwords=['project', 'proyecto'], html=True, session_id=7, log_experiment=False,
+                    experiment_name=None, log_plots=False, log_data=False, verbose=True)
+2020-10-07 10:13:34,566:INFO:Checking environment
+2020-10-07 10:13:34,566:INFO:python_version: 3.8.3
+2020-10-07 10:13:34,567:INFO:python_build: ('default', 'Jul  2 2020 17:30:36')
+2020-10-07 10:13:34,567:INFO:machine: AMD64
+2020-10-07 10:13:34,568:INFO:platform: Windows-10-10.0.19041-SP0
+2020-10-07 10:13:34,582:INFO:Memory: svmem(total=12717510656, available=4067876864, percent=68.0, used=8649633792, free=4067876864)
+2020-10-07 10:13:34,582:INFO:Physical Core: 6
+2020-10-07 10:13:34,584:INFO:Logical Core: 12
+2020-10-07 10:13:34,585:INFO:Checking libraries
+2020-10-07 10:13:34,586:INFO:pd==1.0.5
+2020-10-07 10:13:34,587:INFO:numpy==1.18.5
+2020-10-07 10:13:35,245:INFO:gensim==3.8.3
+2020-10-07 10:13:35,581:INFO:spacy==2.3.2
+2020-10-07 10:13:35,979:INFO:nltk==3.5
+2020-10-07 10:13:36,005:INFO:textblob==0.15.3
+2020-10-07 10:13:36,073:INFO:pyLDAvis==2.1.2
+2020-10-07 10:13:36,085:INFO:wordcloud==1.8.0
+2020-10-07 10:13:36,723:INFO:mlflow==1.11.0
+2020-10-07 10:13:36,723:INFO:Checking Exceptions
+2020-10-07 10:13:37,343:INFO:Preloading libraries
+2020-10-07 10:13:37,747:INFO:Preparing display monitor
+2020-10-07 10:13:37,763:INFO:Importing libraries
+2020-10-07 10:13:37,772:INFO:Declaring global variables
+2020-10-07 10:13:37,772:INFO:Input provided : dataframe
+2020-10-07 10:13:37,772:INFO:session_id set to : 7
+2020-10-07 10:13:37,773:INFO:Copying training dataset
+2020-10-07 10:13:37,775:INFO:Importing stopwords from nltk
+2020-10-07 10:13:38,939:INFO:Removing numeric characters from the text
+2020-10-07 10:13:38,948:INFO:Removing special characters from the text
+2020-10-07 10:13:38,953:INFO:Tokenizing Words
+2020-10-07 10:13:38,958:INFO:Removing stopwords
+2020-10-07 10:13:38,968:INFO:Extracting Bigrams
+2020-10-07 10:13:38,986:INFO:Extracting Trigrams
+2020-10-07 10:13:39,003:INFO:Lemmatizing tokens
+2020-10-07 10:13:39,498:INFO:Removing stopwords after lemmatizing
+2020-10-07 10:13:39,511:INFO:Creating corpus and dictionary
+2020-10-07 10:13:39,525:INFO:Compiling processed text
+2020-10-07 10:13:39,526:INFO:Compiling information grid
+2020-10-07 10:13:39,542:INFO:setup() succesfully completed......................................
+2020-10-07 10:13:39,543:INFO:Initializing create_model()
+2020-10-07 10:13:39,543:INFO:create_model(model=lda, multi_core=False, num_topics=None, verbose=True, system=True)
+2020-10-07 10:13:39,544:INFO:Checking exceptions
+2020-10-07 10:13:39,544:INFO:Preloading libraries
+2020-10-07 10:13:39,545:INFO:Preparing display monitor
+2020-10-07 10:13:39,560:INFO:Defining topic model
+2020-10-07 10:13:39,561:INFO:Model: Latent Dirichlet Allocation
+2020-10-07 10:13:39,561:INFO:Defining num_topics parameter
+2020-10-07 10:13:39,562:INFO:num_topics set to: 4
+2020-10-07 10:13:39,572:INFO:LdaModel imported successfully
+2020-10-07 10:17:11,101:INFO:PyCaret NLP Module
+2020-10-07 10:17:11,101:INFO:version 2.1.2
+2020-10-07 10:17:11,102:INFO:Initializing setup()
+2020-10-07 10:17:11,102:INFO:USI: 2df8
+2020-10-07 10:17:11,102:INFO:setup(data=(1, 3), target=name, custom_stopwords=['project', 'proyecto'], html=True, session_id=7, log_experiment=False,
+                    experiment_name=None, log_plots=False, log_data=False, verbose=True)
+2020-10-07 10:17:11,102:INFO:Checking environment
+2020-10-07 10:17:11,102:INFO:python_version: 3.8.3
+2020-10-07 10:17:11,103:INFO:python_build: ('default', 'Jul  2 2020 17:30:36')
+2020-10-07 10:17:11,103:INFO:machine: AMD64
+2020-10-07 10:17:11,103:INFO:platform: Windows-10-10.0.19041-SP0
+2020-10-07 10:17:11,103:INFO:Memory: svmem(total=12717510656, available=3841925120, percent=69.8, used=8875585536, free=3841925120)
+2020-10-07 10:17:11,104:INFO:Physical Core: 6
+2020-10-07 10:17:11,104:INFO:Logical Core: 12
+2020-10-07 10:17:11,104:INFO:Checking libraries
+2020-10-07 10:17:11,105:INFO:pd==1.0.5
+2020-10-07 10:17:11,105:INFO:numpy==1.18.5
+2020-10-07 10:17:11,106:INFO:gensim==3.8.3
+2020-10-07 10:17:11,106:INFO:spacy==2.3.2
+2020-10-07 10:17:11,108:INFO:nltk==3.5
+2020-10-07 10:17:11,109:INFO:textblob==0.15.3
+2020-10-07 10:17:11,110:INFO:pyLDAvis==2.1.2
+2020-10-07 10:17:11,111:INFO:wordcloud==1.8.0
+2020-10-07 10:17:11,112:INFO:mlflow==1.11.0
+2020-10-07 10:17:11,112:INFO:Checking Exceptions
+2020-10-07 10:17:11,654:INFO:Preloading libraries
+2020-10-07 10:17:11,654:INFO:Preparing display monitor
+2020-10-07 10:17:11,668:INFO:Importing libraries
+2020-10-07 10:17:11,669:INFO:Declaring global variables
+2020-10-07 10:17:11,669:INFO:Input provided : dataframe
+2020-10-07 10:17:11,670:INFO:session_id set to : 7
+2020-10-07 10:17:11,670:INFO:Copying training dataset
+2020-10-07 10:17:11,671:INFO:Importing stopwords from nltk
+2020-10-07 10:17:11,674:INFO:Removing numeric characters from the text
+2020-10-07 10:17:11,684:INFO:Removing special characters from the text
+2020-10-07 10:17:11,689:INFO:Tokenizing Words
+2020-10-07 10:17:11,701:INFO:Removing stopwords
+2020-10-07 10:17:11,706:INFO:Extracting Bigrams
+2020-10-07 10:17:11,719:INFO:Extracting Trigrams
+2020-10-07 10:17:11,742:INFO:Lemmatizing tokens
+2020-10-07 10:17:12,223:INFO:Removing stopwords after lemmatizing
+2020-10-07 10:17:12,232:INFO:Creating corpus and dictionary
+2020-10-07 10:17:12,239:INFO:Compiling processed text
+2020-10-07 10:17:12,240:INFO:Compiling information grid
+2020-10-07 10:17:12,241:INFO:setup() succesfully completed......................................
+2020-10-07 10:17:12,254:INFO:Initializing create_model()
+2020-10-07 10:17:12,254:INFO:create_model(model=lda, multi_core=False, num_topics=None, verbose=True, system=True)
+2020-10-07 10:17:12,255:INFO:Checking exceptions
+2020-10-07 10:17:12,256:INFO:Preloading libraries
+2020-10-07 10:17:12,256:INFO:Preparing display monitor
+2020-10-07 10:17:12,271:INFO:Defining topic model
+2020-10-07 10:17:12,271:INFO:Model: Latent Dirichlet Allocation
+2020-10-07 10:17:12,272:INFO:Defining num_topics parameter
+2020-10-07 10:17:12,272:INFO:num_topics set to: 4
+2020-10-07 10:17:12,284:INFO:LdaModel imported successfully
+2020-10-07 10:18:27,588:INFO:PyCaret NLP Module
+2020-10-07 10:18:27,589:INFO:version 2.1.2
+2020-10-07 10:18:27,592:INFO:Initializing setup()
+2020-10-07 10:18:27,600:INFO:USI: a3ca
+2020-10-07 10:18:27,601:INFO:setup(data=(1, 3), target=name, custom_stopwords=['project', 'proyecto'], html=True, session_id=7, log_experiment=False,
+                    experiment_name=None, log_plots=False, log_data=False, verbose=True)
+2020-10-07 10:18:27,601:INFO:Checking environment
+2020-10-07 10:18:27,604:INFO:python_version: 3.8.3
+2020-10-07 10:18:27,610:INFO:python_build: ('default', 'Jul  2 2020 17:30:36')
+2020-10-07 10:18:27,617:INFO:machine: AMD64
+2020-10-07 10:18:27,618:INFO:platform: Windows-10-10.0.19041-SP0
+2020-10-07 10:18:27,621:INFO:Memory: svmem(total=12717510656, available=3654086656, percent=71.3, used=9063424000, free=3654086656)
+2020-10-07 10:18:27,621:INFO:Physical Core: 6
+2020-10-07 10:18:27,630:INFO:Logical Core: 12
+2020-10-07 10:18:27,632:INFO:Checking libraries
+2020-10-07 10:18:27,632:INFO:pd==1.0.5
+2020-10-07 10:18:27,632:INFO:numpy==1.18.5
+2020-10-07 10:18:27,633:INFO:gensim==3.8.3
+2020-10-07 10:18:27,633:INFO:spacy==2.3.2
+2020-10-07 10:18:27,634:INFO:nltk==3.5
+2020-10-07 10:18:27,637:INFO:textblob==0.15.3
+2020-10-07 10:18:27,646:INFO:pyLDAvis==2.1.2
+2020-10-07 10:18:27,647:INFO:wordcloud==1.8.0
+2020-10-07 10:18:27,647:INFO:mlflow==1.11.0
+2020-10-07 10:18:27,648:INFO:Checking Exceptions
+2020-10-07 10:18:28,147:INFO:Preloading libraries
+2020-10-07 10:18:28,147:INFO:Preparing display monitor
+2020-10-07 10:18:28,163:INFO:Importing libraries
+2020-10-07 10:18:28,169:INFO:Declaring global variables
+2020-10-07 10:18:28,170:INFO:Input provided : dataframe
+2020-10-07 10:18:28,170:INFO:session_id set to : 7
+2020-10-07 10:18:28,171:INFO:Copying training dataset
+2020-10-07 10:18:28,172:INFO:Importing stopwords from nltk
+2020-10-07 10:18:28,174:INFO:Removing numeric characters from the text
+2020-10-07 10:18:28,187:INFO:Removing special characters from the text
+2020-10-07 10:18:28,195:INFO:Tokenizing Words
+2020-10-07 10:18:28,209:INFO:Removing stopwords
+2020-10-07 10:18:28,220:INFO:Extracting Bigrams
+2020-10-07 10:18:28,244:INFO:Extracting Trigrams
+2020-10-07 10:18:28,253:INFO:Lemmatizing tokens
+2020-10-07 10:18:28,699:INFO:Removing stopwords after lemmatizing
+2020-10-07 10:18:28,711:INFO:Creating corpus and dictionary
+2020-10-07 10:18:28,723:INFO:Compiling processed text
+2020-10-07 10:18:28,724:INFO:Compiling information grid
+2020-10-07 10:18:28,726:INFO:setup() succesfully completed......................................
+2020-10-07 10:20:53,405:INFO:PyCaret NLP Module
+2020-10-07 10:20:53,406:INFO:version 2.1.2
+2020-10-07 10:20:53,406:INFO:Initializing setup()
+2020-10-07 10:20:53,406:INFO:USI: f815
+2020-10-07 10:20:53,407:INFO:setup(data=(1, 3), target=name, custom_stopwords=['project', 'proyecto'], html=True, session_id=7, log_experiment=False,
+                    experiment_name=None, log_plots=False, log_data=False, verbose=True)
+2020-10-07 10:20:53,407:INFO:Checking environment
+2020-10-07 10:20:53,407:INFO:python_version: 3.8.3
+2020-10-07 10:20:53,407:INFO:python_build: ('default', 'Jul  2 2020 17:30:36')
+2020-10-07 10:20:53,408:INFO:machine: AMD64
+2020-10-07 10:20:53,408:INFO:platform: Windows-10-10.0.19041-SP0
+2020-10-07 10:20:53,408:INFO:Memory: svmem(total=12717510656, available=3850715136, percent=69.7, used=8866795520, free=3850715136)
+2020-10-07 10:20:53,408:INFO:Physical Core: 6
+2020-10-07 10:20:53,408:INFO:Logical Core: 12
+2020-10-07 10:20:53,408:INFO:Checking libraries
+2020-10-07 10:20:53,409:INFO:pd==1.0.5
+2020-10-07 10:20:53,409:INFO:numpy==1.18.5
+2020-10-07 10:20:53,409:INFO:gensim==3.8.3
+2020-10-07 10:20:53,409:INFO:spacy==2.3.2
+2020-10-07 10:20:53,409:INFO:nltk==3.5
+2020-10-07 10:20:53,410:INFO:textblob==0.15.3
+2020-10-07 10:20:53,411:INFO:pyLDAvis==2.1.2
+2020-10-07 10:20:53,412:INFO:wordcloud==1.8.0
+2020-10-07 10:20:53,412:INFO:mlflow==1.11.0
+2020-10-07 10:20:53,413:INFO:Checking Exceptions
+2020-10-07 10:20:53,931:INFO:Preloading libraries
+2020-10-07 10:20:53,932:INFO:Preparing display monitor
+2020-10-07 10:20:53,946:INFO:Importing libraries
+2020-10-07 10:20:53,946:INFO:Declaring global variables
+2020-10-07 10:20:53,947:INFO:Input provided : dataframe
+2020-10-07 10:20:53,947:INFO:session_id set to : 7
+2020-10-07 10:20:53,948:INFO:Copying training dataset
+2020-10-07 10:20:53,949:INFO:Importing stopwords from nltk
+2020-10-07 10:20:53,951:INFO:Removing numeric characters from the text
+2020-10-07 10:20:53,960:INFO:Removing special characters from the text
+2020-10-07 10:20:53,966:INFO:Tokenizing Words
+2020-10-07 10:20:53,977:INFO:Removing stopwords
+2020-10-07 10:20:53,982:INFO:Extracting Bigrams
+2020-10-07 10:20:53,997:INFO:Extracting Trigrams
+2020-10-07 10:20:54,013:INFO:Lemmatizing tokens
+2020-10-07 10:20:54,436:INFO:Removing stopwords after lemmatizing
+2020-10-07 10:20:54,443:INFO:Creating corpus and dictionary
+2020-10-07 10:20:54,465:INFO:Compiling processed text
+2020-10-07 10:20:54,466:INFO:Compiling information grid
+2020-10-07 10:20:54,467:INFO:setup() succesfully completed......................................
+2020-10-07 10:20:54,481:INFO:Initializing create_model()
+2020-10-07 10:20:54,481:INFO:create_model(model=lda, multi_core=False, num_topics=None, verbose=True, system=True)
+2020-10-07 10:20:54,482:INFO:Checking exceptions
+2020-10-07 10:20:54,483:INFO:Preloading libraries
+2020-10-07 10:20:54,483:INFO:Preparing display monitor
+2020-10-07 10:20:54,497:INFO:Defining topic model
+2020-10-07 10:20:54,497:INFO:Model: Latent Dirichlet Allocation
+2020-10-07 10:20:54,498:INFO:Defining num_topics parameter
+2020-10-07 10:20:54,498:INFO:num_topics set to: 4
+2020-10-07 10:20:54,509:INFO:LdaModel imported successfully
+2020-10-07 10:22:15,388:INFO:PyCaret NLP Module
+2020-10-07 10:22:15,388:INFO:version 2.1.2
+2020-10-07 10:22:15,389:INFO:Initializing setup()
+2020-10-07 10:22:15,389:INFO:USI: 077b
+2020-10-07 10:22:15,389:INFO:setup(data=(1, 3), target=name, custom_stopwords=['project', 'proyecto'], html=True, session_id=7, log_experiment=False,
+                    experiment_name=None, log_plots=False, log_data=False, verbose=True)
+2020-10-07 10:22:15,389:INFO:Checking environment
+2020-10-07 10:22:15,390:INFO:python_version: 3.8.3
+2020-10-07 10:22:15,390:INFO:python_build: ('default', 'Jul  2 2020 17:30:36')
+2020-10-07 10:22:15,390:INFO:machine: AMD64
+2020-10-07 10:22:15,390:INFO:platform: Windows-10-10.0.19041-SP0
+2020-10-07 10:22:15,392:INFO:Memory: svmem(total=12717510656, available=3611463680, percent=71.6, used=9106046976, free=3611463680)
+2020-10-07 10:22:15,392:INFO:Physical Core: 6
+2020-10-07 10:22:15,392:INFO:Logical Core: 12
+2020-10-07 10:22:15,393:INFO:Checking libraries
+2020-10-07 10:22:15,393:INFO:pd==1.0.5
+2020-10-07 10:22:15,393:INFO:numpy==1.18.5
+2020-10-07 10:22:15,393:INFO:gensim==3.8.3
+2020-10-07 10:22:15,394:INFO:spacy==2.3.2
+2020-10-07 10:22:15,394:INFO:nltk==3.5
+2020-10-07 10:22:15,395:INFO:textblob==0.15.3
+2020-10-07 10:22:15,395:INFO:pyLDAvis==2.1.2
+2020-10-07 10:22:15,395:INFO:wordcloud==1.8.0
+2020-10-07 10:22:15,396:INFO:mlflow==1.11.0
+2020-10-07 10:22:15,396:INFO:Checking Exceptions
+2020-10-07 10:22:15,947:INFO:Preloading libraries
+2020-10-07 10:22:15,947:INFO:Preparing display monitor
+2020-10-07 10:22:15,957:INFO:Importing libraries
+2020-10-07 10:22:15,957:INFO:Declaring global variables
+2020-10-07 10:22:15,958:INFO:Input provided : dataframe
+2020-10-07 10:22:15,958:INFO:session_id set to : 7
+2020-10-07 10:22:15,958:INFO:Copying training dataset
+2020-10-07 10:22:15,959:INFO:Importing stopwords from nltk
+2020-10-07 10:22:15,960:INFO:Removing numeric characters from the text
+2020-10-07 10:22:15,965:INFO:Removing special characters from the text
+2020-10-07 10:22:15,970:INFO:Tokenizing Words
+2020-10-07 10:22:15,975:INFO:Removing stopwords
+2020-10-07 10:22:15,981:INFO:Extracting Bigrams
+2020-10-07 10:22:15,987:INFO:Extracting Trigrams
+2020-10-07 10:22:15,995:INFO:Lemmatizing tokens
+2020-10-07 10:22:16,441:INFO:Removing stopwords after lemmatizing
+2020-10-07 10:22:16,446:INFO:Creating corpus and dictionary
+2020-10-07 10:22:16,451:INFO:Compiling processed text
+2020-10-07 10:22:16,452:INFO:Compiling information grid
+2020-10-07 10:22:16,454:INFO:setup() succesfully completed......................................
+2020-10-07 10:22:16,465:INFO:Initializing create_model()
+2020-10-07 10:22:16,466:INFO:create_model(model=lda, multi_core=False, num_topics=None, verbose=True, system=True)
+2020-10-07 10:22:16,466:INFO:Checking exceptions
+2020-10-07 10:22:16,466:INFO:Preloading libraries
+2020-10-07 10:22:16,467:INFO:Preparing display monitor
+2020-10-07 10:22:16,475:INFO:Defining topic model
+2020-10-07 10:22:16,476:INFO:Model: Latent Dirichlet Allocation
+2020-10-07 10:22:16,476:INFO:Defining num_topics parameter
+2020-10-07 10:22:16,476:INFO:num_topics set to: 4
+2020-10-07 10:22:16,480:INFO:LdaModel imported successfully
+2020-10-07 11:49:13,805:INFO:PyCaret NLP Module
+2020-10-07 11:49:13,806:INFO:version 2.1.2
+2020-10-07 11:49:13,806:INFO:Initializing setup()
+2020-10-07 11:49:13,807:INFO:USI: 3e35
+2020-10-07 11:49:13,807:INFO:setup(data=(1423, 4), target=name, custom_stopwords=['project', 'proyecto'], html=True, session_id=7, log_experiment=False,
+                    experiment_name=None, log_plots=False, log_data=False, verbose=True)
+2020-10-07 11:49:13,807:INFO:Checking environment
+2020-10-07 11:49:13,808:INFO:python_version: 3.8.3
+2020-10-07 11:49:13,808:INFO:python_build: ('default', 'Jul  2 2020 17:30:36')
+2020-10-07 11:49:13,808:INFO:machine: AMD64
+2020-10-07 11:49:13,808:INFO:platform: Windows-10-10.0.19041-SP0
+2020-10-07 11:49:13,808:INFO:Memory: svmem(total=12717510656, available=3163086848, percent=75.1, used=9554423808, free=3163086848)
+2020-10-07 11:49:13,809:INFO:Physical Core: 6
+2020-10-07 11:49:13,809:INFO:Logical Core: 12
+2020-10-07 11:49:13,809:INFO:Checking libraries
+2020-10-07 11:49:13,809:INFO:pd==1.0.5
+2020-10-07 11:49:13,810:INFO:numpy==1.18.5
+2020-10-07 11:49:13,810:INFO:gensim==3.8.3
+2020-10-07 11:49:13,810:INFO:spacy==2.3.2
+2020-10-07 11:49:13,810:INFO:nltk==3.5
+2020-10-07 11:49:13,810:INFO:textblob==0.15.3
+2020-10-07 11:49:13,811:INFO:pyLDAvis==2.1.2
+2020-10-07 11:49:13,811:INFO:wordcloud==1.8.0
+2020-10-07 11:49:13,811:INFO:mlflow==1.11.0
+2020-10-07 11:49:13,811:INFO:Checking Exceptions
+2020-10-07 11:49:14,354:INFO:Preloading libraries
+2020-10-07 11:49:14,355:INFO:Preparing display monitor
+2020-10-07 11:49:14,364:INFO:Importing libraries
+2020-10-07 11:49:14,364:INFO:Declaring global variables
+2020-10-07 11:49:14,364:INFO:Input provided : dataframe
+2020-10-07 11:49:14,365:INFO:session_id set to : 7
+2020-10-07 11:49:14,365:INFO:Copying training dataset
+2020-10-07 11:49:14,366:INFO:Importing stopwords from nltk
+2020-10-07 11:49:14,842:INFO:Removing numeric characters from the text
+2020-10-07 11:49:14,849:INFO:Removing special characters from the text
+2020-10-07 11:49:14,866:INFO:Tokenizing Words
+2020-10-07 11:49:14,894:INFO:Removing stopwords
+2020-10-07 11:49:14,911:INFO:Extracting Bigrams
+2020-10-07 11:49:14,961:INFO:Extracting Trigrams
+2020-10-07 11:49:15,055:INFO:Lemmatizing tokens
+2020-10-07 11:49:17,987:INFO:Removing stopwords after lemmatizing
+2020-10-07 11:49:17,995:INFO:Creating corpus and dictionary
+2020-10-07 11:49:18,013:INFO:Compiling processed text
+2020-10-07 11:49:18,014:INFO:Compiling information grid
+2020-10-07 11:49:18,015:INFO:setup() succesfully completed......................................
+2020-10-07 11:49:18,027:INFO:Initializing create_model()
+2020-10-07 11:49:18,027:INFO:create_model(model=lda, multi_core=False, num_topics=None, verbose=True, system=True)
+2020-10-07 11:49:18,027:INFO:Checking exceptions
+2020-10-07 11:49:18,028:INFO:Preloading libraries
+2020-10-07 11:49:18,028:INFO:Preparing display monitor
+2020-10-07 11:49:18,039:INFO:Defining topic model
+2020-10-07 11:49:18,040:INFO:Model: Latent Dirichlet Allocation
+2020-10-07 11:49:18,040:INFO:Defining num_topics parameter
+2020-10-07 11:49:18,040:INFO:num_topics set to: 4
+2020-10-07 11:49:18,044:INFO:LdaModel imported successfully
+2020-10-07 11:49:19,808:INFO:LdaModel trained successfully
+2020-10-07 11:49:19,809:INFO:LdaModel(num_terms=376, num_topics=4, decay=0.5, chunksize=100)
+2020-10-07 11:49:19,809:INFO:create_model() succesfully completed......................................
+2020-10-07 11:49:19,810:INFO:Initializing assign_model()
+2020-10-07 11:49:19,810:INFO:assign_model(model=LdaModel(num_terms=376, num_topics=4, decay=0.5, chunksize=100), verbose=True)
+2020-10-07 11:49:19,810:INFO:Determining model type
+2020-10-07 11:49:19,810:INFO:model type: lda
+2020-10-07 11:49:19,811:INFO:Checking exceptions
+2020-10-07 11:49:19,811:INFO:Preloading libraries
+2020-10-07 11:49:19,811:INFO:Preparing display monitor
+2020-10-07 11:49:20,016:INFO:(1423, 10)
+2020-10-07 11:49:20,017:INFO:assign_model() succesfully completed......................................
+2020-10-07 11:50:46,733:INFO:PyCaret NLP Module
+2020-10-07 11:50:46,734:INFO:version 2.1.2
+2020-10-07 11:50:46,734:INFO:Initializing setup()
+2020-10-07 11:50:46,734:INFO:USI: 89a3
+2020-10-07 11:50:46,735:INFO:setup(data=(1423, 4), target=name, custom_stopwords=['project', 'proyecto'], html=True, session_id=7, log_experiment=False,
+                    experiment_name=None, log_plots=False, log_data=False, verbose=True)
+2020-10-07 11:50:46,735:INFO:Checking environment
+2020-10-07 11:50:46,735:INFO:python_version: 3.8.3
+2020-10-07 11:50:46,736:INFO:python_build: ('default', 'Jul  2 2020 17:30:36')
+2020-10-07 11:50:46,736:INFO:machine: AMD64
+2020-10-07 11:50:46,736:INFO:platform: Windows-10-10.0.19041-SP0
+2020-10-07 11:50:46,736:INFO:Memory: svmem(total=12717510656, available=2940866560, percent=76.9, used=9776644096, free=2940866560)
+2020-10-07 11:50:46,737:INFO:Physical Core: 6
+2020-10-07 11:50:46,737:INFO:Logical Core: 12
+2020-10-07 11:50:46,737:INFO:Checking libraries
+2020-10-07 11:50:46,738:INFO:pd==1.0.5
+2020-10-07 11:50:46,738:INFO:numpy==1.18.5
+2020-10-07 11:50:46,738:INFO:gensim==3.8.3
+2020-10-07 11:50:46,739:INFO:spacy==2.3.2
+2020-10-07 11:50:46,739:INFO:nltk==3.5
+2020-10-07 11:50:46,739:INFO:textblob==0.15.3
+2020-10-07 11:50:46,739:INFO:pyLDAvis==2.1.2
+2020-10-07 11:50:46,740:INFO:wordcloud==1.8.0
+2020-10-07 11:50:46,740:INFO:mlflow==1.11.0
+2020-10-07 11:50:46,740:INFO:Checking Exceptions
+2020-10-07 11:50:47,284:INFO:Preloading libraries
+2020-10-07 11:50:47,284:INFO:Preparing display monitor
+2020-10-07 11:50:47,292:INFO:Importing libraries
+2020-10-07 11:50:47,293:INFO:Declaring global variables
+2020-10-07 11:50:47,294:INFO:Input provided : dataframe
+2020-10-07 11:50:47,295:INFO:session_id set to : 7
+2020-10-07 11:50:47,296:INFO:Copying training dataset
+2020-10-07 11:50:47,298:INFO:Importing stopwords from nltk
+2020-10-07 11:50:47,300:INFO:Removing numeric characters from the text
+2020-10-07 11:50:47,307:INFO:Removing special characters from the text
+2020-10-07 11:50:47,323:INFO:Tokenizing Words
+2020-10-07 11:50:47,347:INFO:Removing stopwords
+2020-10-07 11:50:47,364:INFO:Extracting Bigrams
+2020-10-07 11:50:47,427:INFO:Extracting Trigrams
+2020-10-07 11:50:47,519:INFO:Lemmatizing tokens
+2020-10-07 11:50:50,944:INFO:Removing stopwords after lemmatizing
+2020-10-07 11:50:50,951:INFO:Creating corpus and dictionary
+2020-10-07 11:50:50,969:INFO:Compiling processed text
+2020-10-07 11:50:50,970:INFO:Compiling information grid
+2020-10-07 11:50:50,972:INFO:setup() succesfully completed......................................
+2020-10-07 11:50:50,989:INFO:Initializing create_model()
+2020-10-07 11:50:50,989:INFO:create_model(model=lda, multi_core=False, num_topics=None, verbose=True, system=True)
+2020-10-07 11:50:50,989:INFO:Checking exceptions
+2020-10-07 11:50:50,990:INFO:Preloading libraries
+2020-10-07 11:50:50,990:INFO:Preparing display monitor
+2020-10-07 11:50:50,997:INFO:Defining topic model
+2020-10-07 11:50:50,998:INFO:Model: Latent Dirichlet Allocation
+2020-10-07 11:50:50,998:INFO:Defining num_topics parameter
+2020-10-07 11:50:50,998:INFO:num_topics set to: 4
+2020-10-07 11:50:51,001:INFO:LdaModel imported successfully
+2020-10-07 11:50:52,702:INFO:LdaModel trained successfully
+2020-10-07 11:50:52,703:INFO:LdaModel(num_terms=376, num_topics=4, decay=0.5, chunksize=100)
+2020-10-07 11:50:52,703:INFO:create_model() succesfully completed......................................
+2020-10-07 11:50:52,705:INFO:Initializing assign_model()
+2020-10-07 11:50:52,705:INFO:assign_model(model=LdaModel(num_terms=376, num_topics=4, decay=0.5, chunksize=100), verbose=True)
+2020-10-07 11:50:52,705:INFO:Determining model type
+2020-10-07 11:50:52,705:INFO:model type: lda
+2020-10-07 11:50:52,705:INFO:Checking exceptions
+2020-10-07 11:50:52,706:INFO:Preloading libraries
+2020-10-07 11:50:52,706:INFO:Preparing display monitor
+2020-10-07 11:50:52,891:INFO:(1423, 10)
+2020-10-07 11:50:52,891:INFO:assign_model() succesfully completed......................................
+2020-10-07 11:57:19,496:INFO:PyCaret NLP Module
+2020-10-07 11:57:19,497:INFO:version 2.1.2
+2020-10-07 11:57:19,498:INFO:Initializing setup()
+2020-10-07 11:57:19,498:INFO:USI: 08dd
+2020-10-07 11:57:19,498:INFO:setup(data=(1423, 4), target=name, custom_stopwords=['project', 'proyecto'], html=True, session_id=7, log_experiment=False,
+                    experiment_name=None, log_plots=False, log_data=False, verbose=True)
+2020-10-07 11:57:19,499:INFO:Checking environment
+2020-10-07 11:57:19,499:INFO:python_version: 3.8.3
+2020-10-07 11:57:19,500:INFO:python_build: ('default', 'Jul  2 2020 17:30:36')
+2020-10-07 11:57:19,500:INFO:machine: AMD64
+2020-10-07 11:57:19,501:INFO:platform: Windows-10-10.0.19041-SP0
+2020-10-07 11:57:19,501:INFO:Memory: svmem(total=12717510656, available=2966704128, percent=76.7, used=9750806528, free=2966704128)
+2020-10-07 11:57:19,501:INFO:Physical Core: 6
+2020-10-07 11:57:19,502:INFO:Logical Core: 12
+2020-10-07 11:57:19,502:INFO:Checking libraries
+2020-10-07 11:57:19,502:INFO:pd==1.0.5
+2020-10-07 11:57:19,502:INFO:numpy==1.18.5
+2020-10-07 11:57:19,503:INFO:gensim==3.8.3
+2020-10-07 11:57:19,503:INFO:spacy==2.3.2
+2020-10-07 11:57:19,503:INFO:nltk==3.5
+2020-10-07 11:57:19,504:INFO:textblob==0.15.3
+2020-10-07 11:57:19,504:INFO:pyLDAvis==2.1.2
+2020-10-07 11:57:19,505:INFO:wordcloud==1.8.0
+2020-10-07 11:57:19,505:INFO:mlflow==1.11.0
+2020-10-07 11:57:19,505:INFO:Checking Exceptions
+2020-10-07 11:57:20,054:INFO:Preloading libraries
+2020-10-07 11:57:20,054:INFO:Preparing display monitor
+2020-10-07 11:57:20,062:INFO:Importing libraries
+2020-10-07 11:57:20,062:INFO:Declaring global variables
+2020-10-07 11:57:20,062:INFO:Input provided : dataframe
+2020-10-07 11:57:20,063:INFO:session_id set to : 7
+2020-10-07 11:57:20,063:INFO:Copying training dataset
+2020-10-07 11:57:20,064:INFO:Importing stopwords from nltk
+2020-10-07 11:57:20,065:INFO:Removing numeric characters from the text
+2020-10-07 11:57:20,069:INFO:Removing special characters from the text
+2020-10-07 11:57:20,084:INFO:Tokenizing Words
+2020-10-07 11:57:20,108:INFO:Removing stopwords
+2020-10-07 11:57:20,123:INFO:Extracting Bigrams
+2020-10-07 11:57:20,166:INFO:Extracting Trigrams
+2020-10-07 11:57:20,254:INFO:Lemmatizing tokens
+2020-10-07 11:57:23,290:INFO:Removing stopwords after lemmatizing
+2020-10-07 11:57:23,295:INFO:Creating corpus and dictionary
+2020-10-07 11:57:23,307:INFO:Compiling processed text
+2020-10-07 11:57:23,308:INFO:Compiling information grid
+2020-10-07 11:57:23,311:INFO:setup() succesfully completed......................................
+2020-10-07 11:57:23,326:INFO:Initializing create_model()
+2020-10-07 11:57:23,326:INFO:create_model(model=lda, multi_core=False, num_topics=None, verbose=True, system=True)
+2020-10-07 11:57:23,326:INFO:Checking exceptions
+2020-10-07 11:57:23,326:INFO:Preloading libraries
+2020-10-07 11:57:23,327:INFO:Preparing display monitor
+2020-10-07 11:57:23,333:INFO:Defining topic model
+2020-10-07 11:57:23,333:INFO:Model: Latent Dirichlet Allocation
+2020-10-07 11:57:23,333:INFO:Defining num_topics parameter
+2020-10-07 11:57:23,334:INFO:num_topics set to: 4
+2020-10-07 11:57:23,336:INFO:LdaModel imported successfully
+2020-10-07 11:57:24,942:INFO:LdaModel trained successfully
+2020-10-07 11:57:24,942:INFO:LdaModel(num_terms=376, num_topics=4, decay=0.5, chunksize=100)
+2020-10-07 11:57:24,942:INFO:create_model() succesfully completed......................................
+2020-10-07 11:57:24,943:INFO:Initializing assign_model()
+2020-10-07 11:57:24,943:INFO:assign_model(model=LdaModel(num_terms=376, num_topics=4, decay=0.5, chunksize=100), verbose=True)
+2020-10-07 11:57:24,943:INFO:Determining model type
+2020-10-07 11:57:24,944:INFO:model type: lda
+2020-10-07 11:57:24,944:INFO:Checking exceptions
+2020-10-07 11:57:24,944:INFO:Preloading libraries
+2020-10-07 11:57:24,944:INFO:Preparing display monitor
+2020-10-07 11:57:25,135:INFO:(1423, 10)
+2020-10-07 11:57:25,135:INFO:assign_model() succesfully completed......................................
+2020-10-07 11:58:00,162:INFO:PyCaret NLP Module
+2020-10-07 11:58:00,163:INFO:version 2.1.2
+2020-10-07 11:58:00,165:INFO:Initializing setup()
+2020-10-07 11:58:00,167:INFO:USI: e2e9
+2020-10-07 11:58:00,168:INFO:setup(data=(1423, 4), target=name, custom_stopwords=['project', 'proyecto'], html=True, session_id=7, log_experiment=False,
+                    experiment_name=None, log_plots=False, log_data=False, verbose=True)
+2020-10-07 11:58:00,170:INFO:Checking environment
+2020-10-07 11:58:00,170:INFO:python_version: 3.8.3
+2020-10-07 11:58:00,172:INFO:python_build: ('default', 'Jul  2 2020 17:30:36')
+2020-10-07 11:58:00,173:INFO:machine: AMD64
+2020-10-07 11:58:00,174:INFO:platform: Windows-10-10.0.19041-SP0
+2020-10-07 11:58:00,175:INFO:Memory: svmem(total=12717510656, available=2971889664, percent=76.6, used=9745620992, free=2971889664)
+2020-10-07 11:58:00,178:INFO:Physical Core: 6
+2020-10-07 11:58:00,178:INFO:Logical Core: 12
+2020-10-07 11:58:00,179:INFO:Checking libraries
+2020-10-07 11:58:00,180:INFO:pd==1.0.5
+2020-10-07 11:58:00,184:INFO:numpy==1.18.5
+2020-10-07 11:58:00,189:INFO:gensim==3.8.3
+2020-10-07 11:58:00,189:INFO:spacy==2.3.2
+2020-10-07 11:58:00,190:INFO:nltk==3.5
+2020-10-07 11:58:00,190:INFO:textblob==0.15.3
+2020-10-07 11:58:00,190:INFO:pyLDAvis==2.1.2
+2020-10-07 11:58:00,191:INFO:wordcloud==1.8.0
+2020-10-07 11:58:00,192:INFO:mlflow==1.11.0
+2020-10-07 11:58:00,192:INFO:Checking Exceptions
+2020-10-07 11:58:00,720:INFO:Preloading libraries
+2020-10-07 11:58:00,721:INFO:Preparing display monitor
+2020-10-07 11:58:00,729:INFO:Importing libraries
+2020-10-07 11:58:00,730:INFO:Declaring global variables
+2020-10-07 11:58:00,730:INFO:Input provided : dataframe
+2020-10-07 11:58:00,730:INFO:session_id set to : 7
+2020-10-07 11:58:00,730:INFO:Copying training dataset
+2020-10-07 11:58:00,731:INFO:Importing stopwords from nltk
+2020-10-07 11:58:00,735:INFO:Removing numeric characters from the text
+2020-10-07 11:58:00,739:INFO:Removing special characters from the text
+2020-10-07 11:58:00,753:INFO:Tokenizing Words
+2020-10-07 11:58:00,784:INFO:Removing stopwords
+2020-10-07 11:58:00,798:INFO:Extracting Bigrams
+2020-10-07 11:58:00,844:INFO:Extracting Trigrams
+2020-10-07 11:58:00,916:INFO:Lemmatizing tokens
+2020-10-07 11:58:03,863:INFO:Removing stopwords after lemmatizing
+2020-10-07 11:58:03,868:INFO:Creating corpus and dictionary
+2020-10-07 11:58:03,880:INFO:Compiling processed text
+2020-10-07 11:58:03,881:INFO:Compiling information grid
+2020-10-07 11:58:03,883:INFO:setup() succesfully completed......................................
+2020-10-07 11:58:03,896:INFO:Initializing create_model()
+2020-10-07 11:58:03,896:INFO:create_model(model=lda, multi_core=False, num_topics=None, verbose=True, system=True)
+2020-10-07 11:58:03,896:INFO:Checking exceptions
+2020-10-07 11:58:03,897:INFO:Preloading libraries
+2020-10-07 11:58:03,898:INFO:Preparing display monitor
+2020-10-07 11:58:03,904:INFO:Defining topic model
+2020-10-07 11:58:03,904:INFO:Model: Latent Dirichlet Allocation
+2020-10-07 11:58:03,905:INFO:Defining num_topics parameter
+2020-10-07 11:58:03,905:INFO:num_topics set to: 4
+2020-10-07 11:58:03,907:INFO:LdaModel imported successfully
+2020-10-07 11:58:05,548:INFO:LdaModel trained successfully
+2020-10-07 11:58:05,549:INFO:LdaModel(num_terms=376, num_topics=4, decay=0.5, chunksize=100)
+2020-10-07 11:58:05,550:INFO:create_model() succesfully completed......................................
+2020-10-07 11:58:05,550:INFO:Initializing assign_model()
+2020-10-07 11:58:05,551:INFO:assign_model(model=LdaModel(num_terms=376, num_topics=4, decay=0.5, chunksize=100), verbose=True)
+2020-10-07 11:58:05,551:INFO:Determining model type
+2020-10-07 11:58:05,551:INFO:model type: lda
+2020-10-07 11:58:05,551:INFO:Checking exceptions
+2020-10-07 11:58:05,552:INFO:Preloading libraries
+2020-10-07 11:58:05,552:INFO:Preparing display monitor
+2020-10-07 11:58:05,738:INFO:(1423, 10)
+2020-10-07 11:58:05,739:INFO:assign_model() succesfully completed......................................
+2020-10-07 11:58:38,114:INFO:PyCaret NLP Module
+2020-10-07 11:58:38,115:INFO:version 2.1.2
+2020-10-07 11:58:38,117:INFO:Initializing setup()
+2020-10-07 11:58:38,118:INFO:USI: 13b8
+2020-10-07 11:58:38,119:INFO:setup(data=(1423, 4), target=name, custom_stopwords=['project', 'proyecto'], html=True, session_id=7, log_experiment=False,
+                    experiment_name=None, log_plots=False, log_data=False, verbose=True)
+2020-10-07 11:58:38,121:INFO:Checking environment
+2020-10-07 11:58:38,122:INFO:python_version: 3.8.3
+2020-10-07 11:58:38,124:INFO:python_build: ('default', 'Jul  2 2020 17:30:36')
+2020-10-07 11:58:38,125:INFO:machine: AMD64
+2020-10-07 11:58:38,126:INFO:platform: Windows-10-10.0.19041-SP0
+2020-10-07 11:58:38,126:INFO:Memory: svmem(total=12717510656, available=2912755712, percent=77.1, used=9804754944, free=2912755712)
+2020-10-07 11:58:38,126:INFO:Physical Core: 6
+2020-10-07 11:58:38,127:INFO:Logical Core: 12
+2020-10-07 11:58:38,127:INFO:Checking libraries
+2020-10-07 11:58:38,127:INFO:pd==1.0.5
+2020-10-07 11:58:38,128:INFO:numpy==1.18.5
+2020-10-07 11:58:38,128:INFO:gensim==3.8.3
+2020-10-07 11:58:38,128:INFO:spacy==2.3.2
+2020-10-07 11:58:38,129:INFO:nltk==3.5
+2020-10-07 11:58:38,129:INFO:textblob==0.15.3
+2020-10-07 11:58:38,129:INFO:pyLDAvis==2.1.2
+2020-10-07 11:58:38,129:INFO:wordcloud==1.8.0
+2020-10-07 11:58:38,130:INFO:mlflow==1.11.0
+2020-10-07 11:58:38,130:INFO:Checking Exceptions
+2020-10-07 11:58:38,755:INFO:Preloading libraries
+2020-10-07 11:58:38,756:INFO:Preparing display monitor
+2020-10-07 11:58:38,763:INFO:Importing libraries
+2020-10-07 11:58:38,764:INFO:Declaring global variables
+2020-10-07 11:58:38,764:INFO:Input provided : dataframe
+2020-10-07 11:58:38,764:INFO:session_id set to : 7
+2020-10-07 11:58:38,764:INFO:Copying training dataset
+2020-10-07 11:58:38,765:INFO:Importing stopwords from nltk
+2020-10-07 11:58:38,766:INFO:Removing numeric characters from the text
+2020-10-07 11:58:38,771:INFO:Removing special characters from the text
+2020-10-07 11:58:38,787:INFO:Tokenizing Words
+2020-10-07 11:58:38,816:INFO:Removing stopwords
+2020-10-07 11:58:38,831:INFO:Extracting Bigrams
+2020-10-07 11:58:38,882:INFO:Extracting Trigrams
+2020-10-07 11:58:38,970:INFO:Lemmatizing tokens
+2020-10-07 11:58:42,101:INFO:Removing stopwords after lemmatizing
+2020-10-07 11:58:42,106:INFO:Creating corpus and dictionary
+2020-10-07 11:58:42,123:INFO:Compiling processed text
+2020-10-07 11:58:42,124:INFO:Compiling information grid
+2020-10-07 11:58:42,126:INFO:setup() succesfully completed......................................
+2020-10-07 11:58:42,140:INFO:Initializing create_model()
+2020-10-07 11:58:42,140:INFO:create_model(model=lda, multi_core=False, num_topics=None, verbose=True, system=True)
+2020-10-07 11:58:42,141:INFO:Checking exceptions
+2020-10-07 11:58:42,141:INFO:Preloading libraries
+2020-10-07 11:58:42,141:INFO:Preparing display monitor
+2020-10-07 11:58:42,149:INFO:Defining topic model
+2020-10-07 11:58:42,149:INFO:Model: Latent Dirichlet Allocation
+2020-10-07 11:58:42,149:INFO:Defining num_topics parameter
+2020-10-07 11:58:42,149:INFO:num_topics set to: 4
+2020-10-07 11:58:42,151:INFO:LdaModel imported successfully
+2020-10-07 11:58:43,693:INFO:LdaModel trained successfully
+2020-10-07 11:58:43,694:INFO:LdaModel(num_terms=376, num_topics=4, decay=0.5, chunksize=100)
+2020-10-07 11:58:43,694:INFO:create_model() succesfully completed......................................
+2020-10-07 11:58:43,696:INFO:Initializing assign_model()
+2020-10-07 11:58:43,696:INFO:assign_model(model=LdaModel(num_terms=376, num_topics=4, decay=0.5, chunksize=100), verbose=True)
+2020-10-07 11:58:43,696:INFO:Determining model type
+2020-10-07 11:58:43,696:INFO:model type: lda
+2020-10-07 11:58:43,696:INFO:Checking exceptions
+2020-10-07 11:58:43,697:INFO:Preloading libraries
+2020-10-07 11:58:43,697:INFO:Preparing display monitor
+2020-10-07 11:58:43,897:INFO:(1423, 10)
+2020-10-07 11:58:43,898:INFO:assign_model() succesfully completed......................................
+2020-10-07 12:02:25,644:INFO:PyCaret NLP Module
+2020-10-07 12:02:25,645:INFO:version 2.1.2
+2020-10-07 12:02:25,646:INFO:Initializing setup()
+2020-10-07 12:02:25,646:INFO:USI: 96a1
+2020-10-07 12:02:25,646:INFO:setup(data=(1423, 4), target=name, custom_stopwords=['project', 'proyecto'], html=True, session_id=7, log_experiment=False,
+                    experiment_name=None, log_plots=False, log_data=False, verbose=True)
+2020-10-07 12:02:25,646:INFO:Checking environment
+2020-10-07 12:02:25,646:INFO:python_version: 3.8.3
+2020-10-07 12:02:25,647:INFO:python_build: ('default', 'Jul  2 2020 17:30:36')
+2020-10-07 12:02:25,647:INFO:machine: AMD64
+2020-10-07 12:02:25,647:INFO:platform: Windows-10-10.0.19041-SP0
+2020-10-07 12:02:25,647:INFO:Memory: svmem(total=12717510656, available=3254685696, percent=74.4, used=9462824960, free=3254685696)
+2020-10-07 12:02:25,648:INFO:Physical Core: 6
+2020-10-07 12:02:25,648:INFO:Logical Core: 12
+2020-10-07 12:02:25,648:INFO:Checking libraries
+2020-10-07 12:02:25,648:INFO:pd==1.0.5
+2020-10-07 12:02:25,648:INFO:numpy==1.18.5
+2020-10-07 12:02:25,648:INFO:gensim==3.8.3
+2020-10-07 12:02:25,649:INFO:spacy==2.3.2
+2020-10-07 12:02:25,649:INFO:nltk==3.5
+2020-10-07 12:02:25,649:INFO:textblob==0.15.3
+2020-10-07 12:02:25,649:INFO:pyLDAvis==2.1.2
+2020-10-07 12:02:25,649:INFO:wordcloud==1.8.0
+2020-10-07 12:02:25,650:INFO:mlflow==1.11.0
+2020-10-07 12:02:25,650:INFO:Checking Exceptions
+2020-10-07 12:02:26,226:INFO:Preloading libraries
+2020-10-07 12:02:26,226:INFO:Preparing display monitor
+2020-10-07 12:02:26,233:INFO:Importing libraries
+2020-10-07 12:02:26,234:INFO:Declaring global variables
+2020-10-07 12:02:26,234:INFO:Input provided : dataframe
+2020-10-07 12:02:26,234:INFO:session_id set to : 7
+2020-10-07 12:02:26,234:INFO:Copying training dataset
+2020-10-07 12:02:26,235:INFO:Importing stopwords from nltk
+2020-10-07 12:02:26,236:INFO:Removing numeric characters from the text
+2020-10-07 12:02:26,240:INFO:Removing special characters from the text
+2020-10-07 12:02:26,253:INFO:Tokenizing Words
+2020-10-07 12:02:26,279:INFO:Removing stopwords
+2020-10-07 12:02:26,293:INFO:Extracting Bigrams
+2020-10-07 12:02:26,344:INFO:Extracting Trigrams
+2020-10-07 12:02:26,435:INFO:Lemmatizing tokens
+2020-10-07 12:02:29,143:INFO:Removing stopwords after lemmatizing
+2020-10-07 12:02:29,148:INFO:Creating corpus and dictionary
+2020-10-07 12:02:29,162:INFO:Compiling processed text
+2020-10-07 12:02:29,163:INFO:Compiling information grid
+2020-10-07 12:02:29,165:INFO:setup() succesfully completed......................................
+2020-10-07 12:02:29,176:INFO:Initializing create_model()
+2020-10-07 12:02:29,176:INFO:create_model(model=lda, multi_core=False, num_topics=None, verbose=True, system=True)
+2020-10-07 12:02:29,176:INFO:Checking exceptions
+2020-10-07 12:02:29,176:INFO:Preloading libraries
+2020-10-07 12:02:29,176:INFO:Preparing display monitor
+2020-10-07 12:02:29,183:INFO:Defining topic model
+2020-10-07 12:02:29,184:INFO:Model: Latent Dirichlet Allocation
+2020-10-07 12:02:29,184:INFO:Defining num_topics parameter
+2020-10-07 12:02:29,184:INFO:num_topics set to: 4
+2020-10-07 12:02:29,186:INFO:LdaModel imported successfully
+2020-10-07 12:02:30,705:INFO:LdaModel trained successfully
+2020-10-07 12:02:30,706:INFO:LdaModel(num_terms=376, num_topics=4, decay=0.5, chunksize=100)
+2020-10-07 12:02:30,706:INFO:create_model() succesfully completed......................................
+2020-10-07 12:02:30,707:INFO:Initializing assign_model()
+2020-10-07 12:02:30,707:INFO:assign_model(model=LdaModel(num_terms=376, num_topics=4, decay=0.5, chunksize=100), verbose=True)
+2020-10-07 12:02:30,707:INFO:Determining model type
+2020-10-07 12:02:30,707:INFO:model type: lda
+2020-10-07 12:02:30,707:INFO:Checking exceptions
+2020-10-07 12:02:30,707:INFO:Preloading libraries
+2020-10-07 12:02:30,708:INFO:Preparing display monitor
+2020-10-07 12:02:30,902:INFO:(1423, 10)
+2020-10-07 12:02:30,903:INFO:assign_model() succesfully completed......................................
+2020-10-07 12:04:56,056:INFO:PyCaret NLP Module
+2020-10-07 12:04:56,056:INFO:version 2.1.2
+2020-10-07 12:04:56,057:INFO:Initializing setup()
+2020-10-07 12:04:56,057:INFO:USI: 8062
+2020-10-07 12:04:56,057:INFO:setup(data=(1423, 4), target=name, custom_stopwords=['project', 'proyecto'], html=True, session_id=7, log_experiment=False,
+                    experiment_name=None, log_plots=False, log_data=False, verbose=True)
+2020-10-07 12:04:56,057:INFO:Checking environment
+2020-10-07 12:04:56,058:INFO:python_version: 3.8.3
+2020-10-07 12:04:56,058:INFO:python_build: ('default', 'Jul  2 2020 17:30:36')
+2020-10-07 12:04:56,058:INFO:machine: AMD64
+2020-10-07 12:04:56,058:INFO:platform: Windows-10-10.0.19041-SP0
+2020-10-07 12:04:56,073:INFO:Memory: svmem(total=12717510656, available=3204911104, percent=74.8, used=9512599552, free=3204911104)
+2020-10-07 12:04:56,074:INFO:Physical Core: 6
+2020-10-07 12:04:56,074:INFO:Logical Core: 12
+2020-10-07 12:04:56,074:INFO:Checking libraries
+2020-10-07 12:04:56,074:INFO:pd==1.1.3
+2020-10-07 12:04:56,074:INFO:numpy==1.18.5
+2020-10-07 12:04:57,141:INFO:gensim==3.8.3
+2020-10-07 12:04:57,545:INFO:spacy==2.3.2
+2020-10-07 12:04:58,118:INFO:nltk==3.5
+2020-10-07 12:04:58,150:INFO:textblob==0.15.3
+2020-10-07 12:04:58,440:INFO:pyLDAvis==2.1.2
+2020-10-07 12:04:58,461:INFO:wordcloud==1.8.0
+2020-10-07 12:04:59,200:INFO:mlflow==1.11.0
+2020-10-07 12:04:59,201:INFO:Checking Exceptions
+2020-10-07 12:04:59,788:INFO:Preloading libraries
+2020-10-07 12:05:00,457:INFO:Preparing display monitor
+2020-10-07 12:05:00,472:INFO:Importing libraries
+2020-10-07 12:05:00,479:INFO:Declaring global variables
+2020-10-07 12:05:00,479:INFO:Input provided : dataframe
+2020-10-07 12:05:00,480:INFO:session_id set to : 7
+2020-10-07 12:05:00,481:INFO:Copying training dataset
+2020-10-07 12:05:00,481:INFO:Importing stopwords from nltk
+2020-10-07 12:05:01,049:INFO:Removing numeric characters from the text
+2020-10-07 12:05:01,064:INFO:Removing special characters from the text
+2020-10-07 12:05:01,086:INFO:Tokenizing Words
+2020-10-07 12:05:01,110:INFO:Removing stopwords
+2020-10-07 12:05:01,135:INFO:Extracting Bigrams
+2020-10-07 12:05:01,199:INFO:Extracting Trigrams
+2020-10-07 12:05:01,308:INFO:Lemmatizing tokens
+2020-10-07 12:05:03,991:INFO:Removing stopwords after lemmatizing
+2020-10-07 12:05:04,002:INFO:Creating corpus and dictionary
+2020-10-07 12:05:04,018:INFO:Compiling processed text
+2020-10-07 12:05:04,023:INFO:Compiling information grid
+2020-10-07 12:05:04,041:INFO:setup() succesfully completed......................................
+2020-10-07 12:05:04,043:INFO:Initializing create_model()
+2020-10-07 12:05:04,043:INFO:create_model(model=lda, multi_core=False, num_topics=None, verbose=True, system=True)
+2020-10-07 12:05:04,044:INFO:Checking exceptions
+2020-10-07 12:05:04,046:INFO:Preloading libraries
+2020-10-07 12:05:04,048:INFO:Preparing display monitor
+2020-10-07 12:05:04,070:INFO:Defining topic model
+2020-10-07 12:05:04,071:INFO:Model: Latent Dirichlet Allocation
+2020-10-07 12:05:04,073:INFO:Defining num_topics parameter
+2020-10-07 12:05:04,073:INFO:num_topics set to: 4
+2020-10-07 12:05:04,080:INFO:LdaModel imported successfully
+2020-10-07 12:05:06,710:INFO:LdaModel trained successfully
+2020-10-07 12:05:06,712:INFO:LdaModel(num_terms=376, num_topics=4, decay=0.5, chunksize=100)
+2020-10-07 12:05:06,712:INFO:create_model() succesfully completed......................................
+2020-10-07 12:05:06,713:INFO:Initializing assign_model()
+2020-10-07 12:05:06,713:INFO:assign_model(model=LdaModel(num_terms=376, num_topics=4, decay=0.5, chunksize=100), verbose=True)
+2020-10-07 12:05:06,714:INFO:Determining model type
+2020-10-07 12:05:06,714:INFO:model type: lda
+2020-10-07 12:05:06,715:INFO:Checking exceptions
+2020-10-07 12:05:06,724:INFO:Preloading libraries
+2020-10-07 12:05:06,724:INFO:Preparing display monitor
+2020-10-07 12:05:06,919:INFO:(1423, 10)
+2020-10-07 12:05:06,919:INFO:assign_model() succesfully completed......................................
+2020-10-07 12:07:01,154:INFO:PyCaret NLP Module
+2020-10-07 12:07:01,155:INFO:version 2.1.2
+2020-10-07 12:07:01,156:INFO:Initializing setup()
+2020-10-07 12:07:01,156:INFO:USI: 73cc
+2020-10-07 12:07:01,156:INFO:setup(data=(1423, 4), target=name, custom_stopwords=['project', 'proyecto'], html=True, session_id=7, log_experiment=False,
+                    experiment_name=None, log_plots=False, log_data=False, verbose=True)
+2020-10-07 12:07:01,156:INFO:Checking environment
+2020-10-07 12:07:01,157:INFO:python_version: 3.8.3
+2020-10-07 12:07:01,157:INFO:python_build: ('default', 'Jul  2 2020 17:30:36')
+2020-10-07 12:07:01,158:INFO:machine: AMD64
+2020-10-07 12:07:01,158:INFO:platform: Windows-10-10.0.19041-SP0
+2020-10-07 12:07:01,159:INFO:Memory: svmem(total=12717510656, available=2712535040, percent=78.7, used=10004975616, free=2712535040)
+2020-10-07 12:07:01,160:INFO:Physical Core: 6
+2020-10-07 12:07:01,161:INFO:Logical Core: 12
+2020-10-07 12:07:01,162:INFO:Checking libraries
+2020-10-07 12:07:01,163:INFO:pd==1.1.3
+2020-10-07 12:07:01,165:INFO:numpy==1.18.5
+2020-10-07 12:07:01,166:INFO:gensim==3.8.3
+2020-10-07 12:07:01,166:INFO:spacy==2.3.2
+2020-10-07 12:07:01,166:INFO:nltk==3.5
+2020-10-07 12:07:01,167:INFO:textblob==0.15.3
+2020-10-07 12:07:01,167:INFO:pyLDAvis==2.1.2
+2020-10-07 12:07:01,168:INFO:wordcloud==1.8.0
+2020-10-07 12:07:01,168:INFO:mlflow==1.11.0
+2020-10-07 12:07:01,169:INFO:Checking Exceptions
+2020-10-07 12:07:01,641:INFO:Preloading libraries
+2020-10-07 12:07:01,641:INFO:Preparing display monitor
+2020-10-07 12:07:01,648:INFO:Importing libraries
+2020-10-07 12:07:01,649:INFO:Declaring global variables
+2020-10-07 12:07:01,649:INFO:Input provided : dataframe
+2020-10-07 12:07:01,649:INFO:session_id set to : 7
+2020-10-07 12:07:01,649:INFO:Copying training dataset
+2020-10-07 12:07:01,650:INFO:Importing stopwords from nltk
+2020-10-07 12:07:01,651:INFO:Removing numeric characters from the text
+2020-10-07 12:07:01,655:INFO:Removing special characters from the text
+2020-10-07 12:07:01,669:INFO:Tokenizing Words
+2020-10-07 12:07:01,688:INFO:Removing stopwords
+2020-10-07 12:07:01,702:INFO:Extracting Bigrams
+2020-10-07 12:07:01,741:INFO:Extracting Trigrams
+2020-10-07 12:07:01,815:INFO:Lemmatizing tokens
+2020-10-07 12:07:04,558:INFO:Removing stopwords after lemmatizing
+2020-10-07 12:07:04,563:INFO:Creating corpus and dictionary
+2020-10-07 12:07:04,574:INFO:Compiling processed text
+2020-10-07 12:07:04,575:INFO:Compiling information grid
+2020-10-07 12:07:04,577:INFO:setup() succesfully completed......................................
+2020-10-07 12:07:04,588:INFO:Initializing create_model()
+2020-10-07 12:07:04,589:INFO:create_model(model=lda, multi_core=False, num_topics=None, verbose=True, system=True)
+2020-10-07 12:07:04,589:INFO:Checking exceptions
+2020-10-07 12:07:04,589:INFO:Preloading libraries
+2020-10-07 12:07:04,590:INFO:Preparing display monitor
+2020-10-07 12:07:04,596:INFO:Defining topic model
+2020-10-07 12:07:04,597:INFO:Model: Latent Dirichlet Allocation
+2020-10-07 12:07:04,597:INFO:Defining num_topics parameter
+2020-10-07 12:07:04,597:INFO:num_topics set to: 4
+2020-10-07 12:07:04,599:INFO:LdaModel imported successfully
+2020-10-07 12:07:06,232:INFO:LdaModel trained successfully
+2020-10-07 12:07:06,233:INFO:LdaModel(num_terms=376, num_topics=4, decay=0.5, chunksize=100)
+2020-10-07 12:07:06,233:INFO:create_model() succesfully completed......................................
+2020-10-07 12:07:06,234:INFO:Initializing assign_model()
+2020-10-07 12:07:06,234:INFO:assign_model(model=LdaModel(num_terms=376, num_topics=4, decay=0.5, chunksize=100), verbose=True)
+2020-10-07 12:07:06,234:INFO:Determining model type
+2020-10-07 12:07:06,235:INFO:model type: lda
+2020-10-07 12:07:06,235:INFO:Checking exceptions
+2020-10-07 12:07:06,235:INFO:Preloading libraries
+2020-10-07 12:07:06,235:INFO:Preparing display monitor
+2020-10-07 12:07:06,425:INFO:(1423, 10)
+2020-10-07 12:07:06,426:INFO:assign_model() succesfully completed......................................
+2020-10-07 12:08:33,267:INFO:PyCaret NLP Module
+2020-10-07 12:08:33,268:INFO:version 2.1.2
+2020-10-07 12:08:33,268:INFO:Initializing setup()
+2020-10-07 12:08:33,268:INFO:USI: 8b4f
+2020-10-07 12:08:33,270:INFO:setup(data=(1423, 4), target=name, custom_stopwords=['project', 'proyecto'], html=True, session_id=7, log_experiment=False,
+                    experiment_name=None, log_plots=False, log_data=False, verbose=True)
+2020-10-07 12:08:33,271:INFO:Checking environment
+2020-10-07 12:08:33,272:INFO:python_version: 3.8.3
+2020-10-07 12:08:33,272:INFO:python_build: ('default', 'Jul  2 2020 17:30:36')
+2020-10-07 12:08:33,273:INFO:machine: AMD64
+2020-10-07 12:08:33,273:INFO:platform: Windows-10-10.0.19041-SP0
+2020-10-07 12:08:33,273:INFO:Memory: svmem(total=12717510656, available=3121782784, percent=75.5, used=9595727872, free=3121782784)
+2020-10-07 12:08:33,273:INFO:Physical Core: 6
+2020-10-07 12:08:33,274:INFO:Logical Core: 12
+2020-10-07 12:08:33,274:INFO:Checking libraries
+2020-10-07 12:08:33,274:INFO:pd==1.1.3
+2020-10-07 12:08:33,274:INFO:numpy==1.18.5
+2020-10-07 12:08:33,274:INFO:gensim==3.8.3
+2020-10-07 12:08:33,275:INFO:spacy==2.3.2
+2020-10-07 12:08:33,275:INFO:nltk==3.5
+2020-10-07 12:08:33,275:INFO:textblob==0.15.3
+2020-10-07 12:08:33,276:INFO:pyLDAvis==2.1.2
+2020-10-07 12:08:33,276:INFO:wordcloud==1.8.0
+2020-10-07 12:08:33,276:INFO:mlflow==1.11.0
+2020-10-07 12:08:33,276:INFO:Checking Exceptions
+2020-10-07 12:08:33,721:INFO:Preloading libraries
+2020-10-07 12:08:33,721:INFO:Preparing display monitor
+2020-10-07 12:08:33,729:INFO:Importing libraries
+2020-10-07 12:08:33,729:INFO:Declaring global variables
+2020-10-07 12:08:33,730:INFO:Input provided : dataframe
+2020-10-07 12:08:33,730:INFO:session_id set to : 7
+2020-10-07 12:08:33,730:INFO:Copying training dataset
+2020-10-07 12:08:33,731:INFO:Importing stopwords from nltk
+2020-10-07 12:08:33,732:INFO:Removing numeric characters from the text
+2020-10-07 12:08:33,736:INFO:Removing special characters from the text
+2020-10-07 12:08:33,750:INFO:Tokenizing Words
+2020-10-07 12:08:33,770:INFO:Removing stopwords
+2020-10-07 12:08:33,784:INFO:Extracting Bigrams
+2020-10-07 12:08:33,824:INFO:Extracting Trigrams
+2020-10-07 12:08:33,897:INFO:Lemmatizing tokens
+2020-10-07 12:08:36,596:INFO:Removing stopwords after lemmatizing
+2020-10-07 12:08:36,601:INFO:Creating corpus and dictionary
+2020-10-07 12:08:36,615:INFO:Compiling processed text
+2020-10-07 12:08:36,615:INFO:Compiling information grid
+2020-10-07 12:08:36,617:INFO:setup() succesfully completed......................................
+2020-10-07 12:08:36,630:INFO:Initializing create_model()
+2020-10-07 12:08:36,630:INFO:create_model(model=lda, multi_core=False, num_topics=None, verbose=True, system=True)
+2020-10-07 12:08:36,630:INFO:Checking exceptions
+2020-10-07 12:08:36,631:INFO:Preloading libraries
+2020-10-07 12:08:36,631:INFO:Preparing display monitor
+2020-10-07 12:08:36,637:INFO:Defining topic model
+2020-10-07 12:08:36,637:INFO:Model: Latent Dirichlet Allocation
+2020-10-07 12:08:36,638:INFO:Defining num_topics parameter
+2020-10-07 12:08:36,638:INFO:num_topics set to: 4
+2020-10-07 12:08:36,640:INFO:LdaModel imported successfully
+2020-10-07 12:08:38,236:INFO:LdaModel trained successfully
+2020-10-07 12:08:38,237:INFO:LdaModel(num_terms=376, num_topics=4, decay=0.5, chunksize=100)
+2020-10-07 12:08:38,237:INFO:create_model() succesfully completed......................................
+2020-10-07 12:08:38,238:INFO:Initializing assign_model()
+2020-10-07 12:08:38,238:INFO:assign_model(model=LdaModel(num_terms=376, num_topics=4, decay=0.5, chunksize=100), verbose=True)
+2020-10-07 12:08:38,238:INFO:Determining model type
+2020-10-07 12:08:38,239:INFO:model type: lda
+2020-10-07 12:08:38,239:INFO:Checking exceptions
+2020-10-07 12:08:38,239:INFO:Preloading libraries
+2020-10-07 12:08:38,240:INFO:Preparing display monitor
+2020-10-07 12:08:38,430:INFO:(1423, 10)
+2020-10-07 12:08:38,430:INFO:assign_model() succesfully completed......................................
+2020-10-07 12:10:38,564:INFO:PyCaret NLP Module
+2020-10-07 12:10:38,564:INFO:version 2.1.2
+2020-10-07 12:10:38,564:INFO:Initializing setup()
+2020-10-07 12:10:38,564:INFO:USI: e069
+2020-10-07 12:10:38,565:INFO:setup(data=(1423, 4), target=name, custom_stopwords=['project', 'proyecto'], html=True, session_id=7, log_experiment=False,
+                    experiment_name=None, log_plots=False, log_data=False, verbose=True)
+2020-10-07 12:10:38,565:INFO:Checking environment
+2020-10-07 12:10:38,566:INFO:python_version: 3.8.3
+2020-10-07 12:10:38,566:INFO:python_build: ('default', 'Jul  2 2020 17:30:36')
+2020-10-07 12:10:38,566:INFO:machine: AMD64
+2020-10-07 12:10:38,566:INFO:platform: Windows-10-10.0.19041-SP0
+2020-10-07 12:10:38,567:INFO:Memory: svmem(total=12717510656, available=2931646464, percent=76.9, used=9785864192, free=2931646464)
+2020-10-07 12:10:38,567:INFO:Physical Core: 6
+2020-10-07 12:10:38,567:INFO:Logical Core: 12
+2020-10-07 12:10:38,567:INFO:Checking libraries
+2020-10-07 12:10:38,567:INFO:pd==1.1.3
+2020-10-07 12:10:38,568:INFO:numpy==1.18.5
+2020-10-07 12:10:38,568:INFO:gensim==3.8.3
+2020-10-07 12:10:38,568:INFO:spacy==2.3.2
+2020-10-07 12:10:38,568:INFO:nltk==3.5
+2020-10-07 12:10:38,569:INFO:textblob==0.15.3
+2020-10-07 12:10:38,569:INFO:pyLDAvis==2.1.2
+2020-10-07 12:10:38,569:INFO:wordcloud==1.8.0
+2020-10-07 12:10:38,570:INFO:mlflow==1.11.0
+2020-10-07 12:10:38,570:INFO:Checking Exceptions
+2020-10-07 12:10:39,101:INFO:Preloading libraries
+2020-10-07 12:10:39,102:INFO:Preparing display monitor
+2020-10-07 12:10:39,111:INFO:Importing libraries
+2020-10-07 12:10:39,111:INFO:Declaring global variables
+2020-10-07 12:10:39,112:INFO:Input provided : dataframe
+2020-10-07 12:10:39,113:INFO:session_id set to : 7
+2020-10-07 12:10:39,113:INFO:Copying training dataset
+2020-10-07 12:10:39,113:INFO:Importing stopwords from nltk
+2020-10-07 12:10:39,115:INFO:Removing numeric characters from the text
+2020-10-07 12:10:39,119:INFO:Removing special characters from the text
+2020-10-07 12:10:39,132:INFO:Tokenizing Words
+2020-10-07 12:10:39,151:INFO:Removing stopwords
+2020-10-07 12:10:39,165:INFO:Extracting Bigrams
+2020-10-07 12:10:39,206:INFO:Extracting Trigrams
+2020-10-07 12:10:39,285:INFO:Lemmatizing tokens
+2020-10-07 12:10:42,069:INFO:Removing stopwords after lemmatizing
+2020-10-07 12:10:42,074:INFO:Creating corpus and dictionary
+2020-10-07 12:10:42,087:INFO:Compiling processed text
+2020-10-07 12:10:42,101:INFO:Compiling information grid
+2020-10-07 12:10:42,104:INFO:setup() succesfully completed......................................
+2020-10-07 12:10:42,115:INFO:Initializing create_model()
+2020-10-07 12:10:42,116:INFO:create_model(model=lda, multi_core=False, num_topics=None, verbose=True, system=True)
+2020-10-07 12:10:42,116:INFO:Checking exceptions
+2020-10-07 12:10:42,119:INFO:Preloading libraries
+2020-10-07 12:10:42,119:INFO:Preparing display monitor
+2020-10-07 12:10:42,125:INFO:Defining topic model
+2020-10-07 12:10:42,125:INFO:Model: Latent Dirichlet Allocation
+2020-10-07 12:10:42,126:INFO:Defining num_topics parameter
+2020-10-07 12:10:42,126:INFO:num_topics set to: 4
+2020-10-07 12:10:42,129:INFO:LdaModel imported successfully
+2020-10-07 12:10:43,862:INFO:LdaModel trained successfully
+2020-10-07 12:10:43,863:INFO:LdaModel(num_terms=376, num_topics=4, decay=0.5, chunksize=100)
+2020-10-07 12:10:43,863:INFO:create_model() succesfully completed......................................
+2020-10-07 12:10:43,864:INFO:Initializing assign_model()
+2020-10-07 12:10:43,865:INFO:assign_model(model=LdaModel(num_terms=376, num_topics=4, decay=0.5, chunksize=100), verbose=True)
+2020-10-07 12:10:43,865:INFO:Determining model type
+2020-10-07 12:10:43,865:INFO:model type: lda
+2020-10-07 12:10:43,865:INFO:Checking exceptions
+2020-10-07 12:10:43,865:INFO:Preloading libraries
+2020-10-07 12:10:43,866:INFO:Preparing display monitor
+2020-10-07 12:10:44,054:INFO:(1423, 10)
+2020-10-07 12:10:44,054:INFO:assign_model() succesfully completed......................................
+2020-10-07 12:13:18,453:INFO:PyCaret NLP Module
+2020-10-07 12:13:18,454:INFO:version 2.1.2
+2020-10-07 12:13:18,460:INFO:Initializing setup()
+2020-10-07 12:13:18,463:INFO:USI: 6a06
+2020-10-07 12:13:18,463:INFO:setup(data=(1423, 4), target=name, custom_stopwords=['project', 'proyecto'], html=True, session_id=7, log_experiment=False,
+                    experiment_name=None, log_plots=False, log_data=False, verbose=True)
+2020-10-07 12:13:18,464:INFO:Checking environment
+2020-10-07 12:13:18,465:INFO:python_version: 3.8.3
+2020-10-07 12:13:18,466:INFO:python_build: ('default', 'Jul  2 2020 17:30:36')
+2020-10-07 12:13:18,467:INFO:machine: AMD64
+2020-10-07 12:13:18,467:INFO:platform: Windows-10-10.0.19041-SP0
+2020-10-07 12:13:18,468:INFO:Memory: svmem(total=12717510656, available=3149160448, percent=75.2, used=9568350208, free=3149160448)
+2020-10-07 12:13:18,469:INFO:Physical Core: 6
+2020-10-07 12:13:18,470:INFO:Logical Core: 12
+2020-10-07 12:13:18,470:INFO:Checking libraries
+2020-10-07 12:13:18,471:INFO:pd==1.1.3
+2020-10-07 12:13:18,479:INFO:numpy==1.18.5
+2020-10-07 12:13:18,480:INFO:gensim==3.8.3
+2020-10-07 12:13:18,480:INFO:spacy==2.3.2
+2020-10-07 12:13:18,481:INFO:nltk==3.5
+2020-10-07 12:13:18,482:INFO:textblob==0.15.3
+2020-10-07 12:13:18,483:INFO:pyLDAvis==2.1.2
+2020-10-07 12:13:18,484:INFO:wordcloud==1.8.0
+2020-10-07 12:13:18,484:INFO:mlflow==1.11.0
+2020-10-07 12:13:18,485:INFO:Checking Exceptions
+2020-10-07 12:13:18,980:INFO:Preloading libraries
+2020-10-07 12:13:18,980:INFO:Preparing display monitor
+2020-10-07 12:13:18,992:INFO:Importing libraries
+2020-10-07 12:13:18,995:INFO:Declaring global variables
+2020-10-07 12:13:18,996:INFO:Input provided : dataframe
+2020-10-07 12:13:19,003:INFO:session_id set to : 7
+2020-10-07 12:13:19,004:INFO:Copying training dataset
+2020-10-07 12:13:19,005:INFO:Importing stopwords from nltk
+2020-10-07 12:13:19,008:INFO:Removing numeric characters from the text
+2020-10-07 12:13:19,020:INFO:Removing special characters from the text
+2020-10-07 12:13:19,033:INFO:Tokenizing Words
+2020-10-07 12:13:19,053:INFO:Removing stopwords
+2020-10-07 12:13:19,067:INFO:Extracting Bigrams
+2020-10-07 12:13:19,116:INFO:Extracting Trigrams
+2020-10-07 12:13:19,210:INFO:Lemmatizing tokens
+2020-10-07 12:13:21,829:INFO:Removing stopwords after lemmatizing
+2020-10-07 12:13:21,841:INFO:Creating corpus and dictionary
+2020-10-07 12:13:21,896:INFO:Compiling processed text
+2020-10-07 12:13:21,897:INFO:Compiling information grid
+2020-10-07 12:13:21,901:INFO:setup() succesfully completed......................................
+2020-10-07 12:13:21,914:INFO:Initializing create_model()
+2020-10-07 12:13:21,915:INFO:create_model(model=lda, multi_core=False, num_topics=None, verbose=True, system=True)
+2020-10-07 12:13:21,917:INFO:Checking exceptions
+2020-10-07 12:13:21,923:INFO:Preloading libraries
+2020-10-07 12:13:21,924:INFO:Preparing display monitor
+2020-10-07 12:13:21,939:INFO:Defining topic model
+2020-10-07 12:13:21,939:INFO:Model: Latent Dirichlet Allocation
+2020-10-07 12:13:21,940:INFO:Defining num_topics parameter
+2020-10-07 12:13:21,940:INFO:num_topics set to: 4
+2020-10-07 12:13:21,943:INFO:LdaModel imported successfully
+2020-10-07 12:13:24,121:INFO:LdaModel trained successfully
+2020-10-07 12:13:24,122:INFO:LdaModel(num_terms=376, num_topics=4, decay=0.5, chunksize=100)
+2020-10-07 12:13:24,122:INFO:create_model() succesfully completed......................................
+2020-10-07 12:13:24,123:INFO:Initializing assign_model()
+2020-10-07 12:13:24,123:INFO:assign_model(model=LdaModel(num_terms=376, num_topics=4, decay=0.5, chunksize=100), verbose=True)
+2020-10-07 12:13:24,124:INFO:Determining model type
+2020-10-07 12:13:24,124:INFO:model type: lda
+2020-10-07 12:13:24,124:INFO:Checking exceptions
+2020-10-07 12:13:24,124:INFO:Preloading libraries
+2020-10-07 12:13:24,124:INFO:Preparing display monitor
+2020-10-07 12:13:24,328:INFO:(1423, 10)
+2020-10-07 12:13:24,328:INFO:assign_model() succesfully completed......................................
+2020-10-07 12:16:19,850:INFO:PyCaret NLP Module
+2020-10-07 12:16:19,851:INFO:version 2.1.2
+2020-10-07 12:16:19,854:INFO:Initializing setup()
+2020-10-07 12:16:19,854:INFO:USI: 738b
+2020-10-07 12:16:19,854:INFO:setup(data=(1423, 4), target=name, custom_stopwords=['project', 'proyecto'], html=True, session_id=7, log_experiment=False,
+                    experiment_name=None, log_plots=False, log_data=False, verbose=True)
+2020-10-07 12:16:19,854:INFO:Checking environment
+2020-10-07 12:16:19,855:INFO:python_version: 3.8.3
+2020-10-07 12:16:19,855:INFO:python_build: ('default', 'Jul  2 2020 17:30:36')
+2020-10-07 12:16:19,855:INFO:machine: AMD64
+2020-10-07 12:16:19,855:INFO:platform: Windows-10-10.0.19041-SP0
+2020-10-07 12:16:19,855:INFO:Memory: svmem(total=12717510656, available=3457183744, percent=72.8, used=9260326912, free=3457183744)
+2020-10-07 12:16:19,856:INFO:Physical Core: 6
+2020-10-07 12:16:19,856:INFO:Logical Core: 12
+2020-10-07 12:16:19,856:INFO:Checking libraries
+2020-10-07 12:16:19,856:INFO:pd==1.1.3
+2020-10-07 12:16:19,857:INFO:numpy==1.18.5
+2020-10-07 12:16:19,857:INFO:gensim==3.8.3
+2020-10-07 12:16:19,857:INFO:spacy==2.3.2
+2020-10-07 12:16:19,857:INFO:nltk==3.5
+2020-10-07 12:16:19,857:INFO:textblob==0.15.3
+2020-10-07 12:16:19,857:INFO:pyLDAvis==2.1.2
+2020-10-07 12:16:19,857:INFO:wordcloud==1.8.0
+2020-10-07 12:16:19,858:INFO:mlflow==1.11.0
+2020-10-07 12:16:19,858:INFO:Checking Exceptions
+2020-10-07 12:16:20,349:INFO:Preloading libraries
+2020-10-07 12:16:20,349:INFO:Preparing display monitor
+2020-10-07 12:16:20,356:INFO:Importing libraries
+2020-10-07 12:16:20,357:INFO:Declaring global variables
+2020-10-07 12:16:20,357:INFO:Input provided : dataframe
+2020-10-07 12:16:20,357:INFO:session_id set to : 7
+2020-10-07 12:16:20,357:INFO:Copying training dataset
+2020-10-07 12:16:20,358:INFO:Importing stopwords from nltk
+2020-10-07 12:16:20,359:INFO:Removing numeric characters from the text
+2020-10-07 12:16:20,363:INFO:Removing special characters from the text
+2020-10-07 12:16:20,376:INFO:Tokenizing Words
+2020-10-07 12:16:20,396:INFO:Removing stopwords
+2020-10-07 12:16:20,410:INFO:Extracting Bigrams
+2020-10-07 12:16:20,451:INFO:Extracting Trigrams
+2020-10-07 12:16:20,525:INFO:Lemmatizing tokens
+2020-10-07 12:16:23,118:INFO:Removing stopwords after lemmatizing
+2020-10-07 12:16:23,124:INFO:Creating corpus and dictionary
+2020-10-07 12:16:23,135:INFO:Compiling processed text
+2020-10-07 12:16:23,146:INFO:Compiling information grid
+2020-10-07 12:16:23,148:INFO:setup() succesfully completed......................................
+2020-10-07 12:16:23,160:INFO:Initializing create_model()
+2020-10-07 12:16:23,160:INFO:create_model(model=lda, multi_core=False, num_topics=None, verbose=True, system=True)
+2020-10-07 12:16:23,160:INFO:Checking exceptions
+2020-10-07 12:16:23,161:INFO:Preloading libraries
+2020-10-07 12:16:23,161:INFO:Preparing display monitor
+2020-10-07 12:16:23,169:INFO:Defining topic model
+2020-10-07 12:16:23,169:INFO:Model: Latent Dirichlet Allocation
+2020-10-07 12:16:23,169:INFO:Defining num_topics parameter
+2020-10-07 12:16:23,169:INFO:num_topics set to: 4
+2020-10-07 12:16:23,171:INFO:LdaModel imported successfully
+2020-10-07 12:16:24,822:INFO:LdaModel trained successfully
+2020-10-07 12:16:24,823:INFO:LdaModel(num_terms=376, num_topics=4, decay=0.5, chunksize=100)
+2020-10-07 12:16:24,823:INFO:create_model() succesfully completed......................................
+2020-10-07 12:16:24,823:INFO:Initializing assign_model()
+2020-10-07 12:16:24,827:INFO:assign_model(model=LdaModel(num_terms=376, num_topics=4, decay=0.5, chunksize=100), verbose=True)
+2020-10-07 12:16:24,827:INFO:Determining model type
+2020-10-07 12:16:24,827:INFO:model type: lda
+2020-10-07 12:16:24,828:INFO:Checking exceptions
+2020-10-07 12:16:24,828:INFO:Preloading libraries
+2020-10-07 12:16:24,828:INFO:Preparing display monitor
+2020-10-07 12:16:25,024:INFO:(1423, 10)
+2020-10-07 12:16:25,024:INFO:assign_model() succesfully completed......................................
+2020-10-07 12:16:46,423:INFO:PyCaret NLP Module
+2020-10-07 12:16:46,424:INFO:version 2.1.2
+2020-10-07 12:16:46,425:INFO:Initializing setup()
+2020-10-07 12:16:46,425:INFO:USI: 3e3d
+2020-10-07 12:16:46,425:INFO:setup(data=(1423, 4), target=name, custom_stopwords=['project', 'proyecto'], html=True, session_id=7, log_experiment=False,
+                    experiment_name=None, log_plots=False, log_data=False, verbose=True)
+2020-10-07 12:16:46,425:INFO:Checking environment
+2020-10-07 12:16:46,426:INFO:python_version: 3.8.3
+2020-10-07 12:16:46,426:INFO:python_build: ('default', 'Jul  2 2020 17:30:36')
+2020-10-07 12:16:46,426:INFO:machine: AMD64
+2020-10-07 12:16:46,426:INFO:platform: Windows-10-10.0.19041-SP0
+2020-10-07 12:16:46,427:INFO:Memory: svmem(total=12717510656, available=3423293440, percent=73.1, used=9294217216, free=3423293440)
+2020-10-07 12:16:46,427:INFO:Physical Core: 6
+2020-10-07 12:16:46,427:INFO:Logical Core: 12
+2020-10-07 12:16:46,428:INFO:Checking libraries
+2020-10-07 12:16:46,428:INFO:pd==1.1.3
+2020-10-07 12:16:46,428:INFO:numpy==1.18.5
+2020-10-07 12:16:46,428:INFO:gensim==3.8.3
+2020-10-07 12:16:46,428:INFO:spacy==2.3.2
+2020-10-07 12:16:46,429:INFO:nltk==3.5
+2020-10-07 12:16:46,429:INFO:textblob==0.15.3
+2020-10-07 12:16:46,429:INFO:pyLDAvis==2.1.2
+2020-10-07 12:16:46,429:INFO:wordcloud==1.8.0
+2020-10-07 12:16:46,429:INFO:mlflow==1.11.0
+2020-10-07 12:16:46,429:INFO:Checking Exceptions
+2020-10-07 12:16:46,980:INFO:Preloading libraries
+2020-10-07 12:16:46,980:INFO:Preparing display monitor
+2020-10-07 12:16:46,989:INFO:Importing libraries
+2020-10-07 12:16:46,989:INFO:Declaring global variables
+2020-10-07 12:16:46,990:INFO:Input provided : dataframe
+2020-10-07 12:16:46,990:INFO:session_id set to : 7
+2020-10-07 12:16:46,990:INFO:Copying training dataset
+2020-10-07 12:16:46,990:INFO:Importing stopwords from nltk
+2020-10-07 12:16:46,993:INFO:Removing numeric characters from the text
+2020-10-07 12:16:47,006:INFO:Removing special characters from the text
+2020-10-07 12:16:47,019:INFO:Tokenizing Words
+2020-10-07 12:16:47,040:INFO:Removing stopwords
+2020-10-07 12:16:47,054:INFO:Extracting Bigrams
+2020-10-07 12:16:47,101:INFO:Extracting Trigrams
+2020-10-07 12:16:47,188:INFO:Lemmatizing tokens
+2020-10-07 12:16:50,105:INFO:Removing stopwords after lemmatizing
+2020-10-07 12:16:50,110:INFO:Creating corpus and dictionary
+2020-10-07 12:16:50,125:INFO:Compiling processed text
+2020-10-07 12:16:50,126:INFO:Compiling information grid
+2020-10-07 12:16:50,130:INFO:setup() succesfully completed......................................
+2020-10-07 12:16:50,141:INFO:Initializing create_model()
+2020-10-07 12:16:50,141:INFO:create_model(model=lda, multi_core=False, num_topics=None, verbose=True, system=True)
+2020-10-07 12:16:50,141:INFO:Checking exceptions
+2020-10-07 12:16:50,141:INFO:Preloading libraries
+2020-10-07 12:16:50,142:INFO:Preparing display monitor
+2020-10-07 12:16:50,150:INFO:Defining topic model
+2020-10-07 12:16:50,151:INFO:Model: Latent Dirichlet Allocation
+2020-10-07 12:16:50,151:INFO:Defining num_topics parameter
+2020-10-07 12:16:50,152:INFO:num_topics set to: 4
+2020-10-07 12:16:50,153:INFO:LdaModel imported successfully
+2020-10-07 12:16:51,895:INFO:LdaModel trained successfully
+2020-10-07 12:16:51,896:INFO:LdaModel(num_terms=376, num_topics=4, decay=0.5, chunksize=100)
+2020-10-07 12:16:51,896:INFO:create_model() succesfully completed......................................
+2020-10-07 12:16:51,897:INFO:Initializing assign_model()
+2020-10-07 12:16:51,898:INFO:assign_model(model=LdaModel(num_terms=376, num_topics=4, decay=0.5, chunksize=100), verbose=True)
+2020-10-07 12:16:51,898:INFO:Determining model type
+2020-10-07 12:16:51,898:INFO:model type: lda
+2020-10-07 12:16:51,898:INFO:Checking exceptions
+2020-10-07 12:16:51,898:INFO:Preloading libraries
+2020-10-07 12:16:51,898:INFO:Preparing display monitor
+2020-10-07 12:16:52,092:INFO:(1423, 10)
+2020-10-07 12:16:52,092:INFO:assign_model() succesfully completed......................................
+2020-10-07 13:19:37,402:INFO:PyCaret NLP Module
+2020-10-07 13:19:37,402:INFO:version 2.1.2
+2020-10-07 13:19:37,408:INFO:Initializing setup()
+2020-10-07 13:19:37,409:INFO:USI: 4439
+2020-10-07 13:19:37,409:INFO:setup(data=(1423, 4), target=name, custom_stopwords=['project', 'proyecto'], html=True, session_id=7, log_experiment=False,
+                    experiment_name=None, log_plots=False, log_data=False, verbose=True)
+2020-10-07 13:19:37,410:INFO:Checking environment
+2020-10-07 13:19:37,412:INFO:python_version: 3.8.3
+2020-10-07 13:19:37,412:INFO:python_build: ('default', 'Jul  2 2020 17:30:36')
+2020-10-07 13:19:37,412:INFO:machine: AMD64
+2020-10-07 13:19:37,413:INFO:platform: Windows-10-10.0.19041-SP0
+2020-10-07 13:19:37,413:INFO:Memory: svmem(total=12717510656, available=3088449536, percent=75.7, used=9629061120, free=3088449536)
+2020-10-07 13:19:37,413:INFO:Physical Core: 6
+2020-10-07 13:19:37,414:INFO:Logical Core: 12
+2020-10-07 13:19:37,414:INFO:Checking libraries
+2020-10-07 13:19:37,414:INFO:pd==1.1.3
+2020-10-07 13:19:37,414:INFO:numpy==1.18.5
+2020-10-07 13:19:37,414:INFO:gensim==3.8.3
+2020-10-07 13:19:37,415:INFO:spacy==2.3.2
+2020-10-07 13:19:37,415:INFO:nltk==3.5
+2020-10-07 13:19:37,415:INFO:textblob==0.15.3
+2020-10-07 13:19:37,415:INFO:pyLDAvis==2.1.2
+2020-10-07 13:19:37,416:INFO:wordcloud==1.8.0
+2020-10-07 13:19:37,416:INFO:mlflow==1.11.0
+2020-10-07 13:19:37,416:INFO:Checking Exceptions
+2020-10-07 13:19:37,850:INFO:Preloading libraries
+2020-10-07 13:19:37,851:INFO:Preparing display monitor
+2020-10-07 13:19:37,858:INFO:Importing libraries
+2020-10-07 13:19:37,858:INFO:Declaring global variables
+2020-10-07 13:19:37,858:INFO:Input provided : dataframe
+2020-10-07 13:19:37,859:INFO:session_id set to : 7
+2020-10-07 13:19:37,859:INFO:Copying training dataset
+2020-10-07 13:19:37,859:INFO:Importing stopwords from nltk
+2020-10-07 13:19:38,402:INFO:Removing numeric characters from the text
+2020-10-07 13:19:38,409:INFO:Removing special characters from the text
+2020-10-07 13:19:38,427:INFO:Tokenizing Words
+2020-10-07 13:19:38,448:INFO:Removing stopwords
+2020-10-07 13:19:38,466:INFO:Extracting Bigrams
+2020-10-07 13:19:38,515:INFO:Extracting Trigrams
+2020-10-07 13:19:38,599:INFO:Lemmatizing tokens
+2020-10-07 13:19:41,366:INFO:Removing stopwords after lemmatizing
+2020-10-07 13:19:41,371:INFO:Creating corpus and dictionary
+2020-10-07 13:19:41,382:INFO:Compiling processed text
+2020-10-07 13:19:41,383:INFO:Compiling information grid
+2020-10-07 13:19:41,385:INFO:setup() succesfully completed......................................
+2020-10-07 13:19:41,399:INFO:Initializing create_model()
+2020-10-07 13:19:41,400:INFO:create_model(model=lda, multi_core=False, num_topics=None, verbose=True, system=True)
+2020-10-07 13:19:41,400:INFO:Checking exceptions
+2020-10-07 13:19:41,400:INFO:Preloading libraries
+2020-10-07 13:19:41,400:INFO:Preparing display monitor
+2020-10-07 13:19:41,408:INFO:Defining topic model
+2020-10-07 13:19:41,408:INFO:Model: Latent Dirichlet Allocation
+2020-10-07 13:19:41,408:INFO:Defining num_topics parameter
+2020-10-07 13:19:41,408:INFO:num_topics set to: 4
+2020-10-07 13:19:41,410:INFO:LdaModel imported successfully
+2020-10-07 13:19:43,073:INFO:LdaModel trained successfully
+2020-10-07 13:19:43,074:INFO:LdaModel(num_terms=376, num_topics=4, decay=0.5, chunksize=100)
+2020-10-07 13:19:43,074:INFO:create_model() succesfully completed......................................
+2020-10-07 13:19:43,075:INFO:Initializing assign_model()
+2020-10-07 13:19:43,075:INFO:assign_model(model=LdaModel(num_terms=376, num_topics=4, decay=0.5, chunksize=100), verbose=True)
+2020-10-07 13:19:43,075:INFO:Determining model type
+2020-10-07 13:19:43,075:INFO:model type: lda
+2020-10-07 13:19:43,075:INFO:Checking exceptions
+2020-10-07 13:19:43,076:INFO:Preloading libraries
+2020-10-07 13:19:43,076:INFO:Preparing display monitor
+2020-10-07 13:19:43,270:INFO:(1423, 10)
+2020-10-07 13:19:43,270:INFO:assign_model() succesfully completed......................................
