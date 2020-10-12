@@ -8,7 +8,7 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 # Global dataset
 df = pd.read_csv('final_df.csv')
 
-@st.cache
+@st.cache(suppress_st_warning=True)
 def predict(input_df):
   """ 
     Method to predict if estimation will be add in a project 
@@ -25,7 +25,7 @@ def predict(input_df):
   
   return predictions_df['Label'][0], predictions_df['Score'][0]
 
-@st.cache
+@st.cache(suppress_st_warning=True)
 def transform_data(name, hours):
   """ 
     Method to build a new input_df with NLP table included into dataframe.
@@ -59,7 +59,7 @@ def run():
   hide_footer_style = """
     <style>
     .reportview-container .main footer {visibility: hidden;}
-    #MainMenuButton {visibility: hidden;}    
+    #MainMenu {visibility: hidden;}    
   """
   st.markdown(hide_footer_style, unsafe_allow_html=True)
 
