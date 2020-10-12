@@ -2,9 +2,13 @@
 import streamlit as st
 import pandas as pd
 import numpy as np
+import joblib
+from sklearn.feature_extraction.text import TfidfVectorizer
 
-df_master = pd.read_csv('final_df.csv')
+# Global dataset
+df = pd.read_csv('final_df.csv')
 
+@st.cache
 def predict(input_df):
   """ 
     Method to predict if estimation will be add in a project 
@@ -14,29 +18,38 @@ def predict(input_df):
   from pycaret.classification import load_model, predict_model
  
   # Charge model
-  model = load_model('lightgbm_model_pmo_v1') 
-
+  model = load_model('et_model_pmo_v1') 
+  
   # Predict
   predictions_df = predict_model(estimator=model, data=input_df)
   
   return predictions_df['Label'][0], predictions_df['Score'][0]
 
-def get_NLP_table(input_df):
+@st.cache
+def transform_data(name, hours):
   """ 
     Method to build a new input_df with NLP table included into dataframe.
   """
-  # Import library
-  from pycaret.nlp import setup, create_model, assign_model
-  #intialize the setup
-  exp_nlp = setup(data = input_df, target = 'name', session_id=7,  custom_stopwords = ['project', 'proyecto'])
-  # create a lda model
-  lda = create_model('lda')
-  # label the data using trained model
-  lda_df = assign_model(lda)
-  lda_df = lda_df.drop(['Dominant_Topic','Perc_Dominant_Topic','name','is_used'], axis=1)
-  st.write(""" ### Processed Table:""")
-  st.dataframe(lda_df.tail(1))
-  return lda_df.tail(1)
+  # Import 
+  from sklearn.feature_extraction.text import TfidfVectorizer
+
+  ## Add new line 
+  new_row = {'name': name, 'hours': hours}
+  df_proc = df.append(new_row, ignore_index=True)
+  
+  # Embedding name
+  vectorizer_name = TfidfVectorizer()
+  data_name = vectorizer_name.fit_transform(df_proc.name)
+  tfidf_tokens_name = vectorizer_name.get_feature_names()
+  result_df = pd.DataFrame(data = data_name.toarray(),columns = tfidf_tokens_name)
+  result_df = result_df.tail(1)
+
+  # Adding hours
+  result_df['hours'] = df_proc.tail(1).hours
+
+  # Reset index
+  result_df = result_df.reset_index()
+  return result_df
 
 def run():
   """ 
@@ -76,37 +89,22 @@ def run():
 
     name = st.text_input("Name item:")
     hours = st.number_input('Hours:', min_value=1, max_value=400, value=8)
-    bucket = st.selectbox('Bucket:', ['AI', 'API', 'Admin Site', 'Android', 'Architech', 'Backend',
-       'Devops', 'Feedback', 'Fullstack web app', 'Hybrid App',
-       'Informative Website', 'PM', 'QA', 'SPA', 'Software Development',
-       'iOS'])
     
     # Output text
     output=""
     
-     # Build dataframe
-    input_dict = {'name': name, 'hours': hours, 'bucket' : bucket}
-    input_df = pd.DataFrame([input_dict])
-    final_df = df_master.append(input_df, ignore_index = True)
-    # Show table
-    st.write(""" ### Output Table:""")
-    st.dataframe(input_df)
-
     # Make prediction
     if st.button("Predict"):
 
       # Get table with NLP
-      df = get_NLP_table(final_df)
+      input_df = transform_data(name, hours)
+    
+      output, value = predict(input_df=input_df)
 
-      df.reset_index(drop=True, inplace=True)
+      # Show output
+      if  output != "":  
+        st.success('La predicción es {} con un valor de {}'.format(output,value))
 
-      output, value = predict(input_df=df)
-      output = str(output)
-      
-      #st.dataframe(df)
-    # Show output
-    if  output != "":  
-      st.success('La predicción es {} con un valor de {}'.format(output,value))
   else:
     # ===========================
     # Graph Section
