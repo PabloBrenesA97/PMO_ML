@@ -8,24 +8,25 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 # Global dataset
 df = pd.read_csv('final_df.csv')
 
-@st.cache(suppress_st_warning=True)
 def predict(input_df):
   """ 
     Method to predict if estimation will be add in a project 
     returns prediction value
   """
-  # Import library
-  from pycaret.classification import load_model, predict_model
- 
-  # Charge model
-  model = load_model('et_model_pmo_v1') 
+  # Show Spinner
+  with st.spinner('⏳ Pensando...'):
+    # Import library
+    from pycaret.classification import load_model, predict_model
   
-  # Predict
-  predictions_df = predict_model(estimator=model, data=input_df)
-  
-  return predictions_df['Label'][0], predictions_df['Score'][0]
+    # Charge model
+    model = load_model('et_model_pmo_v1') 
+    
+    # Predict
+    predictions_df = predict_model(estimator=model, data=input_df)
 
-@st.cache(suppress_st_warning=True)
+    return predictions_df['Label'][0], predictions_df['Score'][0]
+  
+
 def transform_data(name, hours):
   """ 
     Method to build a new input_df with NLP table included into dataframe.
@@ -68,42 +69,51 @@ def run():
   # ===========================
   
   # Title
-  st.sidebar.markdown("<h1 style='text-align: center;'>Menu</h1>", unsafe_allow_html=True)
+  st.sidebar.markdown("<h1 style='text-align: center;'>Menú</h1>", unsafe_allow_html=True)
 
   # Menu option
   menu_selectbox = st.sidebar.selectbox(
-    "Choose an option: ",
-    ("Predict", "Graphs"))
+    "Elija una opción: ",
+    ("Predicción", "Gráficos"))
 
-  if menu_selectbox == "Predict":
+  if menu_selectbox == "Predicción":
     # ===========================
     # Predict Section
     # ===========================
     st.write(""" 
-      # Predict estimation item - PMO
+      # Predicción del ítem del estimador - PMO
 
-      Show prediction if **estimation** would be used in a project using ***description, hours, and bucket***.
+        Muestra la predicción sí **el ítem del estimador** va a ser usado en un proyecto usando las variables ***descripción y horas***.
       
-      ## Complete the inputs to make a prediction:
+      ## Complete los siguientes entradas para realizar la predicción:
     """)
 
-    name = st.text_input("Name item:")
-    hours = st.number_input('Hours:', min_value=1, max_value=400, value=8)
+    name = st.text_input("Nombre del ítem:")
+    hours = st.number_input('Horas:', min_value=1, max_value=400, value=8)
     
     # Output text
     output=""
     
     # Make prediction
-    if st.button("Predict"):
+    if st.button("Predecir"):
+      
+      if name == "" or str(hours) == "":
+        # Show alert white spaces
+        #TODO: 
+        st.error('No pueden haber espacios en blanco!')
+      else:
+        # Get table with NLP
+        input_df = transform_data(name, hours)
+      
+        output_prediction, value = predict(input_df=input_df)
 
-      # Get table with NLP
-      input_df = transform_data(name, hours)
-    
-      output, value = predict(input_df=input_df)
+        if output_prediction == '0':
+          output_prediction = '(no se utilizará)'
+        else:
+          output_prediction = '(se utilizará)'
 
-      # Show output
-      if  output != "":  
-        st.success('La predicción es {} con un valor de {}'.format(output,value))
+        # Show output
+        st.success('La predicción es {} con un valor de {}'.format(output_prediction,value))
 
   else:
     # ===========================
