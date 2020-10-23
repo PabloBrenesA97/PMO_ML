@@ -5,7 +5,8 @@ import numpy as np
 import joblib
 from sklearn.feature_extraction.text import TfidfVectorizer
 import time
-
+from wordcloud import WordCloud
+import matplotlib.pyplot as plt
 # Global dataset
 df = pd.read_csv('final_df.csv')
 
@@ -45,10 +46,7 @@ def transform_data(name, hours):
   df_proc = df.append(new_row, ignore_index=True)
   
   # Embedding name
-  vectorizer_name = TfidfVectorizer()
-  data_name = vectorizer_name.fit_transform(df_proc.name)
-  tfidf_tokens_name = vectorizer_name.get_feature_names()
-  result_df = pd.DataFrame(data = data_name.toarray(),columns = tfidf_tokens_name)
+  result_df = vectorizer(df)
   result_df = result_df.tail(1)
 
   # Adding hours
@@ -58,6 +56,31 @@ def transform_data(name, hours):
   result_df = result_df.reset_index()
   return result_df
 
+def vectorizer(df):
+  """ 
+    Method that return dataframe vectorized
+  """
+  vectorizer_name = TfidfVectorizer()
+  data_name = vectorizer_name.fit_transform(df.name)
+  tfidf_tokens_name = vectorizer_name.get_feature_names()
+  result_df = pd.DataFrame(data = data_name.toarray(),columns = tfidf_tokens_name)
+  return result_df
+
+def word_cloud_visualization():
+  """ Visualization of word cloud"""
+  # Embedded
+  result_df = vectorizer(df)
+  # Create wordCloud
+  Cloud = WordCloud( background_color="white",
+    max_words=2000,
+    width = 1024,
+    height = 720,).generate_from_frequencies(result_df.T.sum(axis=1))
+  # Plot
+  fig, ax = plt.subplots()
+  plt.imshow(Cloud)
+  plt.axis('off')
+  st.pyplot(fig)
+  
 def run():
   """ 
     Streamlit app
@@ -74,7 +97,7 @@ def run():
   # Sidebar
   # ===========================
   
-  # Title
+  # Title Menu
   st.sidebar.markdown("<h1 style='text-align: center;'>Menú</h1>", unsafe_allow_html=True)
 
   # Menu option
@@ -125,10 +148,20 @@ def run():
     # ===========================
     # Graph Section
     # ===========================
-    st.write("""
-    ## In progress ...
-    ![alt text](https://i.gifer.com/3jnq.gif "Working ...")
+    # Title graph
+    st.write(""" 
+      # Módulo Analítico - Gráficos
+        Muestra gráficos analíticos los cuales revelan ciertos patrones ocultos en los datos.
     """)
+    # Menu graphs options
+    menu_graphs_selectbox = st.selectbox(
+      "Elija la visualización: ",
+      ("Word Cloud", "X"))
+    # Option word cloud
+    if menu_graphs_selectbox == "Word Cloud":
+      # Show Spinner
+      with st.spinner('⏳ Creando...'):
+        word_cloud_visualization()
 
 if __name__ == '__main__':
   run()
