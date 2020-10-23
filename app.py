@@ -60,11 +60,22 @@ def vectorizer(df):
   """ 
     Method that return dataframe vectorized
   """
-  vectorizer_name = TfidfVectorizer()
+  vectorizer_name = TfidfVectorizer(stop_words=['de','el','del','por','para','la','en','con','las','can','to'])
   data_name = vectorizer_name.fit_transform(df.name)
   tfidf_tokens_name = vectorizer_name.get_feature_names()
   result_df = pd.DataFrame(data = data_name.toarray(),columns = tfidf_tokens_name)
   return result_df
+
+def top_50_words():
+  """ Visualization of top 50 words"""
+  result_df = vectorizer(df)
+  df_freq = result_df.T.sum(axis=1)
+  y_pos = np.arange(50)
+  fig, ax = plt.subplots()
+  plt.bar(y_pos, df_freq.sort_values(ascending=False)[:50], align='center', alpha=0.5)
+  plt.xticks(y_pos, df_freq.sort_values(ascending=False)[:50].index,rotation='vertical',fontsize=7)
+  plt.ylabel('Frecuencia')
+  st.pyplot(fig)
 
 def word_cloud_visualization():
   """ Visualization of word cloud"""
@@ -156,12 +167,14 @@ def run():
     # Menu graphs options
     menu_graphs_selectbox = st.selectbox(
       "Elija la visualización: ",
-      ("Word Cloud", "X"))
+      ("Word Cloud", "Top 50 palabras"))
     # Option word cloud
     if menu_graphs_selectbox == "Word Cloud":
       # Show Spinner
       with st.spinner('⏳ Creando...'):
         word_cloud_visualization()
-
+    elif menu_graphs_selectbox == "Top 50 palabras":
+      with st.spinner('⏳ Creando...'):
+        top_50_words()
 if __name__ == '__main__':
   run()
