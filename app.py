@@ -4,6 +4,7 @@ import pandas as pd
 import numpy as np
 import joblib
 from sklearn.feature_extraction.text import TfidfVectorizer
+import time
 
 # Global dataset
 df = pd.read_csv('final_df.csv')
@@ -13,6 +14,8 @@ def predict(input_df):
     Method to predict if estimation will be add in a project 
     returns prediction value
   """
+  # Start timer
+  start_time = time.perf_counter()
   # Show Spinner
   with st.spinner('⏳ Pensando...'):
     # Import library
@@ -23,6 +26,9 @@ def predict(input_df):
     
     # Predict
     predictions_df = predict_model(estimator=model, data=input_df)
+    
+    # Print timer
+    st.info('Tiempo estimado de predicción: %.3fs' % (time.perf_counter() - start_time))
 
     return predictions_df['Label'][0], predictions_df['Score'][0]
   
