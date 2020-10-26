@@ -2,12 +2,12 @@
 import streamlit as st
 import pandas as pd
 import numpy as np
-import joblib
 from sklearn.feature_extraction.text import TfidfVectorizer
 import time
 from wordcloud import WordCloud
 import matplotlib.pyplot as plt
 from pycaret.classification import load_model, predict_model
+import plotly.express as px
 
 # Charge model
 et_model = load_model('et_model') 
@@ -72,6 +72,11 @@ def top_50_words():
   plt.xticks(y_pos, df_freq.sort_values(ascending=False)[:50].index,rotation='vertical',fontsize=7)
   plt.ylabel('Frecuencia')
   st.pyplot(fig)
+
+def distribution_hours_visualization():
+  """ Visualization of dist hours"""
+  fig = px.violin(df, y="hours", box=True,points='all', title ="Distribución de las horas de los items")
+  st.plotly_chart(fig)
 
 def word_cloud_visualization():
   """ Visualization of word cloud"""
@@ -163,7 +168,7 @@ def run():
     # Menu graphs options
     menu_graphs_selectbox = st.selectbox(
       "Elija la visualización: ",
-      ("Word Cloud", "Top 50 palabras"))
+      ("Word Cloud", "Top 50 palabras","Distribución de horas"))
     # Option word cloud
     if menu_graphs_selectbox == "Word Cloud":
       # Show Spinner
@@ -172,5 +177,8 @@ def run():
     elif menu_graphs_selectbox == "Top 50 palabras":
       with st.spinner('⏳ Creando...'):
         top_50_words()
+    elif menu_graphs_selectbox == "Distribución de horas":
+      with st.spinner('⏳ Creando...'):
+        distribution_hours_visualization()
 if __name__ == '__main__':
   run()

@@ -2,3 +2,6 @@ pandas
 numpy
 streamlit
 pycaret
+plotly
+sklearn
+wordcloud
