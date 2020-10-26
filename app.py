@@ -7,6 +7,10 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 import time
 from wordcloud import WordCloud
 import matplotlib.pyplot as plt
+from pycaret.classification import load_model, predict_model
+
+# Charge model
+et_model = load_model('et_model') 
 # Global dataset
 df = pd.read_csv('final_df.csv')
 
@@ -19,14 +23,8 @@ def predict(input_df):
   start_time = time.perf_counter()
   # Show Spinner
   with st.spinner('⏳ Pensando...'):
-    # Import library
-    from pycaret.classification import load_model, predict_model
-  
-    # Charge model
-    model = load_model('et_model_pmo_v1') 
-    
     # Predict
-    predictions_df = predict_model(estimator=model, data=input_df)
+    predictions_df = predict_model(estimator=et_model, data=input_df)
     
     # Print timer
     st.info('Tiempo estimado de predicción: %.3fs' % (time.perf_counter() - start_time))
@@ -38,15 +36,13 @@ def transform_data(name, hours):
   """ 
     Method to build a new input_df with NLP table included into dataframe.
   """
-  # Import 
-  from sklearn.feature_extraction.text import TfidfVectorizer
 
   ## Add new line 
   new_row = {'name': name, 'hours': hours}
   df_proc = df.append(new_row, ignore_index=True)
   
   # Embedding name
-  result_df = vectorizer(df)
+  result_df = vectorizer(df_proc)
   result_df = result_df.tail(1)
 
   # Adding hours
@@ -60,7 +56,7 @@ def vectorizer(df):
   """ 
     Method that return dataframe vectorized
   """
-  vectorizer_name = TfidfVectorizer(stop_words=['de','el','del','por','para','la','en','con','las','can','to'])
+  vectorizer_name = TfidfVectorizer()
   data_name = vectorizer_name.fit_transform(df.name)
   tfidf_tokens_name = vectorizer_name.get_feature_names()
   result_df = pd.DataFrame(data = data_name.toarray(),columns = tfidf_tokens_name)
@@ -146,14 +142,14 @@ def run():
         input_df = transform_data(name, hours)
       
         output_prediction, value = predict(input_df=input_df)
-
+        output_prediction_text = ''
         if output_prediction == '0':
-          output_prediction = '(no se utilizará)'
+          output_prediction_text = '(no se utilizará)'
         else:
-          output_prediction = '(se utilizará)'
+          output_prediction_text = '(se utilizará)'
 
         # Show output
-        st.success('La predicción es {} con un valor de {}'.format(output_prediction,value))
+        st.success('La predicción es {} {} con un valor de {}'.format(output_prediction,output_prediction_text,value))
 
   else:
     # ===========================
