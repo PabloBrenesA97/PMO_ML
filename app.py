@@ -8,7 +8,7 @@ from wordcloud import WordCloud
 import matplotlib.pyplot as plt
 from pycaret.classification import load_model, predict_model
 import plotly.express as px
-
+from PIL import Image
 # Charge model
 et_model = load_model('et_model') 
 # Global dataset
@@ -28,11 +28,13 @@ def predict(input_df):
     
     # Print timer
     st.info('Tiempo estimado de predicción: %.3fs' % (time.perf_counter() - start_time))
-
-    return predictions_df['Label'][0], predictions_df['Score'][0]
+    if predictions_df.shape[0] > 1:
+      return predictions_df['Label'], predictions_df['Score']
+    else:
+      return predictions_df['Label'][0], predictions_df['Score'][0]
   
 
-def transform_data(name, hours):
+def transform_data_online(name, hours):
   """ 
     Method to build a new input_df with NLP table included into dataframe.
   """
@@ -47,6 +49,25 @@ def transform_data(name, hours):
 
   # Adding hours
   result_df['hours'] = df_proc.tail(1).hours
+
+  # Reset index
+  result_df = result_df.reset_index()
+  return result_df
+
+def transform_data_batch(input_df):
+  """ 
+    Method to build a new input_df with NLP table included into dataframe.
+  """
+  input_rows = input_df.shape[0]
+  ## Add df into origin
+  df_proc = df.append(input_df, ignore_index=True)
+  
+  # Embedding name
+  result_df = vectorizer(df_proc)
+  result_df = result_df.tail(input_rows)
+
+  # Adding hours
+  result_df['hours'] = df_proc.tail(input_rows).hours
 
   # Reset index
   result_df = result_df.reset_index()
@@ -92,7 +113,12 @@ def word_cloud_visualization():
   plt.imshow(Cloud)
   plt.axis('off')
   st.pyplot(fig)
-  
+
+def show_image(src, title = None):
+  """ Show image using a src """
+  image = Image.open(src)
+  st.image(image, caption= title, use_column_width=True)
+
 def run():
   """ 
     Streamlit app
@@ -128,33 +154,48 @@ def run():
       
       ## Complete los siguientes entradas para realizar la predicción:
     """)
-
-    name = st.text_input("Nombre del ítem:")
-    hours = st.number_input('Horas:', min_value=1, max_value=400, value=8)
-    
-    # Output text
-    output=""
-    
-    # Make prediction
-    if st.button("Predecir"):
+      # Menu option
+    menu_selectbox_prediction = st.selectbox(
+    "Tipo de predicción: ",
+    ("Online", "Batch"))
+    if menu_selectbox_prediction == "Online":
+      name = st.text_input("Nombre del ítem:")
+      hours = st.number_input('Horas:', min_value=1, max_value=400, value=8)
       
-      if name == "" or str(hours) == "":
-        # Show alert white spaces
-        #TODO: 
-        st.error('No pueden haber espacios en blanco!')
-      else:
-        # Get table with NLP
-        input_df = transform_data(name, hours)
+      # Output text
+      output=""
       
-        output_prediction, value = predict(input_df=input_df)
-        output_prediction_text = ''
-        if output_prediction == '0':
-          output_prediction_text = '(no se utilizará)'
+      # Make prediction
+      if st.button("Predecir"):
+        
+        if name == "" or str(hours) == "":
+          # Show alert white spaces
+          #TODO: 
+          st.error('No pueden haber espacios en blanco!')
         else:
-          output_prediction_text = '(se utilizará)'
+          # Get table with NLP
+          input_df = transform_data_online(name, hours)
+        
+          output_prediction, value = predict(input_df=input_df)
+          output_prediction_text = ''
+          if output_prediction == 0:
+            output_prediction_text = '(no se utilizará)'
+          else:
+            output_prediction_text = '(se utilizará)'
 
-        # Show output
-        st.success('La predicción es {} {} con un valor de {}'.format(output_prediction,output_prediction_text,value))
+          # Show output
+          st.success('La predicción es {} {} con un valor de {}'.format(output_prediction,output_prediction_text,value))
+    else:
+      st.set_option('deprecation.showfileUploaderEncoding', False) 
+      file_upload = st.file_uploader("Cargue el archivo csv para predecir", type=['csv'])
+
+      if st.button("Predecir") and file_upload is not None:
+        data = pd.read_csv(file_upload)
+        input_df = transform_data_batch(data)
+        output_prediction, value = predict(input_df=input_df)
+        data['predicción'] = output_prediction
+        data['score'] = value
+        st.write(data)
 
   else:
     # ===========================
@@ -168,7 +209,7 @@ def run():
     # Menu graphs options
     menu_graphs_selectbox = st.selectbox(
       "Elija la visualización: ",
-      ("Word Cloud", "Top 50 palabras","Distribución de horas"))
+      ("Top 50 palabras", "Word Cloud","Distribución de horas","Importancia de las características"))
     # Option word cloud
     if menu_graphs_selectbox == "Word Cloud":
       # Show Spinner
@@ -180,5 +221,8 @@ def run():
     elif menu_graphs_selectbox == "Distribución de horas":
       with st.spinner('⏳ Creando...'):
         distribution_hours_visualization()
+    elif menu_graphs_selectbox == "Importancia de las características":
+      with st.spinner('⏳ Creando...'):
+        show_image('sources/feature_importance.png')
 if __name__ == '__main__':
   run()
