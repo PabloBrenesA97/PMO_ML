@@ -5,4 +5,3 @@ pycaret
 plotly
 sklearn
 wordcloud
-pycaret-nightly
