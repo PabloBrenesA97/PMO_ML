@@ -9,11 +9,14 @@ import matplotlib.pyplot as plt
 from pycaret.classification import load_model, predict_model
 import plotly.express as px
 from PIL import Image
+import base64
+
 # Charge model
 et_model = load_model('et_model') 
 # Global dataset
 df = pd.read_csv('final_df.csv')
-
+# Template dataset
+df_template = pd.read_csv('sources/default_template.csv')
 def predict(input_df):
   """ 
     Method to predict if estimation will be add in a project 
@@ -119,6 +122,15 @@ def show_image(src, title = None):
   image = Image.open(src)
   st.image(image, caption= title, use_column_width=True)
 
+def get_table_download_link(df):
+    """Generates a link allowing the data in a given panda dataframe to be downloaded
+    in:  dataframe
+    out: href string
+    """
+    csv = df_template.to_csv(index=False)
+    b64 = base64.b64encode(csv.encode()).decode()  # some strings <-> bytes conversions necessary here
+    href = f'<a href="data:file/csv;base64,{b64}" download="default_template.csv">Descargar archivo csv</a>'
+    return href
 def run():
   """ 
     Streamlit app
@@ -154,6 +166,7 @@ def run():
       
       ## Complete los siguientes entradas para realizar la predicción:
     """)
+    
       # Menu option
     menu_selectbox_prediction = st.selectbox(
     "Tipo de predicción: ",
@@ -186,9 +199,19 @@ def run():
           # Show output
           st.success('La predicción es {} {} con un valor de {}'.format(output_prediction,output_prediction_text,value))
     else:
+      
+      # Download csv template
+      show_template = st.checkbox("Mostrar template del CSV")
+      if show_template:
+        st.write("#### Ejemplo del CSV: ")
+        st.write(df_template)
+        st.markdown(get_table_download_link(df), unsafe_allow_html=True)
+
+      # Upload file
       st.set_option('deprecation.showfileUploaderEncoding', False) 
       file_upload = st.file_uploader("Cargue el archivo csv para predecir", type=['csv'])
 
+      # Make Prediction
       if st.button("Predecir") and file_upload is not None:
         data = pd.read_csv(file_upload)
         input_df = transform_data_batch(data)
