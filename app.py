@@ -20,7 +20,7 @@ et_model = load_model('et_model')
 df = pd.read_csv('final_df.csv')
 # Template dataset
 df_template = pd.read_csv('sources/default_template.csv')
-# Agregar los stopwords
+# Add stop words
 stop_words_eng = set(stopwords.words('english')) 
 stop_words_sp = set(stopwords.words('spanish')) 
 final_stop_words = set(list(stop_words_eng) + list(stop_words_sp))
