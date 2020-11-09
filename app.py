@@ -4,12 +4,15 @@ import pandas as pd
 import numpy as np
 from sklearn.feature_extraction.text import TfidfVectorizer
 import time
-from wordcloud import WordCloud
 import matplotlib.pyplot as plt
 from pycaret.classification import load_model, predict_model
 import plotly.express as px
 from PIL import Image
 import base64
+from wordcloud import WordCloud
+import nltk
+from nltk.corpus import stopwords
+nltk.download('stopwords')
 
 # Charge model
 et_model = load_model('et_model') 
@@ -17,6 +20,11 @@ et_model = load_model('et_model')
 df = pd.read_csv('final_df.csv')
 # Template dataset
 df_template = pd.read_csv('sources/default_template.csv')
+# Agregar los stopwords
+stop_words_eng = set(stopwords.words('english')) 
+stop_words_sp = set(stopwords.words('spanish')) 
+final_stop_words = set(list(stop_words_eng) + list(stop_words_sp))
+
 def predict(input_df):
   """ 
     Method to predict if estimation will be add in a project 
@@ -45,14 +53,16 @@ def transform_data_online(name, hours):
   ## Add new line 
   new_row = {'name': name, 'hours': hours}
   df_proc = df.append(new_row, ignore_index=True)
-  
+  df_proc['length'] = df_proc.name.str.len()
+
   # Embedding name
   result_df = vectorizer(df_proc)
   result_df = result_df.tail(1)
 
   # Adding hours
   result_df['hours'] = df_proc.tail(1).hours
-
+  result_df['length'] = df_proc.tail(1).length
+  
   # Reset index
   result_df = result_df.reset_index()
   return result_df
@@ -63,6 +73,7 @@ def transform_data_batch(input_df):
   """
   input_rows = input_df.shape[0]
   ## Add df into origin
+  input_df['length'] = input_df.name.str.len()
   df_proc = df.append(input_df, ignore_index=True)
   
   # Embedding name
@@ -71,6 +82,7 @@ def transform_data_batch(input_df):
 
   # Adding hours
   result_df['hours'] = df_proc.tail(input_rows).hours
+  result_df['length'] = df_proc.tail(input_rows).length
 
   # Reset index
   result_df = result_df.reset_index()
@@ -80,7 +92,7 @@ def vectorizer(df):
   """ 
     Method that return dataframe vectorized
   """
-  vectorizer_name = TfidfVectorizer()
+  vectorizer_name = TfidfVectorizer(stop_words=final_stop_words)
   data_name = vectorizer_name.fit_transform(df.name)
   tfidf_tokens_name = vectorizer_name.get_feature_names()
   result_df = pd.DataFrame(data = data_name.toarray(),columns = tfidf_tokens_name)
@@ -122,14 +134,14 @@ def show_image(src, title = None):
   image = Image.open(src)
   st.image(image, caption= title, use_column_width=True)
 
-def get_table_download_link(df):
+def get_table_download_link(df, title):
     """Generates a link allowing the data in a given panda dataframe to be downloaded
     in:  dataframe
     out: href string
     """
-    csv = df_template.to_csv(index=False)
+    csv = df.to_csv(index=False)
     b64 = base64.b64encode(csv.encode()).decode()  # some strings <-> bytes conversions necessary here
-    href = f'<a href="data:file/csv;base64,{b64}" download="default_template.csv">Descargar archivo csv</a>'
+    href = f'<a href="data:file/csv;base64,{b64}" download="'+title+'.csv">Descargar archivo csv</a>'
     return href
 def run():
   """ 
@@ -205,7 +217,7 @@ def run():
       if show_template:
         st.write("#### Ejemplo del CSV: ")
         st.write(df_template)
-        st.markdown(get_table_download_link(df), unsafe_allow_html=True)
+        st.markdown(get_table_download_link(df_template,'Template'), unsafe_allow_html=True)
 
       # Upload file
       st.set_option('deprecation.showfileUploaderEncoding', False) 
@@ -216,9 +228,13 @@ def run():
         data = pd.read_csv(file_upload)
         input_df = transform_data_batch(data)
         output_prediction, value = predict(input_df=input_df)
-        data['predicción'] = output_prediction
+        data['prediction'] = output_prediction
         data['score'] = value
         st.write(data)
+        # Download result option
+        st.markdown(get_table_download_link(data,'Resultado'), unsafe_allow_html=True)
+        # Reset cache
+        file_upload = None
 
   else:
     # ===========================

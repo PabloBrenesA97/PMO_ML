@@ -1,1423 +1,1423 @@
-name,hours,is_used
-Learning AWS Step Functions,8,1
-Configure workflows,8,1
-Deployment to production,8,1
-PM,2,1
-Pantalla de desbloqueo,8,1
-Verificación de inventario antes de comprar,16,1
-Creación de BD en RDS,8,1
-Funciónes lambda,16,1
-Conexión con funciones lambda,8,1
-Conexión con funciones lambda,8,1
-PM,8,1
-Amazon Elastic Transcoder,8,1
-Lambda function,8,1
-Adjust Video Tag,8,1
-PM,2,1
-Diseño y creacion de la base de datos,8,1
-setup de todo el ambiente de desarrollo,8,1
-Procesado del video y aplicación del modelo de reconocimiento de rostos y emociones,16,1
-Almacenamiento de usuarios desconocidos en lista de desconocidos,8,1
-Entrenamiento del modelo de reconocimiento de rostos,48,1
-Almacenamiento de los resultados obtenidos en la base de datos,16,1
-Creación de un reporte de los resultados obtenidos del análisis del video,24,1
-Creacion del template del sistema de escritorio,16,1
-Mejora y testing del modelo de reconocimiento de rostos,24,1
-Creación de un login,16,1
-Preparación de los datos,8,1
-Integración del modelo de reconocimiento de rostos,16,1
-Cargar video y establecer los parámetros de reconocimiento de rostros deseados,8,1
-PM,21,1
-Rediseño,24,1
-Listado de ordenes,8,1
-Detalle de orden,16,1
-Actualizar estado de orden,8,1
-Rediseño,24,1
-Listado de ordenes,8,1
-Detalle de orden,16,1
-Actualizar estado de orden,8,1
-PM,8,1
-Configuración del proyecto,8,0
-Búsqueda de productos,24,0
-Login con google,16,0
-Perfil del usuario,8,0
-Preparación de orden,32,0
-Mis ordenes,8,0
-Push notifications,32,0
-Multicompañia,16,0
-Deploy a producción,8,0
-Configuración del proyecto,8,0
-Login con Google,8,0
-Perfil del usuario,16,0
-Búsqueda de productos,24,0
-Preparación de orden,32,0
-Push notifications,32,0
-Multicompañia,8,0
-Plantilla html + colores y branding QPOS,16,0
-My location,16,0
-Deploy a producción,8,0
-Mis ordenes,16,0
-Diseño de la arquitectura,24,0
-Base de registro de las organizaciones de desarrollo comunal,16,0
-Georeferencia de las organizaciones de desarrollo comunal,24,0
-¿Cómo afiliarse a la asociación de desarrollo?,8,0
-¿Cómo financiar un proyecto con Dinadeco?,16,0
-Configuración de proyecto,8,0
-Publicación en tienda,16,0
-Sección información básica Dinadeco,16,0
-Programas y servicios,24,0
-Direcciones regionales (georeferenciada y con contactos),24,0
-Integración con mapas,8,0
-Base de registro de las organizaciones de desarrollo comunal,16,0
-Georeferencia de las organizaciones de desarrollo comunal:,24,0
-¿Cómo afiliarse a la asociación de desarrollo?,8,0
-¿Cómo financiar un proyecto con Dinadeco?,16,0
-Configuración de proyecto,8,0
-Publicación en tienda,16,0
-Sección información básica Dinadeco,16,0
-Programas y servicios,24,0
-Direcciones regionales (georeferenciada y con contactos),24,0
-Integración con mapas,8,0
-Georeferencia de las organizaciones de desarrollo comunal,16,0
-¿Cómo afiliarse a la asociación de desarrollo?,8,0
-¿Cómo financiar un proyecto con Dinadeco?,24,0
-Configuración de proyecto,8,0
-Login,8,0
-Registro,8,0
-Deploy a producción,16,0
-Información básica endpoint,8,0
-Programas y servicios endpoint,8,0
-Direcciones regionales (georeferenciada y con contactos) endpoint,8,0
-Base de registro de las organizaciones de desarrollo comunal,40,0
-Base de registro de las organizaciones de desarrollo comunal,32,0
-Mant. Georeferencia de las organizaciones de desarrollo comunal,16,0
-¿Cómo financiar un proyecto con Dinadeco?,24,0
-Configuración de proyecto,8,0
-Template HTML,24,0
-Deploy a producción,16,0
-Mantenimiento de información básica,8,0
-Mantenimiento de Programas y servicios,16,0
-Integración con mapas,8,0
-PM,62,0
-QA,62,0
-Maintenance 1,160,1
-Georeferencia de las organizaciones de desarrollo comunal,16,0
-¿Cómo afiliarse a la asociación de desarrollo?,8,0
-¿Cómo financiar un proyecto con Dinadeco?,24,0
-Configuración de proyecto,8,0
-Login,8,0
-Registro,8,0
-Deploy a producción,16,0
-Información básica endpoint,8,0
-Programas y servicios endpoint,8,0
-Direcciones regionales (georeferenciada y con contactos) endpoint,8,0
-Base de registro de las organizaciones de desarrollo comunal,40,0
-Base de registro de las organizaciones de desarrollo comunal,32,0
-Mant. Georeferencia de las organizaciones de desarrollo comunal,16,0
-¿Cómo financiar un proyecto con Dinadeco?,24,0
-Configuración de proyecto,8,0
-Template HTML,24,0
-Deploy a producción,16,0
-Mantenimiento de información básica,8,0
-Mantenimiento de Programas y servicios,16,0
-Integración con mapas,8,0
-PM,62,0
-QA,62,0
-¿Cómo afiliarse a la asociación de desarrollo?,10,0
-Integración con mapas,10,0
-Publicación en tienda,32,0
-Base de registro de las organizaciones de desarrollo comunal,24,0
-Georeferencia de las organizaciones de desarrollo comunal,24,0
-¿Cómo financiar un proyecto con Dinadeco?,24,0
-Configuración de proyecto,8,0
-Sección información básica Dinadeco,24,0
-Programas y servicios,24,0
-Direcciones regionales (georeferenciada y con contactos),32,0
-Update email template,4,0
-Magic link generation,8,0
-UI implementation magic link,8,0
-Changes in the frontend regarding videos,8,0
-Serve videos using Cloudfront,4,0
-Configuración del proyecto,8,0
-Registro,16,0
-Login,16,0
-Asignar mesa a tablet,8,0
-Ver menú,32,0
-Ordenar desde tablet,40,0
-Consultar estado de orden,16,0
-Consultar estado de orden,16,0
-Publicación de Play Store,16,0
-Configuración del proyecto,8,0
-Registro,16,0
-Login,8,0
-Roles,16,0
-Ordenes,24,0
-Reporte de Ordenes + Filtros,16,0
-Publicación en producción,16,0
-Configuración del proyecto,8,0
-Listado de clientes,8,0
-PM Entregable 2,8,0
-PM Entregable 1,23,0
-QA Entregable 1,80,0
-QA Entregable 2,24,0
-Project setup,8,0
-Login,8,0
-Register,16,0
-Products CRUD,24,0
-Search products as a guest,16,0
-Landing informative pages,16,0
-Reviews,16,0
-Seller rate,16,0
-Roles,24,0
-Contact owner,8,0
-Product details,16,0
-PM,18,0
-QA,40,0
-Home Page,8,1
-Booking Page,8,1
-Vendor Page,8,1
-Vendor Dashboard Page,8,1
-User Dashboard Page,8,1
-Extra changes requested by Sophia,16,1
-AWS Changes,16,1
-PM,8,1
-Configuración del proyecto,8,0
-Búsqueda de productos,24,0
-Preparación de orden,32,0
-Push notifications,32,0
-Multicompañia,16,0
-Deploy a producción,8,0
-Confirmar Pedido,4,0
-Configuración del proyecto,8,0
-Capcha,8,0
-Plantilla html + colores y branding QPOS,16,0
-Búsqueda de productos,24,0
-Preparación de orden,32,0
-Push notifications,32,0
-Deploy a producción,8,0
-Capcha,8,0
-Confirmar pedido,4,0
-Multicompañia,16,0
-Diseño de la arquitectura,24,0
-Configuración wordpress,8,0
-Instalación de WooCommerce,24,0
-Integración con pasarela del bac,80,0
-Instalación de FooEvents,40,0
-Customización de UI,40,0
-Deploy a producción,24,0
-Architect,8,0
-PM,24,0
-QA,64,0
-AWS configuration and deploy to production,40,1
-QA Deliverable 1,48,1
-QA Deliverable 2,64,1
-QA Deliverable 3,104,1
-PM Deliverable 1,10,1
-PM Deliverable 2,16,1
-PM Deliverable 3,22,1
-Search business (API),8,1
-Project Setup (API),8,1
-Login (API),8,1
-Roles (API),8,1
-Authorization (API),8,1
-Products CRUD (API),24,1
-Business catalog (API),16,1
-Posts CRUD (API),16,1
-Likes (API),8,1
-Follow Businesses (API),16,1
-Register Client (API),16,1
-Business profile (API),16,1
-Search products (API),8,1
-Timelines with feeds (API),16,1
-Buy Product workflow (API),40,1
-Orders (API),24,1
-Delivery points (API),16,1
-Reviews (API),16,1
-Comprobantes de pago (API),40,1
-Register Business (API),16,1
-Token management (App),8,1
-Search business (App),8,1
-Search products (App),8,1
-Register Business (App),32,1
-Project Setup (App),8,1
-Authorization (App),16,1
-Register Client (App),32,1
-Business profile (App),24,1
-Business catalog (App),24,1
-Delivery points (App),24,1
-Products CRUD (App),24,1
-Posts with toolkit (App),40,1
-Business likes (App),16,1
-Timelines with feeds (App),24,1
-Shopping card (App),48,1
-My orders (App),40,1
-Comprobantes de pago (App),40,1
-Business reviews (App),24,1
-Feedback Deliverable 1,16,1
-Feedback Deliverable 2,24,1
-Feedback Deliverable 3,48,1
-Diseño de la arquitectura,24,1
-Detección de puntos y lineas en el rostro,40,0
-Configuración de proyecto,8,0
-Opción: Camara en tiempo real y captura de imagen,24,0
-Puesta en producción,16,0
-Setup python server,8,0
-template,8,0
-Configuración del proyecto,8,0
-Img capturada con puntos editables,16,0
-Impresión del modelo,40,0
-Opción: Adjuntar imagen,8,0
-validaciones en tiempo real de imagen,16,0
-PM,22,0
-QA,40,0
-Configuración de proyecto,8,0
-Conexión API,8,0
-Menú (sin inicio de sesión),8,0
-Menú lateral (sin inicio de sesión),8,0
-Olvidó contraseña,8,0
-Menú lateral (con inicio de sesión),8,0
-Menú (con inicio de sesión),8,0
-Desglose de pensión,8,0
-Estado de trámite,8,0
-Consulta de crédito,8,0
-Líneas de crédito,8,0
-Sucursales,8,0
-Cerrar sesión,4,0
-Publicación en tiendas,16,0
-Splash,8,0
-Inicio de sesión,8,0
-PM,8,0
-QA,32,0
-Setup,4,0
-"investigar e implementar en caso de exito, la viabilidad de que se puedan descargar más de un archivo a la vez",12,0
-Publicacion apps,8,0
-descargar archivos escogiendo el directorio donde se debe guardar,12,0
-Setup,4,0
-"investigar e implementar en caso de exito, la viabilidad de que se puedan descargar más de un archivo a la vez",12,0
-descargar archivos escogiendo el directorio donde se debe guardar,12,0
-Publicacion apps,8,0
-QA,12,0
-PM,2,0
-Configuración de proyecto,8,0
-Conexión API,8,0
-Menú (sin inicio de sesión),8,0
-Menú lateral (sin inicio de sesión),8,0
-Olvidó contraseña,8,0
-Menú lateral (con inicio de sesión),8,0
-Menú (con inicio de sesión),8,0
-Desglose de pensión,8,0
-Estado de trámite,8,0
-Consulta de crédito,8,0
-Líneas de crédito,8,0
-Sucursales,8,0
-Cerrar sesión,4,0
-Publicación en tiendas,16,0
-Splash,8,0
-Inicio de sesión,8,0
-PM,8,0
-QA,32,0
-La tecla enter hace que se salga de la pantalla,4,0
-Editar booking en la segunda pantalla de nueva solicitud de contenedor,4,0
-Actualizar versión de angular,24,0
-Exportar a Excel la lista de clientes,4,0
-Agregar campo de fecha de presentación del documento y no solo el de vencimiento.,2,0
-Historial de transportistas,4,0
-Estadisticas de solicitudes (Agregar monto vendido a la par del monto facturado),2,0
-"Tarifas (Agregar filtros por fecha inicio, fecha fin)",2,0
-CRUD Naviera y selects en todas las páginas,4,0
-Solicitud de contenedores (nuevo campo de consignatario y campo de notas),2,0
-solicitud de tarifa (Agregar checkboxes para tarifas extras),4,0
-Solicitud de furgones (exportar a excel con checkboxes),4,0
-Cierre de guia (cambios varios),4,0
-Ingresar guia (cambios varios),8,0
-Boletas de pago a choferes (Que se puedan eliminar débitos),4,0
-importar conbustibles (señalar lineas invalidas en rojo),4,0
-Equipos nuevo equipo no está mostrando el dropdown del usuario.,2,0
-Camiones (no generar alertas a cambiones esporádicos),4,0
-Reporte de documentos (cambios varios),4,0
-Cambios en menú principal (favoritos y busqueda rápida),24,0
-Cambios en general,4,0
-Crud mecanicos,4,0
-Cambios en módulo de mantenimiento,24,0
-Reporte de solicitudes por cliente y semana,4,0
-Reporte de facturación por cliente y semana,4,0
-Reporte de contenedor y fecha/hora de entrega,4,0
-CRUD Naviera y selects en todas las páginas,4,0
-Exportar a Excel la lista de clientes,4,0
-Agregar campo de fecha de presentación del documento y no solo el de vencimiento.,2,0
-Agregar el nombre del transportista a la descripción de la alerta de vencimiento.,4,0
-Solicitud de contenedores (nuevo campo de consignatario y campo de notas),2,0
-solicitud de tarifa (Agregar checkboxes para tarifas extras),16,0
-Solicitud de furgones (exportar a excel con checkboxes),4,0
-Cierre de guia (cambios varios),4,0
-Ingresar guia (cambios varios),16,0
-Trazabilidad (agregar costos al reporte),8,0
-Boletas de pago a choferes (Que se puedan eliminar débitos),4,0
-Migración a nueva librería de Excel,40,0
-Historial de transportistas,4,0
-Estadisticas de solicitudes (Agregar monto vendido a la par del monto facturado),8,0
-Estadisticas de solicitudes (El excel debe tener el mismo formato del PDF),8,0
-importar conbustibles (señalar lineas invalidas en rojo),4,0
-Equipos nuevo equipo no está mostrando el dropdown del usuario.,2,0
-Camiones (no generar alertas a cambiones esporádicos),4,0
-Reporte de documentos (cambios varios),4,0
-Cambios en general,4,0
-Crud mecanicos,4,0
-Cambios en módulo de mantenimiento,24,0
-Actualizar versión de laravel,24,0
-Reporte de viajes realizadosn (El excel que salga agrupado por transportistas y chofer con línea en blanco entre cada uno),8,0
-Reporte de pagos transportistas (El excel debe ir ordenado por transportista y poner los signos de colones y colocar bien la sumatoria),8,0
-"Tarifas (Agregar filtros por fecha inicio, fecha fin)",4,0
-Solicitud de contenedores (Cambiar texto de Salida de planta por Planta y agregar 3 Ejes por defecto 3),1,0
-Reporte de solicitudes por cliente y semana,4,0
-Reporte de facturación por cliente y semana,4,0
-Reporte de contenedor y fecha/hora de entrega,4,0
-PM Entregable 1,12,0
-PM Entregable 2,6,0
-PM Entregable 3,6,0
-QA Entregable 1,32,0
-QA Entregable 2,24,0
-QA Entregable 3,24,0
-Configuración del proyecto,8,0
-Registro,24,0
-Login,16,0
-Cerrar Sesión,8,0
-Perfil de usuario,16,0
-Tracking de orden,24,0
-Mis direcciones (Direcciones favoritas),24,0
-Ofertas recomendadas,24,0
-Preguntas frecuentes,8,0
-Enlace a soporte técnico (correo y llamadas),8,0
-Entregas con horario personalizado,24,0
-Pago en línea,40,0
-Publicación en tienda,16,0
-Cerrar Sesión,8,0
-Notificaciones Push,16,0
-Mis ordenes (Historial),16,0
-Seleccionar ubicación,16,0
-Buscador de productos o tiendas,24,0
-Crear producto desde la app,32,0
-Carrito de compras,80,0
-Listado de ordenes para mesanjeros,16,0
-Tomar Order (para recoger y entregar),16,0
-Configuración del proyecto,8,0
-Registro,24,0
-Login,16,0
-Seguridad y Roles,24,0
-Manejo de tokens JWT,8,0
-Perfil de usuario,8,0
-Tracking de orden,32,0
-Notificaciones Push,16,0
-CRUD Ordenes,24,0
-CRUD direcciones de usuario final,16,0
-CRUD Ofertas,16,0
-CRUD Usuarios,8,0
-CRUD Tiendas,8,0
-CRUD Productos,32,0
-CRUD Categorías,8,0
-Buscador de productos o tiendas,24,0
-Pago en línea,40,0
-Publicación en producción,16,0
-Ordenes por recoger,24,0
-Carrito de compras,40,0
-CRUD de clientes,16,0
-Configuración del proyecto,8,0
-Login,8,0
-CRUD de usuarios,16,0
-CRUD de mensajeros,8,0
-Control de ordenes,24,0
-Notificaciones Push,16,0
-Manual de usuario,32,0
-Publicación en producción,16,0
-Cerrar sesión,8,0
-Detalle de ordenes,16,0
-Configuración de RDS,8,0
-Configuración de containers,8,0
-Configuración de VPCs,8,0
-Configuración de certificados SSL,8,0
-Configuración de certificados SSL,8,0
-Integración continua,32,0
-Load Balancers,8,0
-Api Gateway,8,0
-PM Entregable 3,20,0
-PM Entregable 1,24,0
-PM Entregable 2,20,0
-QA Entregable 1,100,0
-QA Entregable 2,80,0
-QA Entregable 3,80,0
-Configuración del proyecto,8,0
-Registro,16,0
-Login,16,0
-Asignar mesa a tablet en sitio,8,0
-Mantenimiento del menú,40,0
-Pantalla de ordenes para cocina,24,0
-Listado de clientes,8,0
-Ver menú,32,0
-Consultar estado de orden,16,0
-Ordenar desde sitio web,40,0
-Mantenimiento de lugares de entrega,8,0
-Tarifa de lugares de entrega,16,0
-Configuración del proyecto,8,0
-Registro,16,0
-Login,8,0
-Roles,16,0
-Ordenes,24,0
-Publicación en producción,16,0
-Reporte de Ordenes + Filtros,16,0
-Mantenimiento menú,32,0
-Generación de urls de mesas,8,0
-Mantenimiento de lugares de entrega,8,0
-Tarifa de lugares de entrega,24,0
-Integración con oficinaonlinecr para facturación,32,0
-PM Entregable 2,18,0
-PM Entregable 1,20,0
-QA Entregable 2,62,0
-QA Entregable 1,60,0
-Miguel Work,50,0
-Miguel Work,50,0
-Byron Work,50,0
-Byron Work,50,0
-Carlos Work,20,0
-Project setup,8,0
-Actualización de versiones de librerías,24,0
-Revición de login con tokens,8,0
-Ocultar registro de horas en la app móvil,8,0
-Publicación en playstore,8,0
-Indicador: Producción por semilla sembrada en cultivos activo.,8,0
-"Indicador: Historial de producción por semilla sembrada por producto, según el productor y la finca.",8,0
-Indicador: Kilos recolectados por día por camión. Y un historial.,8,0
-"Indicador:  Producción de cultivos activos, por producto en cajas y en kilos.",8,0
-Indicador:   Indicador de incremento o decremento según la producción de cada día. Porcentualmente.,16,0
-Laravel Upgrade,16,0
-Project setup,8,0
-Tabs de productores inactivos,8,0
-Tabs de productores inactivos,8,0
-Tabs de proyectos para inactivos,8,0
-Tabs de usuarios inactivos,8,0
-Tabs de fincas inactivas,8,0
-Merge de fincas duplicadas (manualmente),8,0
-Cambio de página cuando se asignan fincas,8,0
-Ocultar los módulos de planillas en la app web,4,0
-Ocultar los módulos de planillas en la app web,4,0
-Cerrar cultivo automáticamente,8,0
-Filtros en encabezado de columnas,24,0
-Encabezados de columnas se deben mover con el scroll,4,0
-Deploy a producción,16,0
-PM Mejoras,12,0
-PM Indicadores,4,0
-QA Mejoras,40,0
-QA Indicadores,8,0
-PM,24,1
-PM Enfermería,6,1
-QA,56,1
-QA Enfermería,16,1
-Asociar teléfono a individuo,16,1
-Recolección de datos de ubicación,16,1
-Notificaciones push,16,1
-Publicación en tiendas,16,1
-Configuración del proyecto,8,1
-Loguearse como especialista de salud,8,1
-Toma de sintomas,24,1
-Ajuste de plantilla móvil,16,1
-Historial de exámenes realizados,16,1
-Mostrar mapa con ubicación actual,8,1
-Mostrar mapa con zonas peligrosas en Costa Rica,16,1
-Alerta de zona roja,8,1
-Asociar usuarios con compañías,8,1
-Alertas de salida de geocerca,16,1
-Configuración del proyecto,8,1
-En el expediente del trabajador ver la lista de revisiones que ha tenido.,16,1
-Toma de sintomas a pacientes (api),8,1
-Localización actual de todas las personas,24,1
-Reporte de revisiones con filtro para ver sanos y sospechosos.,16,1
-Publicación en producción,8,1
-Login,8,1
-Monitoreo de individuo en mapa,24,1
-Definición de geocercas,16,1
-CRUD Compañias,8,1
-Subir examen (pdf o foto),16,1
-Historial de examenes por usuario,16,1
-Seguridad,16,1
-CRUD Personas,24,1
-Asociar teléfono a individuo,8,1
-Crear el role de especialista de salud.,8,1
-Crear la vista de etiquetado de personas,40,1
-Etiquetar personas desde un video,40,1
-Etiquetar personas desde una lista de personas desconocidas,32,1
-Creación de un job para que entrene el modelo automáticamente,40,1
-CRUD de grupos,24,1
-Etiquetar personas desde una o varias fotos,24,1
-Creación de grupos,32,1
-Optimizacion proceso de videos,24,1
-PM,10,1
-QA Express,24,0
-QA Interna,120,0
-PM Interna,24,0
-PM Express,8,0
-Feedback Interna,40,0
-Feedback Express,8,0
-Configuración del proyecto,8,0
-Registro,16,0
-Login,16,0
-Ver menú,32,0
-Consultar estado de orden,16,0
-Ordenar desde sitio web,40,0
-Mantenimiento de lugares de entrega,8,0
-Tarifa de lugares de entrega,16,0
-Asignar mesa a tablet en sitio,8,0
-Mantenimiento del menú,40,0
-Pantalla de ordenes para cocina,24,0
-Listado de clientes,8,0
-Configuración del proyecto,8,0
-Registro,16,0
-Login,8,0
-Roles,16,0
-Ordenes,24,0
-Publicación en producción,16,0
-Reporte de Ordenes + Filtros,16,0
-Mantenimiento menú,32,0
-Generación de urls de mesas,8,0
-Integración con oficinaonlinecr para facturación,32,0
-Mantenimiento de lugares de entrega,8,0
-Tarifa de lugares de entrega,24,0
-Rediseño de formato de factura,24,1
-CRUD Naviera y selects en todas las páginas,4,1
-Exportar a Excel la lista de clientes,4,1
-Agregar campo de fecha de presentación del documento y no solo el de vencimiento.,2,1
-Agregar el nombre del transportista a la descripción de la alerta de vencimiento.,4,1
-Migración a nueva librería de Excel,40,1
-Historial de transportistas,4,1
-Estadisticas de solicitudes (Agregar monto vendido a la par del monto facturado),8,1
-Estadisticas de solicitudes (El excel debe tener el mismo formato del PDF),8,1
-Actualizar versión de laravel,24,1
-Reporte de viajes realizadosn (El excel que salga agrupado por transportistas y chofer con línea en blanco entre cada uno),8,1
-Reporte de pagos transportistas (El excel debe ir ordenado por transportista y poner los signos de colones y colocar bien la sumatoria),8,1
-"Tarifas (Agregar filtros por fecha inicio, fecha fin)",4,1
-Reporte de solicitudes por cliente y semana,4,1
-Reporte de facturación por cliente y semana,4,1
-Reporte de contenedor y fecha/hora de entrega,4,1
-Solicitud de contenedores (Cambiar texto de Salida de planta por Planta y agregar 3 Ejes por defecto 3),1,1
-Solicitud de contenedores (nuevo campo de consignatario y campo de notas),2,1
-solicitud de tarifa (Agregar checkboxes para tarifas extras),16,1
-Solicitud de furgones (exportar a excel con checkboxes),4,1
-Cierre de guia (cambios varios),4,1
-Ingresar guia (cambios varios),16,1
-Trazabilidad (agregar costos al reporte),8,1
-Boletas de pago a choferes (Que se puedan eliminar débitos),4,1
-importar conbustibles (señalar lineas invalidas en rojo),4,1
-Equipos nuevo equipo no está mostrando el dropdown del usuario.,2,1
-Camiones (no generar alertas a cambiones esporádicos),4,1
-Cambios en general,4,1
-Cambios en debitos en boletas de pago para camiones,40,1
-Reporte de documentos (cambios varios),4,1
-Crud mecanicos,4,1
-Rediseño de formato de factura,24,1
-PM Entregable 2,6,1
-PM Entregable 3,6,1
-PM Entregable 1,24,1
-QA Entregable 2,24,1
-QA Entregable 3,24,1
-QA Entregable 1,40,1
-Rediseño de formato de factura,40,1
-La tecla enter hace que se salga de la pantalla,4,1
-Editar booking en la segunda pantalla de nueva solicitud de contenedor,4,1
-Actualizar versión de angular,24,1
-Exportar a Excel la lista de clientes,4,1
-Agregar campo de fecha de presentación del documento y no solo el de vencimiento.,2,1
-Historial de transportistas,4,1
-Estadisticas de solicitudes (Agregar monto vendido a la par del monto facturado),2,1
-"Tarifas (Agregar filtros por fecha inicio, fecha fin)",2,1
-CRUD Naviera y selects en todas las páginas,4,1
-Reporte de solicitudes por cliente y semana,4,1
-Reporte de facturación por cliente y semana,4,1
-Reporte de contenedor y fecha/hora de entrega,4,1
-Solicitud de contenedores (nuevo campo de consignatario y campo de notas),2,1
-Cierre de guia (cambios varios),4,1
-Cambios de acomodo de vertical a horizontal,40,1
-solicitud de tarifa (Agregar checkboxes para tarifas extras),4,1
-Solicitud de furgones (exportar a excel con checkboxes),4,1
-Ingresar guia (cambios varios),8,1
-Boletas de pago a choferes (Que se puedan eliminar débitos),4,1
-importar conbustibles (señalar lineas invalidas en rojo),4,1
-Equipos nuevo equipo no está mostrando el dropdown del usuario.,2,1
-Camiones (no generar alertas a cambiones esporádicos),4,1
-Reporte de documentos (cambios varios),4,1
-Cambios en menú principal (favoritos y busqueda rápida),24,1
-Cambios en general,4,1
-Crud mecanicos,4,1
-Project tasks,16,0
-Project attachments,16,0
-Deploy to production,16,0
-Log Time,16,0
-Upload Project contracts,8,0
-Report: Hours by employee,8,0
-Report: Hours per project,8,0
-Project configuration,8,0
-Login with office365,24,0
-Time forecasting for next week,16,0
-Project Roles CRUD,8,0
-Rates per role on projects,16,0
-Client CRUD,8,0
-Projects CRUD,24,0
-add/remove users from project,16,0
-Security and roles,32,0
-QA,72,0
-PM,26,0
-QA,92,0
-Deploy a producción,24,0
-Instalación de Opencart,24,0
-Configuración opencart,8,0
-Integración con pasarela del bac,80,0
-Login con Facebook,24,0
-Registro,16,0
-Configuración del proyecto,8,0
-Login,16,0
-Listado de productos,16,0
-Carrito de compras,40,0
-Publicación Android,16,0
-Publicación iOS,16,0
-Configuración y ajustes de api OpenCart,40,0
-PM,20,0
-Configuración del proyecto,8,1
-Login y registro,8,1
-CRUD grupos,8,1
-CRUD personas,8,1
-Vista para administrar cámaras,16,1
-Deploy a producción,16,1
-Subir video al servidor,16,1
-Vista de reportes,24,1
-Vista de configuración,8,1
-Vista de etiquetado,52,1
-Project Manager,5,1
-Configuración del proyecto,8,0
-Subir foto y usar plantilla seleccionada,16,0
-Maquetado HTML + Responsive,40,0
-Manual de uso,8,0
-Horas de mantenimiento,10,0
-Agregar códigos de Google Analytics y Facebook Pixel.,1,0
-Página home,8,0
-Plantillas para fotos,32,0
-Subir foto y usar plantilla seleccionada,16,0
-Deploy a producción,16,0
-Pagos con paypal,40,0
-Project configuration,8,0
-HTML Template,16,0
-Home view,8,0
-About US,8,0
-Contact Us,8,0
-Testimonies,8,0
-Instant quote,16,0
-E-commerce,40,0
-Deploy to production,8,0
-QA,32,0
-PM,16,0
-Registro,24,0
-Envío de ubicación en tiempo real,24,0
-Auto asignación de ordenes,16,0
-Login Usuario y Password,8,0
-Reviews de choferes,16,0
-Visualizar paquete en tiempo real en mapa,32,0
-Push notifications,16,0
-Chat cliente - chofer,24,0
-Configuración de proyecto,8,0
-Perfil del usuario,8,0
-Login con Google,16,0
-Wallet para cashback,16,0
-Login con Facebook,16,0
-Historial de ordenes,24,0
-CRUD Pedidos,16,0
-Historial de movimientos de wallet,16,0
-Integración de plataforma de pagos,40,0
-Configuración de proyecto,8,0
-Auto asignación de ordenes,16,0
-Reviews de choferes,16,0
-Registro,24,0
-Envío de ubicación en tiempo real,24,0
-Login con Google,16,0
-Login con Facebook,16,0
-Push notifications,16,0
-Chat cliente - chofer,24,0
-Wallet para cashback,16,0
-Visualizar paquete en tiempo real en mapa,32,0
-Historial de ordenes,24,0
-Login Usuario y Password,8,0
-Historial de movimientos de wallet,16,0
-Perfil del usuario,8,0
-CRUD Pedidos,16,0
-Integración de plataforma de pagos,40,0
-Historial de movimientos de wallet,8,0
-Registro,16,0
-Registro de orden nueva,8,0
-Envío de notificaciones Push,16,0
-Historial de ordenes,8,0
-Listado de ordenes pendientes,8,0
-Asignación de ordenes,8,0
-Configuración de proyecto,8,0
-Autorización,16,0
-Autenticación,40,0
-Recepción de ubicaciones en tiempo real,16,0
-Socket de envío de ubicación en tiempo real,32,0
-Reviews,8,0
-Chat cliente - chofer,24,0
-Movimientos de wallet,16,0
-CRUD Pedidos,8,0
-Pagos en línea,40,0
-Configuración de proyecto,8,0
-Tarifa a cobrar por Km,8,0
-Roles y permisos,16,0
-Crud usuarios,8,0
-Tarifa a cobrar por Peso,8,0
-Wallet de cada cliente,8,0
-Tarifa a cobrar por ayudante,8,0
-Reporte financiero,16,0
-Reporte general,16,0
-Generación de link de pagos,16,0
-Reporte de transportes realizados,24,0
-Detalle de transportes realizados,16,0
-QA,300,0
-PM,64,0
-App de escritorio microlocalización,80,0
-Portal central,300,0
-website https://clubyoy.com/,80,0
-CMS,300,0
-Apis para apps móviles,300,0
-Aplicación Android,400,0
-Aplicación iOS,400,0
-Entregable 1,18,1
-Entregable 3,12,1
-Entregable 6,12,1
-Entregable 4,18,1
-Entregable 5,16,1
-Entregable 2,16,1
-Configuración del proyecto,8,1
-Splash screen,16,1
-Login con usuario / clave,8,1
-Registro con usuario / clave,8,1
-Login con Facebook,16,1
-Login con Google,16,1
-Mi Perfil,8,1
-Alcancía (Wallet),16,1
-Historial de actividad,8,1
-Invitar amigos,8,1
-Selección de intereses,24,1
-Selección de ciudad,8,1
-Pagina principal (slider principal),16,1
-Pagina principal (Carruseles),24,1
-Pagina principal (Barra de búsqueda),16,1
-Listado de Incentivos,16,1
-Detalle de incentivo,8,1
-Carrito de compras,40,1
-Compra de incentivo,16,1
-Mis compras,16,1
-Detalle de incentivo comprado,8,1
-Canje de incentivo comprado,16,1
-Sorpresas recibidas,24,1
-YOY Pay,8,1
-Ingresar monto de pago,24,1
-Pago completado,8,1
-Publicación en tiendas,16,1
-Splash screen,16,1
-Login con usuario / clave,8,1
-Registro con usuario / clave,8,1
-Login con Facebook,16,1
-Configuración del proyecto,8,1
-Login con Apple,16,1
-Mi Perfil,8,1
-Selección de intereses,24,1
-Selección de ciudad,8,1
-Historial de actividad,8,1
-Pagina principal (slider principal),16,1
-Pagina principal (Carruseles),24,1
-Pagina principal (Barra de búsqueda),16,1
-Listado de Incentivos,16,1
-Detalle de incentivo,8,1
-Carrito de compras,40,1
-Compra de incentivo,16,1
-Mis compras,16,1
-Detalle de incentivo comprado,8,1
-Canje de incentivo comprado,16,1
-Sorpresas recibidas,24,1
-YOY Pay,8,1
-Ingresar monto de pago,24,1
-Pago completado,8,1
-Alcancía (Wallet),16,1
-Invitar amigos,8,1
-Publicación en tiendas,16,1
-Entregable 4,48,1
-Entregable 3,24,1
-Entregable 1,48,1
-Entregable 6,24,1
-Entregable 2,40,1
-Entregable 5,40,1
-"Replica de Fase 1 en Fase 2,3,4",16,1
-Agregar usuario que creo la orden de compra en el Archivo,8,1
-Desplegar comentario en la OC,8,1
-Modulo de enviar correos con la OC,8,1
-Facturas manuales ligarlas a la OC,16,1
-Log de comentarios Fase 1 a gastos.,16,1
-Deploy a producción,8,1
-Configuración del proyecto,8,0
-Login,8,0
-Selecciona la competencia a trabajar,16,0
-Selecciona horario para la alarma diaria,24,0
-Agregar personas para retroalimentación,16,0
-Programar la fecha de retroalimentación,16,0
-Selección de indicador de competencia,16,0
-Push notifications,16,0
-Competencias dominadas,16,0
-Competencias pendientes,16,0
-Score card,24,0
-Formulario del evaluador,16,0
-Publicación en tiendas,24,0
-Entregable 1,52,0
-Entregable 2,32,0
-Entregable 3,24,0
-CRUD evaluaciones,24,0
-Configuración del proyecto,8,0
-Login,8,0
-Autenticación,8,0
-Autorización,8,0
-CRUD compañias,8,0
-CRUD usuarios,8,0
-Roles y Permisos,24,0
-CRUD Competencias,8,0
-CRUD Indicadores de competencias,8,0
-Jobs de notificaciones automáticas,24,0
-Endpoints de score cards,24,0
-Roles y Permisos,24,0
-Configuración del proyecto,8,0
-Login,8,0
-CRUD compañias,8,0
-CRUD usuarios,8,0
-CRUD Indicadores de competencias,16,0
-CRUD Competencias,8,0
-Push notifications,16,0
-CRUD Indicadores de competencias,16,0
-Reporte de evaluaciones,16,0
-Detalle de evaluación,8,0
-Historial de scord cards,16,0
-"Envío de mensajes, lecturas, video o podcast corto.",16,0
-Entregable 1,20,0
-Entregable 2,12,0
-Entregable 3,8,0
-Interfaz de Video Llamada Ver mis contactos,16,0
-Acceso al Sistema (con interface para Validación biométrica del usuario),16,0
-Interfaz de Video Llamada  Sala de llamada  información de llamada,4,0
-Interfaz de Video Llamada  Sala de llamada  otras opciones (deshabilitar a los asistentes sin silenciar),8,0
-Interfaz de Video Llamada  Sala de llamada  finalizar llamado,8,0
-Interfaz de Video Llamada  Sala de llamada  Generar informe de Votación,8,0
-Interfaz de Video Llamada Home,8,0
-Interfaz de Video Llamada Historial de meets (Entrantes/ Perdidos/ Salientes),24,0
-Interfaz de Video Llamada Configuración General,16,0
-Configuración del proyecto,8,0
-Ajuste de plantilla al diseño del cliente,40,0
-Registro de Usuario (con interface para validación correcta del registro a través de captura de imagen),40,0
-Interfaz de Video Llamada  Sala de llamada  otras opciones (bloquear/desbloquear meet),8,0
-Interfaz de Video Llamada  Sala de llamada  agregar asistentes,8,0
-Interfaz de Video Llamada Configuración Meetings,16,0
-Interfaz de Video Llamada Unirse a una meet,8,0
-"Interfaz de Video Llamada Crear una meet (configurar audio, establecer conexión)",8,0
-Interfaz de Video Llamada Programar una meet,8,0
-Interfaz de Video Llamada Invitar contactos (usando icalendar),16,0
-Interfaz de Video Llamada  Sala de llamada,8,0
-Interfaz de Video Llamada  Sala de llamada  habilitar modo de llamada para el organizador,8,0
-Interfaz de Video Llamada  Sala de llamada  Habilitar/deshabilitar micrófono,4,0
-Interfaz de Video Llamada  Sala de llamada  Habilitar/deshabilitar video,8,0
-Interfaz de Video Llamada Mi información,8,0
-Interfaz de Video Llamada  Sala de llamada  otras opciones (mostrar mi propia imagen de video),16,0
-Interfaz de Video Llamada  Sala de llamada  Generar informe PDF asistentes verificados,8,0
-Interfaz de Video Llamada  Sala de llamada  Generar Formulario Votación,24,0
-Interfaz de Video Llamada  Sala de llamada  Votar sobre formulario,8,0
-Interfaz de Video Llamada Cambiar estado,8,0
-Interfaz de Video Llamada  Sala de llamada  Habilitar/deshabilitar opciones de pantalla (pantalla compartida),16,0
-Interfaz de Video Llamada  Sala de llamada  grabar meet,8,0
-Interfaz de Video Llamada  Sala de llamada  otras opciones (mutear a todos),8,0
-Interfaz de Video Llamada  Sala de llamada  Enviar  informe de Votación,8,0
-Interfaz de Video Llamada  Sala de llamada  otras opciones (cambiar a llamado por dial),8,0
-Interfaz de Video Llamada  Sala de llamada  otras opciones (cambiar a app desktop),8,0
-Interfaz de Video Llamada  Sala de llamada  otras opciones (enviar feedback),8,0
-Firma Electrónica Digital (integración con API existente),40,0
-Deploy a producción,8,0
-PM llamadas en curso,24,0
-"PM Feedback, Votacion y firma digital",16,0
-"PM Home, registro y login",16,0
-PM Inferfaz de llamadas e integración con chime,16,0
-QA Inferfaz de llamadas e integración con chime,40,0
-QA llamadas en curso,56,0
-"QA Home, registro y login",40,0
-"QA Feedback, Votacion y firma digital",40,0
-Configuración del proyecto,8,0
-Mis contactos CRUD,16,0
-Historial de llamadas,16,0
-Exportar asistentes,16,0
-Feedback de llamada,8,0
-Crud asistentes a llamadas,8,0
-Formularios de votación,24,0
-Deploy a producción,8,0
-Buying Page,8,0
-Configuración de wordpress,8,0
-Home page,8,0
-Selling Page,8,0
-About us Page,8,0
-Customers Page,8,0
-Contact Page,8,0
-Deploy a producción,8,0
-Project configuration,8,0
-Firebase integration for chat,24,0
-Extra Amenities payments using pay pal,16,0
-UI Changes,16,0
-Deploy to production,8,0
-Notify extra payment in the chat,4,0
-Contract Implementation,8,0
-Configuración de proyecto,4,0
-Landing Page,16,0
-Deploy a producción,4,0
-Configuración del proyecto,8,0
-Login with Google,32,0
-Login with Email and Password,24,0
-Home view,40,0
-Búsqueda de tiendas,16,0
-Seguir tienda,8,0
-Dejar de seguir a una tienda,8,0
-Navegar hacia el e-commerce de la tienda,16,0
-Publicación en tiendas,40,0
-PM,22,0
-QA,40,0
-Project setup,8,0
-Actualización de versiones de librerías,24,0
-Revición de login con tokens,8,0
-Ocultar registro de horas en la app móvil,8,0
-Publicación en playstore,8,0
-Laravel Upgrade,16,0
-Project setup,8,0
-Encabezados de columnas se deben mover con el scroll,4,0
-Tabs de proyectos para inactivos,8,0
-Desactivar usuarios,8,0
-Desactivar productores,8,0
-Filtros en encabezado de columnas,24,0
-Tabs de fincas inactivas,8,0
-Tabs de productores inactivos,8,0
-Deploy a producción,16,0
-PM Mejoras,20,0
-QA Mejoras,40,0
-Configuración del proyecto,8,0
-Login con Google,24,0
-Login con Facebook,16,0
-Registro con usuario y password,16,0
-Pagos con plataformas de pago (Paypal),40,0
-Perfil del usuario,8,0
-Olvidé mi password,8,0
-CRUD Anuncio de animales,16,0
-Búsqueda de anuncios,24,0
-Promocionar anuncio,8,0
-Deploy a producción,16,0
-PM entregable 2,16,0
-PM entregable 1,22,0
-Perfil del usuario,16,0
-Configuración del proyecto,8,0
-Login con Google,16,0
-Login con Facebook,16,0
-Pagos con plataformas de pago (Paypal),16,0
-Olvidé mi password,8,0
-Registro con usuario y password,8,0
-Ajustes de diseño html/css,32,0
-CRUD Anuncio de animales,24,0
-Búsqueda de anuncios,24,0
-Promocionar anuncio,8,0
-QA Entregable 2,50,0
-QA Entregable 1,60,0
-Configuración del proyecto,8,1
-Olvidé contraseña,8,1
-Login,8,1
-Pantalla principal con menú principal acorde al role del usuario,8,1
-Administración de usuarios,24,1
-Página de configuración,24,1
-Pantalla de gestión normativa,16,1
-Pantalla de envío de documento por correo,8,1
-Ver archivo y su historial,16,1
-Agregar/Editar archivo,8,1
-CRUD empresas,40,1
-Pestaña de Sesiones.,24,1
-Evaluaciones,24,1
-Diagnóstico,24,1
-Revisar Diagnóstico,16,1
-envío de resultado de Diagnóstico.,8,1
-Subir Plan de Acción,16,1
-Revisar Plan de Acción,8,1
-Seguimiento Plan de Acción,8,1
-Programación de sesiones y calendario,24,1
-Asistencia o sesiones,16,1
-Reporte de Dashboard,24,1
-Reporte de Empresa,16,1
-Reporte de Plan de Acción,24,1
-Reporte de Asesoría,16,1
-Reporte de Tiempos,16,1
-Reporte de Cubo de Diagnóstico,40,1
-Olvidé contraseña,8,1
-Configuración del proyecto,8,1
-Login JWT,16,1
-Crud Usuarios,16,1
-Crud Roles,8,1
-Asignar usuarios a roles,16,1
-Asignar permisos a roles,16,1
-Asignar permisos a usuarios,16,1
-Configuración del sistema,8,1
-Almacenamiento de documentos,24,1
-Búsqueda de documentos,8,1
-Enviar documento por correo,8,1
-CRUD Empresas y detalles,40,1
-Sesiones,16,1
-Evaluaciones,40,1
-Diagnóstico,16,1
-envío de resultado de Diagnóstico.,16,1
-Planes de Acción,24,1
-Programación de sesiones,8,1
-Consultas para reportes,48,1
-Actualizar documento,4,1
-QA Seguridad de pantalla principal,56,1
-QA Seguimiento de empresa y reportes,86,1
-QA Gestión documental y catálogo de empresas,48,1
-QA Formación y Diagnostico,56,1
-PM Seguridad de pantalla principal,12,1
-PM Gestión documental y catálogo de empresas,10,1
-Seguimiento de empresa y reportes,16,1
-PM Formación y Diagnostico,12,1
-Configuración del proyecto,8,0
-Login con usuario y clave,8,0
-Registro de oferentes,8,0
-Olvidó su clave,8,0
-Registro de compradores,24,0
-CRUD de usuarios para la misma empresa oferente,16,0
-CRUD Modelos,8,0
-Agregar vehículos de forma manual,24,0
-Bloqueo de vehiculos,8,0
-Comentarios de negociación,24,0
-Calificación de estrellas y comentarios para Oferentes,8,0
-Calificación de estrellas y comentarios para Compradores,8,0
-CRUD Tipos de proveedores,16,0
-Ver carros sin nombres ni contactos para usuarios no registrados,24,0
-deploy a producción,8,0
-Configuración de notificaciones,24,0
-Oferta del comprador en línea,24,0
-Creación de subastas,24,0
-CRUD Marcas,8,0
-Importar vehículos de Excel,16,0
-Detalle de subasta,16,0
-Cordinación de visita,16,0
-Ver vehículos a la venta,16,0
-Busqueda de vehículos,24,0
-Ver detalle del vehículo,24,0
-PM Seguridad y registro de vehículos,20,0
-PM Búsqueda y compra de vehículos,24,0
-PM Detalles finales y puesta en marcha,12,0
-Configuración del proyecto,8,0
-Registrar vehículo por foto e inteligencia artificial,160,0
-Deploy en tienda Android,32,0
-Deploy en tienda iOS,32,0
-Calificación de estrellas y comentarios para Oferentes,16,0
-Calificación de estrellas y comentarios para Oferentes,16,0
-Buscar vehículos,24,0
-Registrar vehículo de forma manual,24,0
-Ver detalles del vehículo,24,0
-Registro de oferente,24,0
-Registro de comprador,24,0
-Login,16,0
-Ofertar por vehículo,24,0
-Notificaciones push,16,0
-Comentarios de negociación,24,0
-Configuración del proyecto,8,0
-Deploy a producción,8,0
-Comentarios de negociación,16,0
-Registro de oferentes,8,0
-Registro de compradores,8,0
-Login con usuario y clave,8,0
-Permisos y roles,24,0
-Olvidó su clave,8,0
-CRUD de usuarios para la misma empresa oferente,8,0
-CRUD Marcas,8,0
-CRUD Modelos,8,0
-CRUD Vehículos,24,0
-Calificación de estrellas y comentarios para Oferentes,8,0
-Importar vehículos de Excel,16,0
-Busqueda de vehículos,8,0
-Push notifications,32,0
-CRUD Subastas,32,0
-Calificación de estrellas y comentarios para Compradores,8,0
-CRUD Tipos de proveedores,8,0
-QA Seguridad y registro de vehículos,104,0
-QA Búsqueda y compra de vehículos,120,0
-QA Detalles finales y puesta en marcha,60,0
-Configuración de extensión de encuestas,24,0
-Configuración de extensión de google maps,32,0
-Configuración de covertura de delivery,24,0
-Configuración de proyecto opencart,8,0
-Ajustes de diseño de opencart,80,0
-Configuración de pasarela de pagos (Paypal),40,0
-Configuración de tiendas por paises,24,0
-QA,48,0
-PM,24,0
-PM Seguridad y catálogos,16,0
-PM Pagos en línea y facturación electrónica,24,0
-Carrito de compras,40,0
-Checkout process,32,0
-Ajustes responsive design,24,0
-Configuración del proyecto,8,0
-Pantalla de registro,8,0
-Pantalla de login,8,0
-Layout principal,32,0
-Perfil del usuario,16,0
-Búsqueda de productos,16,0
-Configuración de servidores web y bases de datos,8,0
-Configuración Elastic beanstalk,8,0
-Configuración de dominio y certificados ssl,8,0
-Deploy a producción,16,0
-QA Seguridad y catálogos,80,0
-QA Pagos en línea y facturación electrónica,120,0
-Registro con Google,16,0
-Registro con Facebook,16,0
-Seguridad y generación de tokens JWT,16,0
-Sistema de roles y permisos,24,0
-Perfil de usuario,8,0
-Configuración del proyecto,8,0
-Registro Manual,8,0
-CRUD de productos,24,0
-Enviar paquete (unicamente registro de la información del envío),16,0
-Carrito de compras,40,0
-Envío de confirmación de orden por correo,16,0
-Detalle de ordenes para administradores,16,0
-Despacho de ordenes (unicamente registro de la información del envío),16,0
-Generación de factura electrónica integrando Factun,80,0
-Envío de confirmación de envío de orden por correo,8,0
-Integración con el BAC,80,0
-Reporte de ordenes para administradores,16,0
-Envío de confirmación de orden por correo,16,0
-Configuración del proyecto,8,0
-Configuración de la app (guardar usuario y password de wordpress),16,0
-Webview con la direccción de wordpress empotrado,8,0
-Recepción de push notifications y enrutamiento a la ordern adecuada,16,0
-Publicación en play store,8,0
-Configuración de AWS + SNS para Android,8,0
-Editar intent de AWS Lex para enviar el push notification,16,0
-Configuración inicial de quickbooks,8,0
-MIgración de datos a quickbooks (los que se puedan),40,0
-Integración con Factun para factura electrónica,8,0
-Nóminas,160,0
-Producción,320,0
-Nóminas,80,0
-Producción,160,0
-AWS Setup,40,0
-Model development,40,0
-Model deployment,16,0
-Labeling,160,0
-Vehicle counting job,48,0
-Asyncronous jobs for heavy tasks,48,0
-Studies CRUD,8,0
-Export Study to xlsx (Format 1),24,0
-Export Study to xlsx (Format 2),16,0
-Project Setup,8,0
-Users ( Login & Register + Security),16,0
-Deploy to production,16,0
-"AWS Configuration (Elastic Beanstalk, domains, workers, etc)",40,0
-Project Setup,8,0
-Login,8,0
-Annotation View,40,0
-Studies View,8,0
-Video Uploader (Desktop),48,0
-Deploy to production,8,0
-Study setup,40,0
-Drawing lines for lanes,24,0
-Configuración inicial de quickbooks,8,0
-MIgración de datos a quickbooks (los que se puedan),40,0
-Integración con Factun para factura electrónica,8,0
-Sincronización de empleados de quickbooks,24,0
-Sincronización de inventario de quickbooks,24,0
-CRUD Nóminas,8,0
-Rebajos salariales individuales,16,0
-Rebajos salariales en bloque,16,0
-Generar archivo .txt (BCR),40,0
-Envío de comprobantes de pago,32,0
-Sistema de roles y permisos,24,0
-CRUD Bodegas,8,0
-Mover productos a bodegas,16,0
-Crud de recetas,16,0
-Ordenes de compra,24,0
-Ordenes de producción,24,0
-Despacho de producto terminado,24,0
-Definición de procesos de manufactura,40,0
-Aprobación de cada etapa del proceso de manufactura,24,0
-Reporte de pagos historicos,24,0
-Generación de asientos contables de nómina,32,0
-Pantalla de syncronización de datos con quickbooks,16,0
-Sistema de roles y permisos,24,0
-CRUD Nóminas,16,0
-Pantalla de pago de nómina,16,0
-Rebajos salariales individuales,16,0
-Rebajos salariales en bloque,16,0
-Reporte de pagos historicos,16,0
-CRUD Bodegas,16,0
-Mover productos a bodegas,16,0
-CRUD Recetas,16,0
-CRUD ordenes de compra,16,0
-Proceso de orden de producción,16,0
-Despacho de producto terminado,16,0
-Definición de procesos de manufactura,40,0
-Aprobación de cada etapa del proceso de manufactura,16,0
-AWS Setup,40,0
-QA Quickbooks + Hacienda,64,0
-PM Quickbooks + Hacienda,24,0
-Project configuration,8,0
-Text to speach,40,0
-Speach to text,40,0
-Chatbot interactions,160,0
-Deployment on production,16,0
-Silo relationships,40,0
-Project configuration,8,0
-Sign Up workflow,40,0
-File uploads and Cloud storage setup,40,0
-Teams Crud,16,0
-Knowledge CRUD,16,0
-Dashboard data,40,0
-Deployment on production,16,0
-Knowledge CRUD,16,0
-Main layout,16,0
-Project configuration,8,0
-Sign Up wizard,24,0
-Knowledge view,32,0
-Teams CRUD,16,0
-Silo relationships,40,0
-Search Teams,8,0
-Search Knowledge,8,0
-Dashboard,80,0
-User Dashboard,40,0
-Capture audio from browser,16,0
-Send audio to server for processing,16,0
-Reproduce Videos,16,0
-Show Images,16,0
-Deployment on production,16,0
-Register company country and lat & long position in map,8,0
-Create dinamic forms,24,0
-White label functionality,16,0
-Fill dynamic forms,40,0
-Adversiting for app,16,0
-QA,40,0
-PM,24,0
-Register company country and lat & long position in map,8,0
-Center map in company's location,8,0
-Create dinamic forms for admins,40,0
-Fill dynamic forms (users),24,0
-White label functionality,16,0
-QA,64,0
-Configuración del proyecto,8,0
-Crud de proyectos,32,0
-Crud de tareas,24,0
-Asignar tareas a usuarios,16,0
-Actualizar estado de tareas,16,0
-Integración con CMS(asumiendo que tiene apis disponibles),32,0
-Reporte de proyectos,8,0
-Reporte de tareas,8,0
-Reporte de proyectos (exportar a excel),8,0
-Reporte de proyectos (exportar a pdf),8,0
-Reporte de tareas (exoprtar a excel),8,0
-Reporte de tareas (exoprtar a pdf),8,0
-Maquetado html,40,0
-Publicación en producción,8,0
-Publish in Play Store,24,0
-Album CRUD,16,0
-Assign session to album,16,0
-user can submit a recording to the global feed,8,0
-Project Setup,8,0
-Register User,24,0
-user can invite people for access to a shared album,16,0
-Login,16,0
-user can listen to sessions on the global feed,16,0
-user can search for and add journeys to their sessions.,32,0
-Record Audio,32,0
-Show my goals,16,0
-Scheduled prompt,40,0
-Free users are limited to X minutes of recording per day.,8,0
-Speech to Text,32,0
-Only the first Y seconds of audio is transcribed for free users,8,0
-Users can increase X and Y by upgrading to a paid plan and/or by inviting friends. (Like Dropbox referrals),24,0
-user can view public profile of other users,24,0
-user can search and filter on their timelines including filter by tags,16,0
-user can add tags to their posts,16,0
-Update profile,16,0
-Configure Dropbox backups,24,0
-Session prompts Crud,24,0
-user can rate public content,16,0
-Record Audio on Demand,8,0
-Invite Friends,16,0
-User can schedule sessions,40,0
-Configure aws backups,24,0
-user can upgrade a specific album,16,0
-Export audio recordings and transcripts in bulk,32,0
-user can create their own prompts (text + audio) and set them public or private,24,0
-user can create their own journeys (series of prompts),32,0
-Receive and show general push notifications,40,0
-Configure iCloud backups,24,0
-user can save their audio recordings to their phone,40,0
-user can update the meta fields for their podcast,16,0
-"For transcribed recordings, subtitles display when playing back audio.",32,0
-Show available goals,32,0
-user can search for and add prompts created by others,24,0
-user can publish an album as a podcast,16,0
-Album CRUD,8,0
-Assign session to album,8,0
-Integration with Stripe,120,0
-Data backups on Dropbox,40,0
-user can save their audio recordings to their phone,32,0
-Data backups on iCloud,40,0
-user can invite people for access to a shared album,16,0
-Project Setup,8,0
-Login,8,0
-user can search and filter on their timelines,16,0
-Accept/Reject album invitations,8,0
-Authorization,8,0
-User Roles,16,0
-Register User,8,0
-Upload audio files,16,0
-Save video transcription,8,0
-user can add tags to their posts,16,0
-User Roles,16,0
-Authorization,8,0
-Transcription Crud,16,0
-user can upgrade to paid plan,8,0
-user can invite friends to receive credits to minutes,8,0
-Achievements Goals,32,0
-Achievements Show My Goals,16,0
-Profile update,8,0
-user can upgrade a specific album,8,0
-Search in global feed,16,0
-User prompts CRUD,16,0
-Rate content,8,0
-user can export their audio recordings and transcripts in bulk,40,0
-user can publish an album as a podcast,40,0
-user can update the meta fields for their podcast,16,0
-"For transcribed recordings, subtitles display when playing back audio.",40,0
-"user can edit their recordings with basic audio editing tools. (cut, trim, spead)",40,0
-Earn new badges,40,0
-Deploy to production,8,0
-user can create their own journeys (series of prompts),32,0
-Send push notifications,24,0
-Data backups on AWS S3,40,0
-usage statistics (total recordings by month),16,0
-"I can view, search, filter non-private content",40,0
-Login for admins,8,0
-Web App layout,16,0
-I can add / remove minutes to accounts,32,0
-List and Search registered users,16,0
-Show User details,16,0
-I can change the quotes of record minutes by account levels,32,0
-I can change the quotas of transcription minutes by account level,32,0
-I can issue alerts/messages to all or targeted users,16,0
-Project Setup,8,0
-usage statistics (total new accounts per month),16,0
-Deploy to production,8,0
-PM Level 1,92,0
-PM Level 2,42,0
-PM Level 3,9,0
-PM Admin Site,7,0
-QA Level 1,224,0
-QA Level 2,100,0
-QA Level 3,200,0
-QA Admin Site,80,0
+name,hours,is_used,length
+Learning AWS Step Functions,8,1,27
+Configure workflows,8,1,19
+Deployment to production,8,1,24
+PM,2,1,2
+Pantalla de desbloqueo,8,1,22
+Verificación de inventario antes de comprar,16,1,43
+Creación de BD en RDS,8,1,21
+Funciónes lambda,16,1,16
+Conexión con funciones lambda,8,1,29
+Conexión con funciones lambda,8,1,29
+PM,8,1,2
+Amazon Elastic Transcoder,8,1,25
+Lambda function,8,1,15
+Adjust Video Tag,8,1,16
+PM,2,1,2
+Diseño y creacion de la base de datos,8,1,37
+setup de todo el ambiente de desarrollo,8,1,39
+Procesado del video y aplicación del modelo de reconocimiento de rostos y emociones,16,1,83
+Almacenamiento de usuarios desconocidos en lista de desconocidos,8,1,64
+Entrenamiento del modelo de reconocimiento de rostos,48,1,52
+Almacenamiento de los resultados obtenidos en la base de datos,16,1,62
+Creación de un reporte de los resultados obtenidos del análisis del video,24,1,73
+Creacion del template del sistema de escritorio,16,1,47
+Mejora y testing del modelo de reconocimiento de rostos,24,1,55
+Creación de un login,16,1,20
+Preparación de los datos,8,1,24
+Integración del modelo de reconocimiento de rostos,16,1,50
+Cargar video y establecer los parámetros de reconocimiento de rostros deseados,8,1,78
+PM,21,1,2
+Rediseño,24,1,8
+Listado de ordenes,8,1,18
+Detalle de orden,16,1,16
+Actualizar estado de orden,8,1,26
+Rediseño,24,1,8
+Listado de ordenes,8,1,18
+Detalle de orden,16,1,16
+Actualizar estado de orden,8,1,26
+PM,8,1,2
+Configuración del proyecto,8,0,26
+Búsqueda de productos,24,0,21
+Login con google,16,0,16
+Perfil del usuario,8,0,18
+Preparación de orden,32,0,20
+Mis ordenes,8,0,11
+Push notifications,32,0,18
+Multicompañia,16,0,13
+Deploy a producción,8,0,19
+Configuración del proyecto,8,0,26
+Login con Google,8,0,16
+Perfil del usuario,16,0,18
+Búsqueda de productos,24,0,21
+Preparación de orden,32,0,20
+Push notifications,32,0,18
+Multicompañia,8,0,13
+Plantilla html + colores y branding QPOS,16,0,40
+My location,16,0,11
+Deploy a producción,8,0,19
+Mis ordenes,16,0,11
+Diseño de la arquitectura,24,0,25
+Base de registro de las organizaciones de desarrollo comunal,16,0,60
+Georeferencia de las organizaciones de desarrollo comunal,24,0,57
+¿Cómo afiliarse a la asociación de desarrollo?,8,0,46
+¿Cómo financiar un proyecto con Dinadeco?,16,0,41
+Configuración de proyecto,8,0,25
+Publicación en tienda,16,0,21
+Sección información básica Dinadeco,16,0,35
+Programas y servicios,24,0,21
+Direcciones regionales (georeferenciada y con contactos),24,0,56
+Integración con mapas,8,0,21
+Base de registro de las organizaciones de desarrollo comunal,16,0,60
+Georeferencia de las organizaciones de desarrollo comunal:,24,0,58
+¿Cómo afiliarse a la asociación de desarrollo?,8,0,46
+¿Cómo financiar un proyecto con Dinadeco?,16,0,41
+Configuración de proyecto,8,0,25
+Publicación en tienda,16,0,21
+Sección información básica Dinadeco,16,0,35
+Programas y servicios,24,0,21
+Direcciones regionales (georeferenciada y con contactos),24,0,56
+Integración con mapas,8,0,21
+Georeferencia de las organizaciones de desarrollo comunal,16,0,57
+¿Cómo afiliarse a la asociación de desarrollo?,8,0,46
+¿Cómo financiar un proyecto con Dinadeco?,24,0,41
+Configuración de proyecto,8,0,25
+Login,8,0,5
+Registro,8,0,8
+Deploy a producción,16,0,19
+Información básica endpoint,8,0,27
+Programas y servicios endpoint,8,0,30
+Direcciones regionales (georeferenciada y con contactos) endpoint,8,0,65
+Base de registro de las organizaciones de desarrollo comunal,40,0,60
+Base de registro de las organizaciones de desarrollo comunal,32,0,60
+Mant. Georeferencia de las organizaciones de desarrollo comunal,16,0,63
+¿Cómo financiar un proyecto con Dinadeco?,24,0,41
+Configuración de proyecto,8,0,25
+Template HTML,24,0,13
+Deploy a producción,16,0,19
+Mantenimiento de información básica,8,0,35
+Mantenimiento de Programas y servicios,16,0,38
+Integración con mapas,8,0,21
+PM,62,0,2
+QA,62,0,2
+Maintenance 1,160,1,13
+Georeferencia de las organizaciones de desarrollo comunal,16,0,57
+¿Cómo afiliarse a la asociación de desarrollo?,8,0,46
+¿Cómo financiar un proyecto con Dinadeco?,24,0,41
+Configuración de proyecto,8,0,25
+Login,8,0,5
+Registro,8,0,8
+Deploy a producción,16,0,19
+Información básica endpoint,8,0,27
+Programas y servicios endpoint,8,0,30
+Direcciones regionales (georeferenciada y con contactos) endpoint,8,0,65
+Base de registro de las organizaciones de desarrollo comunal,40,0,60
+Base de registro de las organizaciones de desarrollo comunal,32,0,60
+Mant. Georeferencia de las organizaciones de desarrollo comunal,16,0,63
+¿Cómo financiar un proyecto con Dinadeco?,24,0,41
+Configuración de proyecto,8,0,25
+Template HTML,24,0,13
+Deploy a producción,16,0,19
+Mantenimiento de información básica,8,0,35
+Mantenimiento de Programas y servicios,16,0,38
+Integración con mapas,8,0,21
+PM,62,0,2
+QA,62,0,2
+¿Cómo afiliarse a la asociación de desarrollo?,10,0,46
+Integración con mapas,10,0,21
+Publicación en tienda,32,0,21
+Base de registro de las organizaciones de desarrollo comunal,24,0,60
+Georeferencia de las organizaciones de desarrollo comunal,24,0,57
+¿Cómo financiar un proyecto con Dinadeco?,24,0,41
+Configuración de proyecto,8,0,25
+Sección información básica Dinadeco,24,0,35
+Programas y servicios,24,0,21
+Direcciones regionales (georeferenciada y con contactos),32,0,56
+Update email template,4,0,21
+Magic link generation,8,0,21
+UI implementation magic link,8,0,28
+Changes in the frontend regarding videos,8,0,40
+Serve videos using Cloudfront,4,0,29
+Configuración del proyecto,8,0,26
+Registro,16,0,8
+Login,16,0,5
+Asignar mesa a tablet,8,0,21
+Ver menú,32,0,8
+Ordenar desde tablet,40,0,20
+Consultar estado de orden,16,0,25
+Consultar estado de orden,16,0,25
+Publicación de Play Store,16,0,25
+Configuración del proyecto,8,0,26
+Registro,16,0,8
+Login,8,0,5
+Roles,16,0,5
+Ordenes,24,0,7
+Reporte de Ordenes + Filtros,16,0,28
+Publicación en producción,16,0,25
+Configuración del proyecto,8,0,26
+Listado de clientes,8,0,19
+PM Entregable 2,8,0,15
+PM Entregable 1,23,0,15
+QA Entregable 1,80,0,15
+QA Entregable 2,24,0,15
+Project setup,8,0,13
+Login,8,0,5
+Register,16,0,8
+Products CRUD,24,0,13
+Search products as a guest,16,0,26
+Landing informative pages,16,0,25
+Reviews,16,0,7
+Seller rate,16,0,11
+Roles,24,0,5
+Contact owner,8,0,13
+Product details,16,0,15
+PM,18,0,2
+QA,40,0,2
+Home Page,8,1,9
+Booking Page,8,1,12
+Vendor Page,8,1,11
+Vendor Dashboard Page,8,1,21
+User Dashboard Page,8,1,19
+Extra changes requested by Sophia,16,1,33
+AWS Changes,16,1,11
+PM,8,1,2
+Configuración del proyecto,8,0,26
+Búsqueda de productos,24,0,21
+Preparación de orden,32,0,20
+Push notifications,32,0,18
+Multicompañia,16,0,13
+Deploy a producción,8,0,19
+Confirmar Pedido,4,0,16
+Configuración del proyecto,8,0,26
+Capcha,8,0,6
+Plantilla html + colores y branding QPOS,16,0,40
+Búsqueda de productos,24,0,21
+Preparación de orden,32,0,20
+Push notifications,32,0,18
+Deploy a producción,8,0,19
+Capcha,8,0,6
+Confirmar pedido,4,0,16
+Multicompañia,16,0,13
+Diseño de la arquitectura,24,0,25
+Configuración wordpress,8,0,23
+Instalación de WooCommerce,24,0,26
+Integración con pasarela del bac,80,0,32
+Instalación de FooEvents,40,0,24
+Customización de UI,40,0,19
+Deploy a producción,24,0,19
+Architect,8,0,9
+PM,24,0,2
+QA,64,0,2
+AWS configuration and deploy to production,40,1,42
+QA Deliverable 1,48,1,16
+QA Deliverable 2,64,1,16
+QA Deliverable 3,104,1,16
+PM Deliverable 1,10,1,16
+PM Deliverable 2,16,1,16
+PM Deliverable 3,22,1,16
+Search business (API),8,1,21
+Project Setup (API),8,1,19
+Login (API),8,1,11
+Roles (API),8,1,11
+Authorization (API),8,1,19
+Products CRUD (API),24,1,19
+Business catalog (API),16,1,22
+Posts CRUD (API),16,1,16
+Likes (API),8,1,11
+Follow Businesses (API),16,1,23
+Register Client (API),16,1,21
+Business profile (API),16,1,22
+Search products (API),8,1,21
+Timelines with feeds (API),16,1,26
+Buy Product workflow (API),40,1,26
+Orders (API),24,1,12
+Delivery points (API),16,1,21
+Reviews (API),16,1,13
+Comprobantes de pago (API),40,1,26
+Register Business (API),16,1,23
+Token management (App),8,1,22
+Search business (App),8,1,21
+Search products (App),8,1,21
+Register Business (App),32,1,23
+Project Setup (App),8,1,19
+Authorization (App),16,1,19
+Register Client (App),32,1,21
+Business profile (App),24,1,22
+Business catalog (App),24,1,22
+Delivery points (App),24,1,21
+Products CRUD (App),24,1,19
+Posts with toolkit (App),40,1,24
+Business likes (App),16,1,20
+Timelines with feeds (App),24,1,26
+Shopping card (App),48,1,19
+My orders (App),40,1,15
+Comprobantes de pago (App),40,1,26
+Business reviews (App),24,1,22
+Feedback Deliverable 1,16,1,22
+Feedback Deliverable 2,24,1,22
+Feedback Deliverable 3,48,1,22
+Diseño de la arquitectura,24,1,25
+Detección de puntos y lineas en el rostro,40,0,41
+Configuración de proyecto,8,0,25
+Opción: Camara en tiempo real y captura de imagen,24,0,49
+Puesta en producción,16,0,20
+Setup python server,8,0,19
+template,8,0,8
+Configuración del proyecto,8,0,26
+Img capturada con puntos editables,16,0,34
+Impresión del modelo,40,0,20
+Opción: Adjuntar imagen,8,0,23
+validaciones en tiempo real de imagen,16,0,37
+PM,22,0,2
+QA,40,0,2
+Configuración de proyecto,8,0,25
+Conexión API,8,0,12
+Menú (sin inicio de sesión),8,0,27
+Menú lateral (sin inicio de sesión),8,0,35
+Olvidó contraseña,8,0,17
+Menú lateral (con inicio de sesión),8,0,35
+Menú (con inicio de sesión),8,0,27
+Desglose de pensión,8,0,19
+Estado de trámite,8,0,17
+Consulta de crédito,8,0,19
+Líneas de crédito,8,0,17
+Sucursales,8,0,10
+Cerrar sesión,4,0,13
+Publicación en tiendas,16,0,22
+Splash,8,0,6
+Inicio de sesión,8,0,16
+PM,8,0,2
+QA,32,0,2
+Setup,4,0,5
+"investigar e implementar en caso de exito, la viabilidad de que se puedan descargar más de un archivo a la vez",12,0,110
+Publicacion apps,8,0,16
+descargar archivos escogiendo el directorio donde se debe guardar,12,0,65
+Setup,4,0,5
+"investigar e implementar en caso de exito, la viabilidad de que se puedan descargar más de un archivo a la vez",12,0,110
+descargar archivos escogiendo el directorio donde se debe guardar,12,0,65
+Publicacion apps,8,0,16
+QA,12,0,2
+PM,2,0,2
+Configuración de proyecto,8,0,25
+Conexión API,8,0,12
+Menú (sin inicio de sesión),8,0,27
+Menú lateral (sin inicio de sesión),8,0,35
+Olvidó contraseña,8,0,17
+Menú lateral (con inicio de sesión),8,0,35
+Menú (con inicio de sesión),8,0,27
+Desglose de pensión,8,0,19
+Estado de trámite,8,0,17
+Consulta de crédito,8,0,19
+Líneas de crédito,8,0,17
+Sucursales,8,0,10
+Cerrar sesión,4,0,13
+Publicación en tiendas,16,0,22
+Splash,8,0,6
+Inicio de sesión,8,0,16
+PM,8,0,2
+QA,32,0,2
+La tecla enter hace que se salga de la pantalla,4,0,47
+Editar booking en la segunda pantalla de nueva solicitud de contenedor,4,0,70
+Actualizar versión de angular,24,0,29
+Exportar a Excel la lista de clientes,4,0,37
+Agregar campo de fecha de presentación del documento y no solo el de vencimiento.,2,0,81
+Historial de transportistas,4,0,27
+Estadisticas de solicitudes (Agregar monto vendido a la par del monto facturado),2,0,80
+"Tarifas (Agregar filtros por fecha inicio, fecha fin)",2,0,53
+CRUD Naviera y selects en todas las páginas,4,0,43
+Solicitud de contenedores (nuevo campo de consignatario y campo de notas),2,0,73
+solicitud de tarifa (Agregar checkboxes para tarifas extras),4,0,60
+Solicitud de furgones (exportar a excel con checkboxes),4,0,55
+Cierre de guia (cambios varios),4,0,31
+Ingresar guia (cambios varios),8,0,30
+Boletas de pago a choferes (Que se puedan eliminar débitos),4,0,59
+importar conbustibles (señalar lineas invalidas en rojo),4,0,56
+Equipos nuevo equipo no está mostrando el dropdown del usuario.,2,0,63
+Camiones (no generar alertas a cambiones esporádicos),4,0,53
+Reporte de documentos (cambios varios),4,0,38
+Cambios en menú principal (favoritos y busqueda rápida),24,0,55
+Cambios en general,4,0,18
+Crud mecanicos,4,0,14
+Cambios en módulo de mantenimiento,24,0,34
+Reporte de solicitudes por cliente y semana,4,0,43
+Reporte de facturación por cliente y semana,4,0,43
+Reporte de contenedor y fecha/hora de entrega,4,0,45
+CRUD Naviera y selects en todas las páginas,4,0,43
+Exportar a Excel la lista de clientes,4,0,37
+Agregar campo de fecha de presentación del documento y no solo el de vencimiento.,2,0,81
+Agregar el nombre del transportista a la descripción de la alerta de vencimiento.,4,0,81
+Solicitud de contenedores (nuevo campo de consignatario y campo de notas),2,0,73
+solicitud de tarifa (Agregar checkboxes para tarifas extras),16,0,60
+Solicitud de furgones (exportar a excel con checkboxes),4,0,55
+Cierre de guia (cambios varios),4,0,31
+Ingresar guia (cambios varios),16,0,30
+Trazabilidad (agregar costos al reporte),8,0,40
+Boletas de pago a choferes (Que se puedan eliminar débitos),4,0,59
+Migración a nueva librería de Excel,40,0,35
+Historial de transportistas,4,0,27
+Estadisticas de solicitudes (Agregar monto vendido a la par del monto facturado),8,0,80
+Estadisticas de solicitudes (El excel debe tener el mismo formato del PDF),8,0,74
+importar conbustibles (señalar lineas invalidas en rojo),4,0,56
+Equipos nuevo equipo no está mostrando el dropdown del usuario.,2,0,63
+Camiones (no generar alertas a cambiones esporádicos),4,0,53
+Reporte de documentos (cambios varios),4,0,38
+Cambios en general,4,0,18
+Crud mecanicos,4,0,14
+Cambios en módulo de mantenimiento,24,0,34
+Actualizar versión de laravel,24,0,29
+Reporte de viajes realizadosn (El excel que salga agrupado por transportistas y chofer con línea en blanco entre cada uno),8,0,122
+Reporte de pagos transportistas (El excel debe ir ordenado por transportista y poner los signos de colones y colocar bien la sumatoria),8,0,135
+"Tarifas (Agregar filtros por fecha inicio, fecha fin)",4,0,53
+Solicitud de contenedores (Cambiar texto de Salida de planta por Planta y agregar 3 Ejes por defecto 3),1,0,103
+Reporte de solicitudes por cliente y semana,4,0,43
+Reporte de facturación por cliente y semana,4,0,43
+Reporte de contenedor y fecha/hora de entrega,4,0,45
+PM Entregable 1,12,0,15
+PM Entregable 2,6,0,15
+PM Entregable 3,6,0,15
+QA Entregable 1,32,0,15
+QA Entregable 2,24,0,15
+QA Entregable 3,24,0,15
+Configuración del proyecto,8,0,26
+Registro,24,0,8
+Login,16,0,5
+Cerrar Sesión,8,0,13
+Perfil de usuario,16,0,17
+Tracking de orden,24,0,17
+Mis direcciones (Direcciones favoritas),24,0,39
+Ofertas recomendadas,24,0,20
+Preguntas frecuentes,8,0,20
+Enlace a soporte técnico (correo y llamadas),8,0,44
+Entregas con horario personalizado,24,0,34
+Pago en línea,40,0,13
+Publicación en tienda,16,0,21
+Cerrar Sesión,8,0,13
+Notificaciones Push,16,0,19
+Mis ordenes (Historial),16,0,23
+Seleccionar ubicación,16,0,21
+Buscador de productos o tiendas,24,0,31
+Crear producto desde la app,32,0,27
+Carrito de compras,80,0,18
+Listado de ordenes para mesanjeros,16,0,34
+Tomar Order (para recoger y entregar),16,0,37
+Configuración del proyecto,8,0,26
+Registro,24,0,8
+Login,16,0,5
+Seguridad y Roles,24,0,17
+Manejo de tokens JWT,8,0,20
+Perfil de usuario,8,0,17
+Tracking de orden,32,0,17
+Notificaciones Push,16,0,19
+CRUD Ordenes,24,0,12
+CRUD direcciones de usuario final,16,0,33
+CRUD Ofertas,16,0,12
+CRUD Usuarios,8,0,13
+CRUD Tiendas,8,0,12
+CRUD Productos,32,0,14
+CRUD Categorías,8,0,15
+Buscador de productos o tiendas,24,0,31
+Pago en línea,40,0,13
+Publicación en producción,16,0,25
+Ordenes por recoger,24,0,19
+Carrito de compras,40,0,18
+CRUD de clientes,16,0,16
+Configuración del proyecto,8,0,26
+Login,8,0,5
+CRUD de usuarios,16,0,16
+CRUD de mensajeros,8,0,18
+Control de ordenes,24,0,18
+Notificaciones Push,16,0,19
+Manual de usuario,32,0,17
+Publicación en producción,16,0,25
+Cerrar sesión,8,0,13
+Detalle de ordenes,16,0,18
+Configuración de RDS,8,0,20
+Configuración de containers,8,0,27
+Configuración de VPCs,8,0,21
+Configuración de certificados SSL,8,0,33
+Configuración de certificados SSL,8,0,33
+Integración continua,32,0,20
+Load Balancers,8,0,14
+Api Gateway,8,0,11
+PM Entregable 3,20,0,15
+PM Entregable 1,24,0,15
+PM Entregable 2,20,0,15
+QA Entregable 1,100,0,15
+QA Entregable 2,80,0,15
+QA Entregable 3,80,0,15
+Configuración del proyecto,8,0,26
+Registro,16,0,8
+Login,16,0,5
+Asignar mesa a tablet en sitio,8,0,30
+Mantenimiento del menú,40,0,22
+Pantalla de ordenes para cocina,24,0,31
+Listado de clientes,8,0,19
+Ver menú,32,0,8
+Consultar estado de orden,16,0,25
+Ordenar desde sitio web,40,0,23
+Mantenimiento de lugares de entrega,8,0,35
+Tarifa de lugares de entrega,16,0,28
+Configuración del proyecto,8,0,26
+Registro,16,0,8
+Login,8,0,5
+Roles,16,0,5
+Ordenes,24,0,7
+Publicación en producción,16,0,25
+Reporte de Ordenes + Filtros,16,0,28
+Mantenimiento menú,32,0,18
+Generación de urls de mesas,8,0,27
+Mantenimiento de lugares de entrega,8,0,35
+Tarifa de lugares de entrega,24,0,28
+Integración con oficinaonlinecr para facturación,32,0,48
+PM Entregable 2,18,0,15
+PM Entregable 1,20,0,15
+QA Entregable 2,62,0,15
+QA Entregable 1,60,0,15
+Miguel Work,50,0,11
+Miguel Work,50,0,11
+Byron Work,50,0,10
+Byron Work,50,0,10
+Carlos Work,20,0,11
+Project setup,8,0,13
+Actualización de versiones de librerías,24,0,39
+Revición de login con tokens,8,0,28
+Ocultar registro de horas en la app móvil,8,0,41
+Publicación en playstore,8,0,24
+Indicador: Producción por semilla sembrada en cultivos activo.,8,0,62
+"Indicador: Historial de producción por semilla sembrada por producto, según el productor y la finca.",8,0,100
+Indicador: Kilos recolectados por día por camión. Y un historial.,8,0,65
+"Indicador:  Producción de cultivos activos, por producto en cajas y en kilos.",8,0,77
+Indicador:   Indicador de incremento o decremento según la producción de cada día. Porcentualmente.,16,0,99
+Laravel Upgrade,16,0,15
+Project setup,8,0,13
+Tabs de productores inactivos,8,0,29
+Tabs de productores inactivos,8,0,29
+Tabs de proyectos para inactivos,8,0,32
+Tabs de usuarios inactivos,8,0,26
+Tabs de fincas inactivas,8,0,24
+Merge de fincas duplicadas (manualmente),8,0,40
+Cambio de página cuando se asignan fincas,8,0,41
+Ocultar los módulos de planillas en la app web,4,0,46
+Ocultar los módulos de planillas en la app web,4,0,46
+Cerrar cultivo automáticamente,8,0,30
+Filtros en encabezado de columnas,24,0,33
+Encabezados de columnas se deben mover con el scroll,4,0,52
+Deploy a producción,16,0,19
+PM Mejoras,12,0,10
+PM Indicadores,4,0,14
+QA Mejoras,40,0,10
+QA Indicadores,8,0,14
+PM,24,1,2
+PM Enfermería,6,1,13
+QA,56,1,2
+QA Enfermería,16,1,13
+Asociar teléfono a individuo,16,1,28
+Recolección de datos de ubicación,16,1,33
+Notificaciones push,16,1,19
+Publicación en tiendas,16,1,22
+Configuración del proyecto,8,1,26
+Loguearse como especialista de salud,8,1,36
+Toma de sintomas,24,1,16
+Ajuste de plantilla móvil,16,1,25
+Historial de exámenes realizados,16,1,32
+Mostrar mapa con ubicación actual,8,1,33
+Mostrar mapa con zonas peligrosas en Costa Rica,16,1,47
+Alerta de zona roja,8,1,19
+Asociar usuarios con compañías,8,1,30
+Alertas de salida de geocerca,16,1,29
+Configuración del proyecto,8,1,26
+En el expediente del trabajador ver la lista de revisiones que ha tenido.,16,1,73
+Toma de sintomas a pacientes (api),8,1,34
+Localización actual de todas las personas,24,1,41
+Reporte de revisiones con filtro para ver sanos y sospechosos.,16,1,62
+Publicación en producción,8,1,25
+Login,8,1,5
+Monitoreo de individuo en mapa,24,1,30
+Definición de geocercas,16,1,23
+CRUD Compañias,8,1,14
+Subir examen (pdf o foto),16,1,25
+Historial de examenes por usuario,16,1,33
+Seguridad,16,1,9
+CRUD Personas,24,1,13
+Asociar teléfono a individuo,8,1,28
+Crear el role de especialista de salud.,8,1,39
+Crear la vista de etiquetado de personas,40,1,40
+Etiquetar personas desde un video,40,1,33
+Etiquetar personas desde una lista de personas desconocidas,32,1,59
+Creación de un job para que entrene el modelo automáticamente,40,1,61
+CRUD de grupos,24,1,14
+Etiquetar personas desde una o varias fotos,24,1,43
+Creación de grupos,32,1,18
+Optimizacion proceso de videos,24,1,30
+PM,10,1,2
+QA Express,24,0,10
+QA Interna,120,0,10
+PM Interna,24,0,10
+PM Express,8,0,10
+Feedback Interna,40,0,16
+Feedback Express,8,0,16
+Configuración del proyecto,8,0,26
+Registro,16,0,8
+Login,16,0,5
+Ver menú,32,0,8
+Consultar estado de orden,16,0,25
+Ordenar desde sitio web,40,0,23
+Mantenimiento de lugares de entrega,8,0,35
+Tarifa de lugares de entrega,16,0,28
+Asignar mesa a tablet en sitio,8,0,30
+Mantenimiento del menú,40,0,22
+Pantalla de ordenes para cocina,24,0,31
+Listado de clientes,8,0,19
+Configuración del proyecto,8,0,26
+Registro,16,0,8
+Login,8,0,5
+Roles,16,0,5
+Ordenes,24,0,7
+Publicación en producción,16,0,25
+Reporte de Ordenes + Filtros,16,0,28
+Mantenimiento menú,32,0,18
+Generación de urls de mesas,8,0,27
+Integración con oficinaonlinecr para facturación,32,0,48
+Mantenimiento de lugares de entrega,8,0,35
+Tarifa de lugares de entrega,24,0,28
+Rediseño de formato de factura,24,1,30
+CRUD Naviera y selects en todas las páginas,4,1,43
+Exportar a Excel la lista de clientes,4,1,37
+Agregar campo de fecha de presentación del documento y no solo el de vencimiento.,2,1,81
+Agregar el nombre del transportista a la descripción de la alerta de vencimiento.,4,1,81
+Migración a nueva librería de Excel,40,1,35
+Historial de transportistas,4,1,27
+Estadisticas de solicitudes (Agregar monto vendido a la par del monto facturado),8,1,80
+Estadisticas de solicitudes (El excel debe tener el mismo formato del PDF),8,1,74
+Actualizar versión de laravel,24,1,29
+Reporte de viajes realizadosn (El excel que salga agrupado por transportistas y chofer con línea en blanco entre cada uno),8,1,122
+Reporte de pagos transportistas (El excel debe ir ordenado por transportista y poner los signos de colones y colocar bien la sumatoria),8,1,135
+"Tarifas (Agregar filtros por fecha inicio, fecha fin)",4,1,53
+Reporte de solicitudes por cliente y semana,4,1,43
+Reporte de facturación por cliente y semana,4,1,43
+Reporte de contenedor y fecha/hora de entrega,4,1,45
+Solicitud de contenedores (Cambiar texto de Salida de planta por Planta y agregar 3 Ejes por defecto 3),1,1,103
+Solicitud de contenedores (nuevo campo de consignatario y campo de notas),2,1,73
+solicitud de tarifa (Agregar checkboxes para tarifas extras),16,1,60
+Solicitud de furgones (exportar a excel con checkboxes),4,1,55
+Cierre de guia (cambios varios),4,1,31
+Ingresar guia (cambios varios),16,1,30
+Trazabilidad (agregar costos al reporte),8,1,40
+Boletas de pago a choferes (Que se puedan eliminar débitos),4,1,59
+importar conbustibles (señalar lineas invalidas en rojo),4,1,56
+Equipos nuevo equipo no está mostrando el dropdown del usuario.,2,1,63
+Camiones (no generar alertas a cambiones esporádicos),4,1,53
+Cambios en general,4,1,18
+Cambios en debitos en boletas de pago para camiones,40,1,51
+Reporte de documentos (cambios varios),4,1,38
+Crud mecanicos,4,1,14
+Rediseño de formato de factura,24,1,30
+PM Entregable 2,6,1,15
+PM Entregable 3,6,1,15
+PM Entregable 1,24,1,15
+QA Entregable 2,24,1,15
+QA Entregable 3,24,1,15
+QA Entregable 1,40,1,15
+Rediseño de formato de factura,40,1,30
+La tecla enter hace que se salga de la pantalla,4,1,47
+Editar booking en la segunda pantalla de nueva solicitud de contenedor,4,1,70
+Actualizar versión de angular,24,1,29
+Exportar a Excel la lista de clientes,4,1,37
+Agregar campo de fecha de presentación del documento y no solo el de vencimiento.,2,1,81
+Historial de transportistas,4,1,27
+Estadisticas de solicitudes (Agregar monto vendido a la par del monto facturado),2,1,80
+"Tarifas (Agregar filtros por fecha inicio, fecha fin)",2,1,53
+CRUD Naviera y selects en todas las páginas,4,1,43
+Reporte de solicitudes por cliente y semana,4,1,43
+Reporte de facturación por cliente y semana,4,1,43
+Reporte de contenedor y fecha/hora de entrega,4,1,45
+Solicitud de contenedores (nuevo campo de consignatario y campo de notas),2,1,73
+Cierre de guia (cambios varios),4,1,31
+Cambios de acomodo de vertical a horizontal,40,1,43
+solicitud de tarifa (Agregar checkboxes para tarifas extras),4,1,60
+Solicitud de furgones (exportar a excel con checkboxes),4,1,55
+Ingresar guia (cambios varios),8,1,30
+Boletas de pago a choferes (Que se puedan eliminar débitos),4,1,59
+importar conbustibles (señalar lineas invalidas en rojo),4,1,56
+Equipos nuevo equipo no está mostrando el dropdown del usuario.,2,1,63
+Camiones (no generar alertas a cambiones esporádicos),4,1,53
+Reporte de documentos (cambios varios),4,1,38
+Cambios en menú principal (favoritos y busqueda rápida),24,1,55
+Cambios en general,4,1,18
+Crud mecanicos,4,1,14
+Project tasks,16,0,13
+Project attachments,16,0,19
+Deploy to production,16,0,20
+Log Time,16,0,8
+Upload Project contracts,8,0,24
+Report: Hours by employee,8,0,25
+Report: Hours per project,8,0,25
+Project configuration,8,0,21
+Login with office365,24,0,20
+Time forecasting for next week,16,0,30
+Project Roles CRUD,8,0,18
+Rates per role on projects,16,0,26
+Client CRUD,8,0,11
+Projects CRUD,24,0,13
+add/remove users from project,16,0,29
+Security and roles,32,0,18
+QA,72,0,2
+PM,26,0,2
+QA,92,0,2
+Deploy a producción,24,0,19
+Instalación de Opencart,24,0,23
+Configuración opencart,8,0,22
+Integración con pasarela del bac,80,0,32
+Login con Facebook,24,0,18
+Registro,16,0,8
+Configuración del proyecto,8,0,26
+Login,16,0,5
+Listado de productos,16,0,20
+Carrito de compras,40,0,18
+Publicación Android,16,0,19
+Publicación iOS,16,0,15
+Configuración y ajustes de api OpenCart,40,0,39
+PM,20,0,2
+Configuración del proyecto,8,1,26
+Login y registro,8,1,16
+CRUD grupos,8,1,11
+CRUD personas,8,1,13
+Vista para administrar cámaras,16,1,30
+Deploy a producción,16,1,19
+Subir video al servidor,16,1,23
+Vista de reportes,24,1,17
+Vista de configuración,8,1,22
+Vista de etiquetado,52,1,19
+Project Manager,5,1,15
+Configuración del proyecto,8,0,26
+Subir foto y usar plantilla seleccionada,16,0,40
+Maquetado HTML + Responsive,40,0,27
+Manual de uso,8,0,13
+Horas de mantenimiento,10,0,22
+Agregar códigos de Google Analytics y Facebook Pixel.,1,0,53
+Página home,8,0,11
+Plantillas para fotos,32,0,21
+Subir foto y usar plantilla seleccionada,16,0,40
+Deploy a producción,16,0,19
+Pagos con paypal,40,0,16
+Project configuration,8,0,21
+HTML Template,16,0,13
+Home view,8,0,9
+About US,8,0,8
+Contact Us,8,0,10
+Testimonies,8,0,11
+Instant quote,16,0,13
+E-commerce,40,0,10
+Deploy to production,8,0,20
+QA,32,0,2
+PM,16,0,2
+Registro,24,0,8
+Envío de ubicación en tiempo real,24,0,33
+Auto asignación de ordenes,16,0,26
+Login Usuario y Password,8,0,24
+Reviews de choferes,16,0,19
+Visualizar paquete en tiempo real en mapa,32,0,41
+Push notifications,16,0,18
+Chat cliente - chofer,24,0,21
+Configuración de proyecto,8,0,25
+Perfil del usuario,8,0,18
+Login con Google,16,0,16
+Wallet para cashback,16,0,20
+Login con Facebook,16,0,18
+Historial de ordenes,24,0,20
+CRUD Pedidos,16,0,12
+Historial de movimientos de wallet,16,0,34
+Integración de plataforma de pagos,40,0,34
+Configuración de proyecto,8,0,25
+Auto asignación de ordenes,16,0,26
+Reviews de choferes,16,0,19
+Registro,24,0,8
+Envío de ubicación en tiempo real,24,0,33
+Login con Google,16,0,16
+Login con Facebook,16,0,18
+Push notifications,16,0,18
+Chat cliente - chofer,24,0,21
+Wallet para cashback,16,0,20
+Visualizar paquete en tiempo real en mapa,32,0,41
+Historial de ordenes,24,0,20
+Login Usuario y Password,8,0,24
+Historial de movimientos de wallet,16,0,34
+Perfil del usuario,8,0,18
+CRUD Pedidos,16,0,12
+Integración de plataforma de pagos,40,0,34
+Historial de movimientos de wallet,8,0,34
+Registro,16,0,8
+Registro de orden nueva,8,0,23
+Envío de notificaciones Push,16,0,28
+Historial de ordenes,8,0,20
+Listado de ordenes pendientes,8,0,29
+Asignación de ordenes,8,0,21
+Configuración de proyecto,8,0,25
+Autorización,16,0,12
+Autenticación,40,0,13
+Recepción de ubicaciones en tiempo real,16,0,39
+Socket de envío de ubicación en tiempo real,32,0,43
+Reviews,8,0,7
+Chat cliente - chofer,24,0,21
+Movimientos de wallet,16,0,21
+CRUD Pedidos,8,0,12
+Pagos en línea,40,0,14
+Configuración de proyecto,8,0,25
+Tarifa a cobrar por Km,8,0,22
+Roles y permisos,16,0,16
+Crud usuarios,8,0,13
+Tarifa a cobrar por Peso,8,0,24
+Wallet de cada cliente,8,0,22
+Tarifa a cobrar por ayudante,8,0,28
+Reporte financiero,16,0,18
+Reporte general,16,0,15
+Generación de link de pagos,16,0,27
+Reporte de transportes realizados,24,0,33
+Detalle de transportes realizados,16,0,33
+QA,300,0,2
+PM,64,0,2
+App de escritorio microlocalización,80,0,35
+Portal central,300,0,14
+website https://clubyoy.com/,80,0,28
+CMS,300,0,3
+Apis para apps móviles,300,0,22
+Aplicación Android,400,0,18
+Aplicación iOS,400,0,14
+Entregable 1,18,1,12
+Entregable 3,12,1,12
+Entregable 6,12,1,12
+Entregable 4,18,1,12
+Entregable 5,16,1,12
+Entregable 2,16,1,12
+Configuración del proyecto,8,1,26
+Splash screen,16,1,13
+Login con usuario / clave,8,1,25
+Registro con usuario / clave,8,1,28
+Login con Facebook,16,1,18
+Login con Google,16,1,16
+Mi Perfil,8,1,9
+Alcancía (Wallet),16,1,17
+Historial de actividad,8,1,22
+Invitar amigos,8,1,14
+Selección de intereses,24,1,22
+Selección de ciudad,8,1,19
+Pagina principal (slider principal),16,1,35
+Pagina principal (Carruseles),24,1,29
+Pagina principal (Barra de búsqueda),16,1,36
+Listado de Incentivos,16,1,21
+Detalle de incentivo,8,1,20
+Carrito de compras,40,1,18
+Compra de incentivo,16,1,19
+Mis compras,16,1,11
+Detalle de incentivo comprado,8,1,29
+Canje de incentivo comprado,16,1,27
+Sorpresas recibidas,24,1,19
+YOY Pay,8,1,7
+Ingresar monto de pago,24,1,22
+Pago completado,8,1,15
+Publicación en tiendas,16,1,22
+Splash screen,16,1,13
+Login con usuario / clave,8,1,25
+Registro con usuario / clave,8,1,28
+Login con Facebook,16,1,18
+Configuración del proyecto,8,1,26
+Login con Apple,16,1,15
+Mi Perfil,8,1,9
+Selección de intereses,24,1,22
+Selección de ciudad,8,1,19
+Historial de actividad,8,1,22
+Pagina principal (slider principal),16,1,35
+Pagina principal (Carruseles),24,1,29
+Pagina principal (Barra de búsqueda),16,1,36
+Listado de Incentivos,16,1,21
+Detalle de incentivo,8,1,20
+Carrito de compras,40,1,18
+Compra de incentivo,16,1,19
+Mis compras,16,1,11
+Detalle de incentivo comprado,8,1,29
+Canje de incentivo comprado,16,1,27
+Sorpresas recibidas,24,1,19
+YOY Pay,8,1,7
+Ingresar monto de pago,24,1,22
+Pago completado,8,1,15
+Alcancía (Wallet),16,1,17
+Invitar amigos,8,1,14
+Publicación en tiendas,16,1,22
+Entregable 4,48,1,12
+Entregable 3,24,1,12
+Entregable 1,48,1,12
+Entregable 6,24,1,12
+Entregable 2,40,1,12
+Entregable 5,40,1,12
+"Replica de Fase 1 en Fase 2,3,4",16,1,31
+Agregar usuario que creo la orden de compra en el Archivo,8,1,57
+Desplegar comentario en la OC,8,1,29
+Modulo de enviar correos con la OC,8,1,34
+Facturas manuales ligarlas a la OC,16,1,34
+Log de comentarios Fase 1 a gastos.,16,1,35
+Deploy a producción,8,1,19
+Configuración del proyecto,8,0,26
+Login,8,0,5
+Selecciona la competencia a trabajar,16,0,36
+Selecciona horario para la alarma diaria,24,0,40
+Agregar personas para retroalimentación,16,0,39
+Programar la fecha de retroalimentación,16,0,39
+Selección de indicador de competencia,16,0,37
+Push notifications,16,0,18
+Competencias dominadas,16,0,22
+Competencias pendientes,16,0,23
+Score card,24,0,10
+Formulario del evaluador,16,0,24
+Publicación en tiendas,24,0,22
+Entregable 1,52,0,12
+Entregable 2,32,0,12
+Entregable 3,24,0,12
+CRUD evaluaciones,24,0,17
+Configuración del proyecto,8,0,26
+Login,8,0,5
+Autenticación,8,0,13
+Autorización,8,0,12
+CRUD compañias,8,0,14
+CRUD usuarios,8,0,13
+Roles y Permisos,24,0,16
+CRUD Competencias,8,0,17
+CRUD Indicadores de competencias,8,0,32
+Jobs de notificaciones automáticas,24,0,34
+Endpoints de score cards,24,0,24
+Roles y Permisos,24,0,16
+Configuración del proyecto,8,0,26
+Login,8,0,5
+CRUD compañias,8,0,14
+CRUD usuarios,8,0,13
+CRUD Indicadores de competencias,16,0,32
+CRUD Competencias,8,0,17
+Push notifications,16,0,18
+CRUD Indicadores de competencias,16,0,32
+Reporte de evaluaciones,16,0,23
+Detalle de evaluación,8,0,21
+Historial de scord cards,16,0,24
+"Envío de mensajes, lecturas, video o podcast corto.",16,0,51
+Entregable 1,20,0,12
+Entregable 2,12,0,12
+Entregable 3,8,0,12
+Interfaz de Video Llamada Ver mis contactos,16,0,43
+Acceso al Sistema (con interface para Validación biométrica del usuario),16,0,72
+Interfaz de Video Llamada  Sala de llamada  información de llamada,4,0,66
+Interfaz de Video Llamada  Sala de llamada  otras opciones (deshabilitar a los asistentes sin silenciar),8,0,104
+Interfaz de Video Llamada  Sala de llamada  finalizar llamado,8,0,61
+Interfaz de Video Llamada  Sala de llamada  Generar informe de Votación,8,0,71
+Interfaz de Video Llamada Home,8,0,30
+Interfaz de Video Llamada Historial de meets (Entrantes/ Perdidos/ Salientes),24,0,77
+Interfaz de Video Llamada Configuración General,16,0,47
+Configuración del proyecto,8,0,26
+Ajuste de plantilla al diseño del cliente,40,0,41
+Registro de Usuario (con interface para validación correcta del registro a través de captura de imagen),40,0,103
+Interfaz de Video Llamada  Sala de llamada  otras opciones (bloquear/desbloquear meet),8,0,86
+Interfaz de Video Llamada  Sala de llamada  agregar asistentes,8,0,62
+Interfaz de Video Llamada Configuración Meetings,16,0,48
+Interfaz de Video Llamada Unirse a una meet,8,0,43
+"Interfaz de Video Llamada Crear una meet (configurar audio, establecer conexión)",8,0,80
+Interfaz de Video Llamada Programar una meet,8,0,44
+Interfaz de Video Llamada Invitar contactos (usando icalendar),16,0,62
+Interfaz de Video Llamada  Sala de llamada,8,0,42
+Interfaz de Video Llamada  Sala de llamada  habilitar modo de llamada para el organizador,8,0,89
+Interfaz de Video Llamada  Sala de llamada  Habilitar/deshabilitar micrófono,4,0,76
+Interfaz de Video Llamada  Sala de llamada  Habilitar/deshabilitar video,8,0,72
+Interfaz de Video Llamada Mi información,8,0,40
+Interfaz de Video Llamada  Sala de llamada  otras opciones (mostrar mi propia imagen de video),16,0,94
+Interfaz de Video Llamada  Sala de llamada  Generar informe PDF asistentes verificados,8,0,86
+Interfaz de Video Llamada  Sala de llamada  Generar Formulario Votación,24,0,71
+Interfaz de Video Llamada  Sala de llamada  Votar sobre formulario,8,0,66
+Interfaz de Video Llamada Cambiar estado,8,0,40
+Interfaz de Video Llamada  Sala de llamada  Habilitar/deshabilitar opciones de pantalla (pantalla compartida),16,0,109
+Interfaz de Video Llamada  Sala de llamada  grabar meet,8,0,55
+Interfaz de Video Llamada  Sala de llamada  otras opciones (mutear a todos),8,0,75
+Interfaz de Video Llamada  Sala de llamada  Enviar  informe de Votación,8,0,71
+Interfaz de Video Llamada  Sala de llamada  otras opciones (cambiar a llamado por dial),8,0,87
+Interfaz de Video Llamada  Sala de llamada  otras opciones (cambiar a app desktop),8,0,82
+Interfaz de Video Llamada  Sala de llamada  otras opciones (enviar feedback),8,0,76
+Firma Electrónica Digital (integración con API existente),40,0,57
+Deploy a producción,8,0,19
+PM llamadas en curso,24,0,20
+"PM Feedback, Votacion y firma digital",16,0,37
+"PM Home, registro y login",16,0,25
+PM Inferfaz de llamadas e integración con chime,16,0,47
+QA Inferfaz de llamadas e integración con chime,40,0,47
+QA llamadas en curso,56,0,20
+"QA Home, registro y login",40,0,25
+"QA Feedback, Votacion y firma digital",40,0,37
+Configuración del proyecto,8,0,26
+Mis contactos CRUD,16,0,18
+Historial de llamadas,16,0,21
+Exportar asistentes,16,0,19
+Feedback de llamada,8,0,19
+Crud asistentes a llamadas,8,0,26
+Formularios de votación,24,0,23
+Deploy a producción,8,0,19
+Buying Page,8,0,11
+Configuración de wordpress,8,0,26
+Home page,8,0,9
+Selling Page,8,0,12
+About us Page,8,0,13
+Customers Page,8,0,14
+Contact Page,8,0,12
+Deploy a producción,8,0,19
+Project configuration,8,0,21
+Firebase integration for chat,24,0,29
+Extra Amenities payments using pay pal,16,0,38
+UI Changes,16,0,10
+Deploy to production,8,0,20
+Notify extra payment in the chat,4,0,32
+Contract Implementation,8,0,23
+Configuración de proyecto,4,0,25
+Landing Page,16,0,12
+Deploy a producción,4,0,19
+Configuración del proyecto,8,0,26
+Login with Google,32,0,17
+Login with Email and Password,24,0,29
+Home view,40,0,9
+Búsqueda de tiendas,16,0,19
+Seguir tienda,8,0,13
+Dejar de seguir a una tienda,8,0,28
+Navegar hacia el e-commerce de la tienda,16,0,40
+Publicación en tiendas,40,0,22
+PM,22,0,2
+QA,40,0,2
+Project setup,8,0,13
+Actualización de versiones de librerías,24,0,39
+Revición de login con tokens,8,0,28
+Ocultar registro de horas en la app móvil,8,0,41
+Publicación en playstore,8,0,24
+Laravel Upgrade,16,0,15
+Project setup,8,0,13
+Encabezados de columnas se deben mover con el scroll,4,0,52
+Tabs de proyectos para inactivos,8,0,32
+Desactivar usuarios,8,0,19
+Desactivar productores,8,0,22
+Filtros en encabezado de columnas,24,0,33
+Tabs de fincas inactivas,8,0,24
+Tabs de productores inactivos,8,0,29
+Deploy a producción,16,0,19
+PM Mejoras,20,0,10
+QA Mejoras,40,0,10
+Configuración del proyecto,8,0,26
+Login con Google,24,0,16
+Login con Facebook,16,0,18
+Registro con usuario y password,16,0,31
+Pagos con plataformas de pago (Paypal),40,0,38
+Perfil del usuario,8,0,18
+Olvidé mi password,8,0,18
+CRUD Anuncio de animales,16,0,24
+Búsqueda de anuncios,24,0,20
+Promocionar anuncio,8,0,19
+Deploy a producción,16,0,19
+PM entregable 2,16,0,15
+PM entregable 1,22,0,15
+Perfil del usuario,16,0,18
+Configuración del proyecto,8,0,26
+Login con Google,16,0,16
+Login con Facebook,16,0,18
+Pagos con plataformas de pago (Paypal),16,0,38
+Olvidé mi password,8,0,18
+Registro con usuario y password,8,0,31
+Ajustes de diseño html/css,32,0,26
+CRUD Anuncio de animales,24,0,24
+Búsqueda de anuncios,24,0,20
+Promocionar anuncio,8,0,19
+QA Entregable 2,50,0,15
+QA Entregable 1,60,0,15
+Configuración del proyecto,8,1,26
+Olvidé contraseña,8,1,17
+Login,8,1,5
+Pantalla principal con menú principal acorde al role del usuario,8,1,64
+Administración de usuarios,24,1,26
+Página de configuración,24,1,23
+Pantalla de gestión normativa,16,1,29
+Pantalla de envío de documento por correo,8,1,41
+Ver archivo y su historial,16,1,26
+Agregar/Editar archivo,8,1,22
+CRUD empresas,40,1,13
+Pestaña de Sesiones.,24,1,20
+Evaluaciones,24,1,12
+Diagnóstico,24,1,11
+Revisar Diagnóstico,16,1,19
+envío de resultado de Diagnóstico.,8,1,34
+Subir Plan de Acción,16,1,20
+Revisar Plan de Acción,8,1,22
+Seguimiento Plan de Acción,8,1,26
+Programación de sesiones y calendario,24,1,37
+Asistencia o sesiones,16,1,21
+Reporte de Dashboard,24,1,20
+Reporte de Empresa,16,1,18
+Reporte de Plan de Acción,24,1,25
+Reporte de Asesoría,16,1,19
+Reporte de Tiempos,16,1,18
+Reporte de Cubo de Diagnóstico,40,1,30
+Olvidé contraseña,8,1,17
+Configuración del proyecto,8,1,26
+Login JWT,16,1,9
+Crud Usuarios,16,1,13
+Crud Roles,8,1,10
+Asignar usuarios a roles,16,1,24
+Asignar permisos a roles,16,1,24
+Asignar permisos a usuarios,16,1,27
+Configuración del sistema,8,1,25
+Almacenamiento de documentos,24,1,28
+Búsqueda de documentos,8,1,22
+Enviar documento por correo,8,1,27
+CRUD Empresas y detalles,40,1,24
+Sesiones,16,1,8
+Evaluaciones,40,1,12
+Diagnóstico,16,1,11
+envío de resultado de Diagnóstico.,16,1,34
+Planes de Acción,24,1,16
+Programación de sesiones,8,1,24
+Consultas para reportes,48,1,23
+Actualizar documento,4,1,20
+QA Seguridad de pantalla principal,56,1,34
+QA Seguimiento de empresa y reportes,86,1,36
+QA Gestión documental y catálogo de empresas,48,1,44
+QA Formación y Diagnostico,56,1,26
+PM Seguridad de pantalla principal,12,1,34
+PM Gestión documental y catálogo de empresas,10,1,44
+Seguimiento de empresa y reportes,16,1,33
+PM Formación y Diagnostico,12,1,26
+Configuración del proyecto,8,0,26
+Login con usuario y clave,8,0,25
+Registro de oferentes,8,0,21
+Olvidó su clave,8,0,15
+Registro de compradores,24,0,23
+CRUD de usuarios para la misma empresa oferente,16,0,47
+CRUD Modelos,8,0,12
+Agregar vehículos de forma manual,24,0,33
+Bloqueo de vehiculos,8,0,20
+Comentarios de negociación,24,0,26
+Calificación de estrellas y comentarios para Oferentes,8,0,54
+Calificación de estrellas y comentarios para Compradores,8,0,56
+CRUD Tipos de proveedores,16,0,25
+Ver carros sin nombres ni contactos para usuarios no registrados,24,0,64
+deploy a producción,8,0,19
+Configuración de notificaciones,24,0,31
+Oferta del comprador en línea,24,0,29
+Creación de subastas,24,0,20
+CRUD Marcas,8,0,11
+Importar vehículos de Excel,16,0,27
+Detalle de subasta,16,0,18
+Cordinación de visita,16,0,21
+Ver vehículos a la venta,16,0,24
+Busqueda de vehículos,24,0,21
+Ver detalle del vehículo,24,0,24
+PM Seguridad y registro de vehículos,20,0,36
+PM Búsqueda y compra de vehículos,24,0,33
+PM Detalles finales y puesta en marcha,12,0,38
+Configuración del proyecto,8,0,26
+Registrar vehículo por foto e inteligencia artificial,160,0,53
+Deploy en tienda Android,32,0,24
+Deploy en tienda iOS,32,0,20
+Calificación de estrellas y comentarios para Oferentes,16,0,54
+Calificación de estrellas y comentarios para Oferentes,16,0,54
+Buscar vehículos,24,0,16
+Registrar vehículo de forma manual,24,0,34
+Ver detalles del vehículo,24,0,25
+Registro de oferente,24,0,20
+Registro de comprador,24,0,21
+Login,16,0,5
+Ofertar por vehículo,24,0,20
+Notificaciones push,16,0,19
+Comentarios de negociación,24,0,26
+Configuración del proyecto,8,0,26
+Deploy a producción,8,0,19
+Comentarios de negociación,16,0,26
+Registro de oferentes,8,0,21
+Registro de compradores,8,0,23
+Login con usuario y clave,8,0,25
+Permisos y roles,24,0,16
+Olvidó su clave,8,0,15
+CRUD de usuarios para la misma empresa oferente,8,0,47
+CRUD Marcas,8,0,11
+CRUD Modelos,8,0,12
+CRUD Vehículos,24,0,14
+Calificación de estrellas y comentarios para Oferentes,8,0,54
+Importar vehículos de Excel,16,0,27
+Busqueda de vehículos,8,0,21
+Push notifications,32,0,18
+CRUD Subastas,32,0,13
+Calificación de estrellas y comentarios para Compradores,8,0,56
+CRUD Tipos de proveedores,8,0,25
+QA Seguridad y registro de vehículos,104,0,36
+QA Búsqueda y compra de vehículos,120,0,33
+QA Detalles finales y puesta en marcha,60,0,38
+Configuración de extensión de encuestas,24,0,39
+Configuración de extensión de google maps,32,0,41
+Configuración de covertura de delivery,24,0,38
+Configuración de proyecto opencart,8,0,34
+Ajustes de diseño de opencart,80,0,29
+Configuración de pasarela de pagos (Paypal),40,0,43
+Configuración de tiendas por paises,24,0,35
+QA,48,0,2
+PM,24,0,2
+PM Seguridad y catálogos,16,0,24
+PM Pagos en línea y facturación electrónica,24,0,43
+Carrito de compras,40,0,18
+Checkout process,32,0,16
+Ajustes responsive design,24,0,25
+Configuración del proyecto,8,0,26
+Pantalla de registro,8,0,20
+Pantalla de login,8,0,17
+Layout principal,32,0,16
+Perfil del usuario,16,0,18
+Búsqueda de productos,16,0,21
+Configuración de servidores web y bases de datos,8,0,48
+Configuración Elastic beanstalk,8,0,31
+Configuración de dominio y certificados ssl,8,0,43
+Deploy a producción,16,0,19
+QA Seguridad y catálogos,80,0,24
+QA Pagos en línea y facturación electrónica,120,0,43
+Registro con Google,16,0,19
+Registro con Facebook,16,0,21
+Seguridad y generación de tokens JWT,16,0,36
+Sistema de roles y permisos,24,0,27
+Perfil de usuario,8,0,17
+Configuración del proyecto,8,0,26
+Registro Manual,8,0,15
+CRUD de productos,24,0,17
+Enviar paquete (unicamente registro de la información del envío),16,0,64
+Carrito de compras,40,0,18
+Envío de confirmación de orden por correo,16,0,41
+Detalle de ordenes para administradores,16,0,39
+Despacho de ordenes (unicamente registro de la información del envío),16,0,69
+Generación de factura electrónica integrando Factun,80,0,51
+Envío de confirmación de envío de orden por correo,8,0,50
+Integración con el BAC,80,0,22
+Reporte de ordenes para administradores,16,0,39
+Envío de confirmación de orden por correo,16,0,41
+Configuración del proyecto,8,0,26
+Configuración de la app (guardar usuario y password de wordpress),16,0,65
+Webview con la direccción de wordpress empotrado,8,0,48
+Recepción de push notifications y enrutamiento a la ordern adecuada,16,0,67
+Publicación en play store,8,0,25
+Configuración de AWS + SNS para Android,8,0,39
+Editar intent de AWS Lex para enviar el push notification,16,0,57
+Configuración inicial de quickbooks,8,0,35
+MIgración de datos a quickbooks (los que se puedan),40,0,51
+Integración con Factun para factura electrónica,8,0,47
+Nóminas,160,0,7
+Producción,320,0,10
+Nóminas,80,0,7
+Producción,160,0,10
+AWS Setup,40,0,9
+Model development,40,0,17
+Model deployment,16,0,16
+Labeling,160,0,8
+Vehicle counting job,48,0,20
+Asyncronous jobs for heavy tasks,48,0,32
+Studies CRUD,8,0,12
+Export Study to xlsx (Format 1),24,0,31
+Export Study to xlsx (Format 2),16,0,31
+Project Setup,8,0,13
+Users ( Login & Register + Security),16,0,36
+Deploy to production,16,0,20
+"AWS Configuration (Elastic Beanstalk, domains, workers, etc)",40,0,60
+Project Setup,8,0,13
+Login,8,0,5
+Annotation View,40,0,15
+Studies View,8,0,12
+Video Uploader (Desktop),48,0,24
+Deploy to production,8,0,20
+Study setup,40,0,11
+Drawing lines for lanes,24,0,23
+Configuración inicial de quickbooks,8,0,35
+MIgración de datos a quickbooks (los que se puedan),40,0,51
+Integración con Factun para factura electrónica,8,0,47
+Sincronización de empleados de quickbooks,24,0,41
+Sincronización de inventario de quickbooks,24,0,42
+CRUD Nóminas,8,0,12
+Rebajos salariales individuales,16,0,31
+Rebajos salariales en bloque,16,0,28
+Generar archivo .txt (BCR),40,0,26
+Envío de comprobantes de pago,32,0,29
+Sistema de roles y permisos,24,0,27
+CRUD Bodegas,8,0,12
+Mover productos a bodegas,16,0,25
+Crud de recetas,16,0,15
+Ordenes de compra,24,0,17
+Ordenes de producción,24,0,21
+Despacho de producto terminado,24,0,30
+Definición de procesos de manufactura,40,0,37
+Aprobación de cada etapa del proceso de manufactura,24,0,51
+Reporte de pagos historicos,24,0,27
+Generación de asientos contables de nómina,32,0,42
+Pantalla de syncronización de datos con quickbooks,16,0,50
+Sistema de roles y permisos,24,0,27
+CRUD Nóminas,16,0,12
+Pantalla de pago de nómina,16,0,26
+Rebajos salariales individuales,16,0,31
+Rebajos salariales en bloque,16,0,28
+Reporte de pagos historicos,16,0,27
+CRUD Bodegas,16,0,12
+Mover productos a bodegas,16,0,25
+CRUD Recetas,16,0,12
+CRUD ordenes de compra,16,0,22
+Proceso de orden de producción,16,0,30
+Despacho de producto terminado,16,0,30
+Definición de procesos de manufactura,40,0,37
+Aprobación de cada etapa del proceso de manufactura,16,0,51
+AWS Setup,40,0,9
+QA Quickbooks + Hacienda,64,0,24
+PM Quickbooks + Hacienda,24,0,24
+Project configuration,8,0,21
+Text to speach,40,0,14
+Speach to text,40,0,14
+Chatbot interactions,160,0,20
+Deployment on production,16,0,24
+Silo relationships,40,0,18
+Project configuration,8,0,21
+Sign Up workflow,40,0,16
+File uploads and Cloud storage setup,40,0,36
+Teams Crud,16,0,10
+Knowledge CRUD,16,0,14
+Dashboard data,40,0,14
+Deployment on production,16,0,24
+Knowledge CRUD,16,0,14
+Main layout,16,0,11
+Project configuration,8,0,21
+Sign Up wizard,24,0,14
+Knowledge view,32,0,14
+Teams CRUD,16,0,10
+Silo relationships,40,0,18
+Search Teams,8,0,12
+Search Knowledge,8,0,16
+Dashboard,80,0,9
+User Dashboard,40,0,14
+Capture audio from browser,16,0,26
+Send audio to server for processing,16,0,35
+Reproduce Videos,16,0,16
+Show Images,16,0,11
+Deployment on production,16,0,24
+Register company country and lat & long position in map,8,0,55
+Create dinamic forms,24,0,20
+White label functionality,16,0,25
+Fill dynamic forms,40,0,18
+Adversiting for app,16,0,19
+QA,40,0,2
+PM,24,0,2
+Register company country and lat & long position in map,8,0,55
+Center map in company's location,8,0,32
+Create dinamic forms for admins,40,0,31
+Fill dynamic forms (users),24,0,26
+White label functionality,16,0,25
+QA,64,0,2
+Configuración del proyecto,8,0,26
+Crud de proyectos,32,0,17
+Crud de tareas,24,0,14
+Asignar tareas a usuarios,16,0,25
+Actualizar estado de tareas,16,0,27
+Integración con CMS(asumiendo que tiene apis disponibles),32,0,57
+Reporte de proyectos,8,0,20
+Reporte de tareas,8,0,17
+Reporte de proyectos (exportar a excel),8,0,39
+Reporte de proyectos (exportar a pdf),8,0,37
+Reporte de tareas (exoprtar a excel),8,0,36
+Reporte de tareas (exoprtar a pdf),8,0,34
+Maquetado html,40,0,14
+Publicación en producción,8,0,25
+Publish in Play Store,24,0,21
+Album CRUD,16,0,10
+Assign session to album,16,0,23
+user can submit a recording to the global feed,8,0,46
+Project Setup,8,0,13
+Register User,24,0,13
+user can invite people for access to a shared album,16,0,51
+Login,16,0,5
+user can listen to sessions on the global feed,16,0,46
+user can search for and add journeys to their sessions.,32,0,55
+Record Audio,32,0,12
+Show my goals,16,0,13
+Scheduled prompt,40,0,16
+Free users are limited to X minutes of recording per day.,8,0,57
+Speech to Text,32,0,14
+Only the first Y seconds of audio is transcribed for free users,8,0,63
+Users can increase X and Y by upgrading to a paid plan and/or by inviting friends. (Like Dropbox referrals),24,0,107
+user can view public profile of other users,24,0,43
+user can search and filter on their timelines including filter by tags,16,0,70
+user can add tags to their posts,16,0,32
+Update profile,16,0,14
+Configure Dropbox backups,24,0,25
+Session prompts Crud,24,0,20
+user can rate public content,16,0,28
+Record Audio on Demand,8,0,22
+Invite Friends,16,0,14
+User can schedule sessions,40,0,26
+Configure aws backups,24,0,21
+user can upgrade a specific album,16,0,33
+Export audio recordings and transcripts in bulk,32,0,47
+user can create their own prompts (text + audio) and set them public or private,24,0,79
+user can create their own journeys (series of prompts),32,0,54
+Receive and show general push notifications,40,0,43
+Configure iCloud backups,24,0,24
+user can save their audio recordings to their phone,40,0,51
+user can update the meta fields for their podcast,16,0,49
+"For transcribed recordings, subtitles display when playing back audio.",32,0,70
+Show available goals,32,0,20
+user can search for and add prompts created by others,24,0,53
+user can publish an album as a podcast,16,0,38
+Album CRUD,8,0,10
+Assign session to album,8,0,23
+Integration with Stripe,120,0,23
+Data backups on Dropbox,40,0,23
+user can save their audio recordings to their phone,32,0,51
+Data backups on iCloud,40,0,22
+user can invite people for access to a shared album,16,0,51
+Project Setup,8,0,13
+Login,8,0,5
+user can search and filter on their timelines,16,0,45
+Accept/Reject album invitations,8,0,31
+Authorization,8,0,13
+User Roles,16,0,10
+Register User,8,0,13
+Upload audio files,16,0,18
+Save video transcription,8,0,24
+user can add tags to their posts,16,0,32
+User Roles,16,0,10
+Authorization,8,0,13
+Transcription Crud,16,0,18
+user can upgrade to paid plan,8,0,29
+user can invite friends to receive credits to minutes,8,0,53
+Achievements Goals,32,0,18
+Achievements Show My Goals,16,0,26
+Profile update,8,0,14
+user can upgrade a specific album,8,0,33
+Search in global feed,16,0,21
+User prompts CRUD,16,0,17
+Rate content,8,0,12
+user can export their audio recordings and transcripts in bulk,40,0,62
+user can publish an album as a podcast,40,0,38
+user can update the meta fields for their podcast,16,0,49
+"For transcribed recordings, subtitles display when playing back audio.",40,0,70
+"user can edit their recordings with basic audio editing tools. (cut, trim, spead)",40,0,81
+Earn new badges,40,0,15
+Deploy to production,8,0,20
+user can create their own journeys (series of prompts),32,0,54
+Send push notifications,24,0,23
+Data backups on AWS S3,40,0,22
+usage statistics (total recordings by month),16,0,44
+"I can view, search, filter non-private content",40,0,46
+Login for admins,8,0,16
+Web App layout,16,0,14
+I can add / remove minutes to accounts,32,0,38
+List and Search registered users,16,0,32
+Show User details,16,0,17
+I can change the quotes of record minutes by account levels,32,0,59
+I can change the quotas of transcription minutes by account level,32,0,65
+I can issue alerts/messages to all or targeted users,16,0,52
+Project Setup,8,0,13
+usage statistics (total new accounts per month),16,0,47
+Deploy to production,8,0,20
+PM Level 1,92,0,10
+PM Level 2,42,0,10
+PM Level 3,9,0,10
+PM Admin Site,7,0,13
+QA Level 1,224,0,10
+QA Level 2,100,0,10
+QA Level 3,200,0,10
+QA Admin Site,80,0,13
